@@ -1,0 +1,21 @@
+{
+  "name": "arminmon",
+  "version": "1.0.0",
+  "description": "Armin Monirzadeh&#39;s Portfolio",
+  "author": "arminmon",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2"
+  },
+  "devDependencies": {}
+}

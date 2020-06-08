@@ -1,0 +1,26 @@
+@import '_font';
+
+* {
+	font-family: "Fira Code", monospace;
+}
+
+html {
+	background-image: radial-gradient(#333 1px, transparent 1px);
+	background-size: calc(10 * 2.5px) calc(10 * 2.5px);
+	color: #333;
+}
+
+body {
+	margin: 0;
+	padding: 6px;
+}
+
+.card {
+	backdrop-filter: blur(5px);
+	padding: 6px;
+	border-radius: 2px;
+	border-color: #eee;
+	border-width: 0.5px;
+	border-style: solid;
+	box-sizing: border-box;
+}
