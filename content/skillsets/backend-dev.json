@@ -1,0 +1,72 @@
+{
+	"order": 1,
+	"title": "Backend Development",
+	"items": [
+		{
+			"title": "REST API",
+			"color": "#EEE",
+			"light": true,
+			"icon": "$mdiApi"
+		},
+		{
+			"title": "JSON Web Tokens",
+			"color": "#000",
+			"dark": true,
+			"icon": "$mdiJwt"
+		},
+		{
+			"title": "NodeJS",
+			"color": "#339933",
+			"dark": true,
+			"icon": "$mdiNodejs"
+		},
+		{
+			"title": "TypeScript",
+			"color": "#3178C6",
+			"dark": true,
+			"icon": "$mdiLanguageTypescript"
+		},
+		{
+			"title": "AdonisJS",
+			"color": "#5A45FF",
+			"dark": true,
+			"icon": "$mdiAdonisjs"
+		},
+		{
+			"title": "ExpressJS",
+			"color": "#000",
+			"dark": true,
+			"icon": "$mdiExpressjs"
+		},
+		{
+			"title": "Database Design",
+			"color": "#EEE",
+			"light": true,
+			"icon": "$mdiDatabase"
+		},
+		{
+			"title": "PostgreSQL",
+			"color": "#4169E1",
+			"dark": true,
+			"icon": "$mdiPostgresql"
+		},
+		{
+			"title": "MySQL",
+			"color": "#4479A1",
+			"dark": true,
+			"icon": "$mdiMysql"
+		},
+		{
+			"title": "Heroku",
+			"color": "#430098",
+			"dark": true,
+			"icon": "$mdiHeroku"
+		},
+		{
+			"title": "AWS",
+			"color": "#232F3E",
+			"dark": true,
+			"icon": "$mdiAws"
+		}
+	]
+}

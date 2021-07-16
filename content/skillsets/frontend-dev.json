@@ -1,0 +1,102 @@
+{
+	"order": 0,
+	"title": "Frontend Development",
+	"items": [
+		{
+			"title": "HTML",
+			"color": "#E34F26",
+			"dark": true,
+			"icon": "$mdiLanguageHtml5"
+		},
+		{
+			"title": "PUG",
+			"color": "#A86454",
+			"dark": true,
+			"icon": "$mdiPug"
+		},
+		{
+			"title": "CSS",
+			"color": "#1572B6",
+			"dark": true,
+			"icon": "$mdiLanguageCss3"
+		},
+		{
+			"title": "Sass",
+			"color": "#CC6699",
+			"dark": true,
+			"icon": "$mdiSass"
+		},
+		{
+			"title": "JavaScript",
+			"color": "#F7DF1E",
+			"light": true,
+			"icon": "$mdiLanguageJavascript"
+		},
+		{
+			"title": "NodeJS",
+			"color": "#339933",
+			"dark": true,
+			"icon": "$mdiNodejs"
+		},
+		{
+			"title": "TypeScript",
+			"color": "#3178C6",
+			"dark": true,
+			"icon": "$mdiLanguageTypescript"
+		},
+		{
+			"title": "VueJS",
+			"color": "#4FC08D",
+			"dark": true,
+			"icon": "$mdiVuejs"
+		},
+		{
+			"title": "NuxtJS",
+			"color": "#00C58E",
+			"dark": true,
+			"icon": "$mdiNuxt"
+		},
+		{
+			"title": "VuetifyJS",
+			"color": "#1867C0",
+			"dark": true,
+			"icon": "$mdiVuetify"
+		},
+		{
+			"title": "React",
+			"color": "#61DAFB",
+			"light": true,
+			"icon": "$mdiReact"
+		},
+		{
+			"title": "NextJS",
+			"color": "#000000",
+			"dark": true,
+			"icon": "$mdiNextjs"
+		},
+		{
+			"title": "JAMStack",
+			"color": "#F0047F",
+			"dark": true,
+			"icon": "$mdiJamstack"
+		},
+		{
+			"title": "UIKit",
+			"color": "#2396F3",
+			"dark": true,
+			"icon": "$mdiUikit"
+		},
+		{
+			"title": "Bulma",
+			"color": "#00D1B2",
+			"dark": true,
+			"icon": "$mdiBulma"
+		},
+		{
+			"title": "Bootstrap",
+			"color": "#7952B3",
+			"dark": true,
+			"icon": "$mdiBootstrap"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"title": "IT Technician",
+	"type": "Full-time",
+	"employer": "Rayanet IT Centre",
+	"avatar": "rayanet.jpg",
+	"color": "#2BCC7A",
+	"location": "Gonbad-e Kavoos, Golestan, Iran",
+	"start_date": "2016-09",
+	"end_date": "2019-12",
+	"details": [
+		{
+			"title": "Duties",
+			"items": [
+				"Optimising web assets for speed and performance.",
+				"Troubleshooting of technical and coding-related issues to resolve problems quickly and efficiently.",
+				"Designing sites to be compatible with top browsers, including Firefox, Chrome, and Safari.",
+				"Testing websites and performed troubleshooting prior to deployment.",
+				"Developing company website using Sketch App and by converting mock-up designs into HTML code.",
+				"Maintained and supported Macintosh, Windows, and Linux PC for end users.",
+				"Strengthened the company brand and identity by designing distinctive websites, and logos.",
+				"Created eye-catching and functional digital design concepts across various platforms to strengthen company brand and identity."
+			]
+		},
+		{
+			"title": "Achievements",
+			"items": [
+				"Developed user interfaces using NuxtJS alongside VuetifyJS.",
+				"Developed RESTful APIs on top of Adonis.JS as well as practising various authentication techniques such as JWT and API tokens.",
+				"Designed various graphical pieces (logos and promos) using Affinity Designer and Affinity Photo."
+			]
+		}
+	]
+}

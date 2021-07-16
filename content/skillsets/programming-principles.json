@@ -1,0 +1,31 @@
+{
+	"order": 3,
+	"title": "Programming Principles",
+	"items": [
+		{
+			"title": "OOP",
+			"color": "#EEE",
+			"light": true
+		},
+		{
+			"title": "SOLID",
+			"color": "#EEE",
+			"light": true
+		},
+		{
+			"title": "KISS",
+			"color": "#EEE",
+			"light": true
+		},
+		{
+			"title": "DRY",
+			"color": "#EEE",
+			"light": true
+		},
+		{
+			"title": "Naming Conventions (BEM ❤️)",
+			"color": "#EEE",
+			"light": true
+		}
+	]
+}

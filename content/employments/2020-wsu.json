@@ -1,0 +1,28 @@
+{
+	"title": "Web Developer",
+	"type": "Project (Remote)",
+	"employer": "Western Sydney University",
+	"avatar": "wsu.jpg",
+	"color": "#990033",
+	"location": "Sydney, NSW",
+	"start_date": "2020-11",
+	"end_date": "2020-12",
+	"details": [
+		{
+			"title": "Duties",
+			"items": [
+				"Updating the website of the Centre for Research in Mathematics and Data Science to introduce new features and comply with the university's branding.",
+				"Migrating the content from the old website to the new one.",
+				"Developing a simple and robust content management system."
+			]
+		},
+		{
+			"title": "Achievements",
+			"items": [
+				"Developed and designed a web application on top of NuxtJS (as static generator for VueJS) and VuetifyJS (Material Design UI components for VueJS).",
+				"Maintained a fully-customisable theming system to comply with the university's branding.",
+				"Created an automated flow for the deployment of the website by integrating the dedicated GitHub repository with Travis CI for hosting via GitHub Pages platform (JAMStack)."
+			]
+		}
+	]
+}

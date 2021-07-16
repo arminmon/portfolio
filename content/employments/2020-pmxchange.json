@@ -1,0 +1,28 @@
+{
+	"title": "Front-end Developer",
+	"type": "Project (Remote)",
+	"employer": "PMXChange",
+	"avatar": "pmxchange.jpg",
+	"color": "#51A7E0",
+	"location": "Gorgan, Golestan, Iran",
+	"start_date": "2020-08",
+	"end_date": "2020-10",
+	"details": [
+		{
+			"title": "Duties",
+			"items": [
+				"Overhauling the previous design with a fresh and modern look on top of Bootstrap.",
+				"Developing an interface in a feedback-based environment to comply with the needs and requirements of the clients.",
+				"Rebranding and designing company’s logo and schema."
+			]
+		},
+		{
+			"title": "Achievements",
+			"items": [
+				"Developed a minimal and responsive user interface to be injected in an existing .NET application.",
+				"Maintained an extensive development environment based on SASS and Pug to create reusable components based on a highly customisable framework.",
+				"Redesigned the company’s logo, as well as a new 3D version with subtle CSS animation for the hero of the website."
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"order": 5,
+	"title": "Operating Systems",
+	"items": [
+		{
+			"title": "macOS (Primary)",
+			"color": "#000",
+			"dark": true,
+			"icon": "$mdiMacos"
+		},
+		{
+			"title": "iOS",
+			"color": "#000",
+			"dark": true,
+			"icon": "$mdiAppleIos"
+		},
+		{
+			"title": "Microsoft Windows",
+			"color": "#0078D6",
+			"dark": true,
+			"icon": "$mdiMicrosoftWindows"
+		},
+		{
+			"title": "Linux",
+			"color": "#FCC624",
+			"light": true,
+			"icon": "$mdiLinux"
+		},
+		{
+			"title": "Ubuntu",
+			"color": "#E95420",
+			"dark": true,
+			"icon": "$mdiUbuntu"
+		},
+		{
+			"title": "ElementaryOS",
+			"color": "#64BAFF",
+			"dark": true,
+			"icon": "$mdiElementaryos"
+		}
+	]
+}

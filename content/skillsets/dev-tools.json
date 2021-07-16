@@ -1,0 +1,48 @@
+{
+	"order": 2,
+	"title": "Development Tools",
+	"items": [
+		{
+			"title": "Terminal ❤️",
+			"color": "#EEE",
+			"light": true,
+			"icon": "$mdiConsole"
+		},
+		{
+			"title": "Git",
+			"color": "#F05032",
+			"dark": true,
+			"icon": "$mdiGit"
+		},
+		{
+			"title": "GitHub",
+			"color": "#181717",
+			"dark": true,
+			"icon": "$mdiGithub"
+		},
+		{
+			"title": "VSCode",
+			"color": "#007ACC",
+			"dark": true,
+			"icon": "$mdiMicrosoftVisualStudioCode"
+		},
+		{
+			"title": "ESlint",
+			"color": "#4B32C3",
+			"dark": true,
+			"icon": "$mdiEslint"
+		},
+		{
+			"title": "Prettier",
+			"color": "#F7B93E",
+			"light": true,
+			"icon": "$mdiPrettier"
+		},
+		{
+			"title": "Stylelint",
+			"color": "#263238",
+			"dark": true,
+			"icon": "$mdiStylelint"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+// Border Radius
+$border-radius-root: 1rem;
+// Font Family
+$body-font-family: 'JetBrains Mono', monospace, sans-serif;
+// Shadow Keys
+$shadow-key-umbra-opacity: rgba(0, 0, 0, 0.015) !default;
+$shadow-key-penumbra-opacity: rgba(0, 0, 0, 0.05) !default;
+$shadow-key-ambient-opacity: rgba(0, 0, 0, 0.09) !default;
+// Material
+$material-dark: (
+	'toggle-buttons': (
+		'color': currentColor
+	)
+);
+$material-light: (
+	'toggle-buttons': (
+		'color': currentColor
+	)
+);
+
+
+// Card
+$card-title-word-break: break-word;
+// Timeline
+$timeline-divider-center: 25%;
+$timeline-divider-width: 64px;

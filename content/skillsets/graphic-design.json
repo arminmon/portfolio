@@ -1,0 +1,36 @@
+{
+	"order": 4,
+	"title": "Graphic Design",
+	"items": [
+		{
+			"title": "Figma",
+			"color": "#F24E1E",
+			"dark": true,
+			"icon": "$mdiFigma"
+		},
+		{
+			"title": "Affinity Designer",
+			"color": "#1B72BE",
+			"dark": true,
+			"icon": "$mdiAffinityDesigner"
+		},
+		{
+			"title": "Affinity Photo",
+			"color": "#7E4DD2",
+			"dark": true,
+			"icon": "$mdiAffinityPhoto"
+		},
+		{
+			"title": "Scalable Vector Graphics",
+			"color": "#FFB13B",
+			"light": true,
+			"icon": "$mdiSvg"
+		},
+		{
+			"title": "Google Material Design",
+			"color": "#757575",
+			"dark": true,
+			"icon": "$mdiMaterialDesign"
+		}
+	]
+}
