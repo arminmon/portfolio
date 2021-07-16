@@ -52,6 +52,7 @@
 									target="_blank"
 									:class="{
 										'px-6': true,
+										'transition-swing': true,
 										'elevation-8': hover,
 										'elevation-4': !hover,
 									}"
