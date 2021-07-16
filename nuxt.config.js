@@ -2,7 +2,7 @@ export default {
 	target: 'static',
 
 	head: {
-		titleTemplate: '%s - ARMIN MONIRZADEH',
+		titleTemplate: 'ARMIN MONIRZADEH | %s',
 		title: 'arminmon',
 		meta: [
 			{ charset: 'utf-8' },
