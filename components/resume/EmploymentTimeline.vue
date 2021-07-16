@@ -1,13 +1,13 @@
 <template>
-	<v-data-iterator
-		:items="employments"
-		sort-by="start_date"
-		:sort-desc="options.includes('sortDesc')"
-		disable-pagination
-		hide-default-footer
-	>
-		<template #default="{ items }">
-			<v-timeline :dense="$vuetify.breakpoint.smAndDown">
+	<v-timeline :dense="$vuetify.breakpoint.smAndDown">
+		<v-data-iterator
+			:items="employments"
+			sort-by="start_date"
+			:sort-desc="options.includes('sortDesc')"
+			disable-pagination
+			hide-default-footer
+		>
+			<template #default="{ items }">
 				<v-timeline-item hide-dot>
 					<v-toolbar dense flat color="transparent">
 						<v-toolbar-title class="primary--text text-wrap">
@@ -15,7 +15,8 @@
 						</v-toolbar-title>
 						<v-spacer />
 						<v-btn-toggle
-							v-if="$vuetify.breakpoint.smAndDown"
+							v-if="items.length > 1"
+							v-show="$vuetify.breakpoint.smAndDown"
 							v-model="options"
 							multiple
 							color="primary"
@@ -31,6 +32,7 @@
 						<v-toolbar dense flat color="transparent">
 							<v-spacer />
 							<v-btn-toggle
+								v-if="items.length > 1"
 								v-model="options"
 								multiple
 								color="primary"
@@ -118,9 +120,9 @@
 						</v-avatar>
 					</template>
 				</v-timeline-item>
-			</v-timeline>
-		</template>
-	</v-data-iterator>
+			</template>
+		</v-data-iterator>
+	</v-timeline>
 </template>
 
 <script>
