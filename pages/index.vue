@@ -29,7 +29,7 @@
 				<span>{{ nav.title }}</span>
 			</v-tooltip>
 		</v-speed-dial>
-		<v-container>
+		<v-container :style="{ maxWidth: '1100px' }">
 			<v-row>
 				<v-col cols="12">
 					<h1 class="text-h4">
@@ -78,12 +78,12 @@
 						<resume-membership-timeline :memberships="memberships" />
 					</v-card>
 				</v-col>
-				<v-col cols="12" xl="6">
+				<v-col cols="12">
 					<v-card id="technical_skillsets" elevation="12">
 						<resume-skillsets-grid :skillsets="skillsets" />
 					</v-card>
 				</v-col>
-				<v-col cols="12" xl="6">
+				<v-col cols="12">
 					<v-card id="soft_skills" elevation="12">
 						<resume-soft-skills-list :skills="softSkills" />
 					</v-card>
