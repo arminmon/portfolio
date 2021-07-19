@@ -11,7 +11,7 @@
 		>
 			<template #activator>
 				<v-btn v-model="menuFab" fab elevation="18" color="primary">
-					<v-icon>$mdiDotsVertical</v-icon>
+					<v-icon>$icon.mdiDotsVertical</v-icon>
 				</v-btn>
 			</template>
 			<v-tooltip v-for="(nav, index) in navs" :key="`nav-${index}`" left>
@@ -118,55 +118,55 @@ export default {
 	data: () => ({
 		menuFab: false,
 		navs: [
-			{ title: 'Scroll Up', icon: '$mdiChevronUp', to: 0 },
+			{ title: 'Scroll Up', icon: '$icon.mdiChevronUp', to: 0 },
 			{
 				title: 'Employment History',
-				icon: '$mdiDomain',
+				icon: '$icon.mdiDomain',
 				to: '#employment_history',
 			},
 			{
 				title: 'Education History',
-				icon: '$mdiSchool',
+				icon: '$icon.mdiSchool',
 				to: '#education_history',
 			},
 			{
 				title: 'Professional Memberships',
-				icon: '$mdiHandshake',
+				icon: '$icon.mdiHandshake',
 				to: '#membership_history',
 			},
 			{
 				title: 'Technical Skillsets',
-				icon: '$mdiPencilRuler',
+				icon: '$icon.mdiPencilRuler',
 				to: '#technical_skillsets',
 			},
 			{
 				title: 'Soft Skills',
-				icon: '$mdiHumanGreeting',
+				icon: '$icon.mdiHumanGreeting',
 				to: '#soft_skills',
 			},
 		],
 		links: [
 			{
 				title: 'armin.monirzadeh@gmail.com',
-				icon: '$mdiEmail',
+				icon: '$icon.mdiEmail',
 				color: '#EA4335',
 				href: 'mailto:armin.monirzadeh@gmail.com?body=Hello%20Armin%2C%0D%0A%0D%0A',
 			},
 			{
 				title: 'LinkedIn',
-				icon: '$mdiLinkedin',
+				icon: '$icon.siLinkedin',
 				color: '#0A66C2',
 				href: 'https://www.linkedin.com/in/armin-monirzadeh/',
 			},
 			{
 				title: 'GitHub',
-				icon: '$mdiGithub',
+				icon: '$icon.siGithub',
 				color: '#181717',
 				href: 'https://github.com/arminmon',
 			},
 			{
 				title: 'Dribbble',
-				icon: '$mdiDribbble',
+				icon: '$icon.siDribbble',
 				color: '#EA4C89',
 				href: 'https://dribbble.com/arminmon',
 			},

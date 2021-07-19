@@ -6,37 +6,37 @@
 			"title": "macOS (Primary)",
 			"color": "#000",
 			"dark": true,
-			"icon": "$mdiMacos"
+			"icon": "$icon.siMacos"
 		},
 		{
 			"title": "iOS",
 			"color": "#000",
 			"dark": true,
-			"icon": "$mdiAppleIos"
+			"icon": "$icon.siIos"
 		},
 		{
 			"title": "Microsoft Windows",
 			"color": "#0078D6",
 			"dark": true,
-			"icon": "$mdiMicrosoftWindows"
+			"icon": "$icon.siWindows"
 		},
 		{
 			"title": "Linux",
 			"color": "#FCC624",
 			"light": true,
-			"icon": "$mdiLinux"
+			"icon": "$icon.siLinux"
 		},
 		{
 			"title": "Ubuntu",
 			"color": "#E95420",
 			"dark": true,
-			"icon": "$mdiUbuntu"
+			"icon": "$icon.siUbuntu"
 		},
 		{
 			"title": "ElementaryOS",
 			"color": "#64BAFF",
 			"dark": true,
-			"icon": "$mdiElementaryos"
+			"icon": "$icon.siElementaryos"
 		}
 	]
 }

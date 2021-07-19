@@ -6,31 +6,31 @@
 			"title": "Figma",
 			"color": "#F24E1E",
 			"dark": true,
-			"icon": "$mdiFigma"
+			"icon": "$icon.siFigma"
 		},
 		{
 			"title": "Affinity Designer",
 			"color": "#1B72BE",
 			"dark": true,
-			"icon": "$mdiAffinityDesigner"
+			"icon": "$icon.siAffinityDesigner"
 		},
 		{
 			"title": "Affinity Photo",
 			"color": "#7E4DD2",
 			"dark": true,
-			"icon": "$mdiAffinityPhoto"
+			"icon": "$icon.siAffinityPhoto"
 		},
 		{
 			"title": "Scalable Vector Graphics",
 			"color": "#FFB13B",
 			"light": true,
-			"icon": "$mdiSvg"
+			"icon": "$icon.siSvg"
 		},
 		{
 			"title": "Google Material Design",
 			"color": "#757575",
 			"dark": true,
-			"icon": "$mdiMaterialDesign"
+			"icon": "$icon.siMaterialDesign"
 		}
 	]
 }

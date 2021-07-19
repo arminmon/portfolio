@@ -6,43 +6,43 @@
 			"title": "Terminal ❤️",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$mdiConsole"
+			"icon": "$icon.mdiConsole"
 		},
 		{
 			"title": "Git",
 			"color": "#F05032",
 			"dark": true,
-			"icon": "$mdiGit"
+			"icon": "$icon.siGit"
 		},
 		{
 			"title": "GitHub",
 			"color": "#181717",
 			"dark": true,
-			"icon": "$mdiGithub"
+			"icon": "$icon.siGithub"
 		},
 		{
 			"title": "VSCode",
 			"color": "#007ACC",
 			"dark": true,
-			"icon": "$mdiMicrosoftVisualStudioCode"
+			"icon": "$icon.siVscode"
 		},
 		{
 			"title": "ESlint",
 			"color": "#4B32C3",
 			"dark": true,
-			"icon": "$mdiEslint"
+			"icon": "$icon.siEslint"
 		},
 		{
 			"title": "Prettier",
 			"color": "#F7B93E",
 			"light": true,
-			"icon": "$mdiPrettier"
+			"icon": "$icon.siPrettier"
 		},
 		{
 			"title": "Stylelint",
 			"color": "#263238",
 			"dark": true,
-			"icon": "$mdiStylelint"
+			"icon": "$icon.siStylelint"
 		}
 	]
 }

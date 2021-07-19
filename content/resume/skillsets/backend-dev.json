@@ -6,67 +6,67 @@
 			"title": "REST API",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$mdiApi"
+			"icon": "$icon.mdiApi"
 		},
 		{
 			"title": "JSON Web Tokens",
 			"color": "#000",
 			"dark": true,
-			"icon": "$mdiJwt"
+			"icon": "$icon.siJwt"
 		},
 		{
 			"title": "NodeJS",
 			"color": "#339933",
 			"dark": true,
-			"icon": "$mdiNodejs"
+			"icon": "$icon.siNodejs"
 		},
 		{
 			"title": "TypeScript",
 			"color": "#3178C6",
 			"dark": true,
-			"icon": "$mdiLanguageTypescript"
+			"icon": "$icon.siTypescript"
 		},
 		{
 			"title": "AdonisJS",
 			"color": "#5A45FF",
 			"dark": true,
-			"icon": "$mdiAdonisjs"
+			"icon": "$icon.siAdonisjs"
 		},
 		{
 			"title": "ExpressJS",
 			"color": "#000",
 			"dark": true,
-			"icon": "$mdiExpressjs"
+			"icon": "$icon.siExpressjs"
 		},
 		{
 			"title": "Database Design",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$mdiDatabase"
+			"icon": "$icon.mdiDatabase"
 		},
 		{
 			"title": "PostgreSQL",
 			"color": "#4169E1",
 			"dark": true,
-			"icon": "$mdiPostgresql"
+			"icon": "$icon.siPostgresql"
 		},
 		{
 			"title": "MySQL",
 			"color": "#4479A1",
 			"dark": true,
-			"icon": "$mdiMysql"
+			"icon": "$icon.siMysql"
 		},
 		{
 			"title": "Heroku",
 			"color": "#430098",
 			"dark": true,
-			"icon": "$mdiHeroku"
+			"icon": "$icon.siHeroku"
 		},
 		{
 			"title": "AWS",
 			"color": "#232F3E",
 			"dark": true,
-			"icon": "$mdiAws"
+			"icon": "$icon.siAws"
 		}
 	]
 }

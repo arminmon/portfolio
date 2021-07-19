@@ -12,7 +12,7 @@
 						</v-card-text>
 						<v-card-actions>
 							<v-btn text block link href="/">
-								<v-icon left>$mdiHomeAssistant</v-icon>
+								<v-icon left>$icon.mdiHomeAssistant</v-icon>
 								Home the root of all
 							</v-btn>
 						</v-card-actions>
