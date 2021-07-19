@@ -2,11 +2,12 @@
 	<v-sheet class="pb-12">
 		<v-speed-dial
 			v-show="$vuetify.breakpoint.mdAndUp"
-			id="menu_fab"
+			id="speedDial"
 			v-model="menuFab"
+			top
+			right
 			direction="bottom"
 			transition="slide-y-transition"
-			class="ma-6"
 		>
 			<template #activator>
 				<v-btn v-model="menuFab" fab elevation="18" color="primary">
@@ -180,10 +181,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#menu_fab {
+#speedDial {
 	position: fixed;
-	top: 0;
-	right: 0;
 	z-index: 1000;
 }
 </style>
