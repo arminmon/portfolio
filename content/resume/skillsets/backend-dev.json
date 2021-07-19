@@ -39,6 +39,18 @@
 			"icon": "$icon.siExpressjs"
 		},
 		{
+			"title": "Fastify",
+			"color": "#000",
+			"dark": true,
+			"icon": "$icon.siFastify"
+		},
+		{
+			"title": "Sharp",
+			"color": "#99CC00",
+			"dark": true,
+			"icon": "$icon.siSharp"
+		},
+		{
 			"title": "Database Design",
 			"color": "#EEE",
 			"light": true,
@@ -55,6 +67,11 @@
 			"color": "#4479A1",
 			"dark": true,
 			"icon": "$icon.siMysql"
+		},
+		{
+			"title": "KnexJS",
+			"color": "#E16426",
+			"dark": true
 		},
 		{
 			"title": "Heroku",

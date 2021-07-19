@@ -27,10 +27,11 @@ import siDribbble from 'simple-icons/icons/dribbble'
 import siElementaryos from 'simple-icons/icons/elementary'
 import siEslint from 'simple-icons/icons/eslint'
 import siExpress from 'simple-icons/icons/express'
+import siFastify from 'simple-icons/icons/fastify'
 import siFigma from 'simple-icons/icons/figma'
-import siGithubActions from 'simple-icons/icons/githubactions'
-import siGithub from 'simple-icons/icons/github'
 import siGit from 'simple-icons/icons/git'
+import siGithub from 'simple-icons/icons/github'
+import siGithubActions from 'simple-icons/icons/githubactions'
 import siHeroku from 'simple-icons/icons/heroku'
 import siHtml5 from 'simple-icons/icons/html5'
 import siIos from 'simple-icons/icons/ios'
@@ -52,6 +53,7 @@ import siPrettier from 'simple-icons/icons/prettier'
 import siPug from 'simple-icons/icons/pug'
 import siReact from 'simple-icons/icons/react'
 import siSass from 'simple-icons/icons/sass'
+import siSharp from 'simple-icons/icons/sharp'
 import siSimpleIcons from 'simple-icons/icons/simpleicons'
 import siStylelint from 'simple-icons/icons/stylelint'
 import siSvg from 'simple-icons/icons/svg'
@@ -97,6 +99,7 @@ const simpleIcons = {
 	siElementaryos: siElementaryos.path,
 	siEslint: siEslint.path,
 	siExpressjs: siExpress.path,
+	siFastify: siFastify.path,
 	siFigma: siFigma.path,
 	siGit: siGithubActions.path,
 	siGithub: siGithub.path,
@@ -121,6 +124,7 @@ const simpleIcons = {
 	siPrettier: siPrettier.path,
 	siPug: siPug.path,
 	siReact: siReact.path,
+	siSharp: siSharp.path,
 	siSass: siSass.path,
 	siSimpleIcons: siSimpleIcons.path,
 	siStylelint: siStylelint.path,
