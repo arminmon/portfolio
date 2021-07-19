@@ -31,38 +31,39 @@
 		</v-speed-dial>
 		<v-container :style="{ maxWidth: '1100px' }">
 			<v-row>
-				<v-col cols="12">
-					<h1 class="text-h4">
-						{{ $vuetify.breakpoint.smAndDown ? 'Hi' : 'Hello' }} 👋, I'm Armin.
-					</h1>
-				</v-col>
-				<v-col cols="12">
-					<v-row
-						justify="center"
-						justify-md="start"
-						:dense="$vuetify.breakpoint.smAndDown"
-					>
-						<v-col v-for="link in links" :key="link.title" cols="auto">
-							<v-hover #default="{ hover }">
-								<v-chip
-									:color="link.color"
-									dark
-									large
-									:href="link.href"
-									target="_blank"
-									:class="{
-										'px-6': true,
-										'transition-swing': true,
-										'elevation-8': hover,
-										'elevation-4': !hover,
-									}"
-								>
-									<v-icon large left>{{ link.icon }}</v-icon>
-									<span>{{ link.title }}</span>
-								</v-chip>
-							</v-hover>
-						</v-col>
-					</v-row>
+				<v-col cols="12" class="pt-0">
+					<v-card elevation="16" class="rounded-t-0">
+						<v-card-title>
+							<h1 class="text-h4">
+								{{ $vuetify.breakpoint.smAndDown ? 'Hi' : 'Hello' }} 👋,
+								I'm&nbsp;Armin.
+							</h1>
+						</v-card-title>
+						<v-container>
+							<v-row justify="start">
+								<v-col v-for="link in links" :key="link.title" cols="auto">
+									<v-hover #default="{ hover }">
+										<v-chip
+											:color="link.color"
+											dark
+											large
+											:href="link.href"
+											target="_blank"
+											:class="{
+												'px-6': true,
+												'transition-swing': true,
+												'elevation-8': hover,
+												'elevation-4': !hover,
+											}"
+										>
+											<v-icon large left>{{ link.icon }}</v-icon>
+											<span>{{ link.title }}</span>
+										</v-chip>
+									</v-hover>
+								</v-col>
+							</v-row>
+						</v-container>
+					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="employment_history" elevation="16">
