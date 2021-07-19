@@ -65,27 +65,27 @@
 					</v-row>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="employment_history" elevation="12">
+					<v-card id="employment_history" elevation="16">
 						<resume-employment-timeline :employments="employments" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="education_history" elevation="12">
+					<v-card id="education_history" elevation="16">
 						<resume-education-timeline :educations="educations" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="membership_history" elevation="12">
+					<v-card id="membership_history" elevation="16">
 						<resume-membership-timeline :memberships="memberships" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="technical_skillsets" elevation="12">
+					<v-card id="technical_skillsets" elevation="16">
 						<resume-skillsets-grid :skillsets="skillsets" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="soft_skills" elevation="12">
+					<v-card id="soft_skills" elevation="16">
 						<resume-soft-skills-list :skills="softSkills" />
 					</v-card>
 				</v-col>
