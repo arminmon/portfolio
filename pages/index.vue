@@ -98,13 +98,13 @@
 export default {
 	asyncData: async ({ $content, error }) => {
 		try {
-			const employments = await $content('employments').fetch()
-			const educations = await $content('educations').fetch()
-			const memberships = await $content('memberships').fetch()
-			const skillsets = await $content('skillsets')
+			const employments = await $content('resume', 'employments').fetch()
+			const educations = await $content('resume', 'educations').fetch()
+			const memberships = await $content('resume', 'memberships').fetch()
+			const skillsets = await $content('resume', 'skillsets')
 				.sortBy('order', 'asc')
 				.fetch()
-			const softSkills = await $content('soft-skills')
+			const softSkills = await $content('resume', 'soft-skills')
 				.sortBy('order', 'asc')
 				.fetch()
 
