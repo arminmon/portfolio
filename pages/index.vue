@@ -183,6 +183,6 @@ export default {
 <style lang="scss" scoped>
 #speedDial {
 	position: fixed;
-	z-index: 1000;
+	z-index: 150;
 }
 </style>
