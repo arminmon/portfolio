@@ -67,6 +67,7 @@ import siVuetify from 'simple-icons/icons/vuetify'
 import siWindows from 'simple-icons/icons/windows'
 
 import adonisjs from '~/assets/icons/adonisjs'
+import knexjs from '~/assets/icons/knexjs'
 
 const materialDesignIcons = {
 	mdiApi,
@@ -144,5 +145,6 @@ export default {
 		...materialDesignIcons,
 		...simpleIcons,
 		adonisjs,
+		knexjs,
 	},
 }

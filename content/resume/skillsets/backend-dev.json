@@ -71,7 +71,8 @@
 		{
 			"title": "KnexJS",
 			"color": "#E16426",
-			"dark": true
+			"dark": true,
+			"icon": "$icon.knexjs"
 		},
 		{
 			"title": "Heroku",
