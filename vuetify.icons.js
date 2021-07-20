@@ -44,6 +44,7 @@ import siJWT from 'simple-icons/icons/jsonwebtokens'
 import siLinkedin from 'simple-icons/icons/linkedin'
 import siLinux from 'simple-icons/icons/linux'
 import siMacos from 'simple-icons/icons/macos'
+import siMarkdown from 'simple-icons/icons/markdown'
 import siMaterialDesign from 'simple-icons/icons/materialdesign'
 import siMaterialDesignIcons from 'simple-icons/icons/materialdesignicons'
 import siMySQL from 'simple-icons/icons/mysql'
@@ -120,6 +121,7 @@ const simpleIcons = {
 	siLinkedin: siLinkedin.path,
 	siLinux: siLinux.path,
 	siMacos: siMacos.path,
+	siMarkdown: siMarkdown.path,
 	siMaterialDesign: siMaterialDesign.path,
 	siMaterialDesignIcons: siMaterialDesignIcons.path,
 	siMySQL: siMySQL.path,

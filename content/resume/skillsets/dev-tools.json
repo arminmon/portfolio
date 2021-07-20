@@ -64,6 +64,14 @@
 			"link": "https://codekitapp.com",
 			"color": "#000",
 			"dark": true
+		},
+		{
+			"title": "Markdown",
+			"subtitle": "A lightweight markup language for creating formatted text",
+			"link": "https://daringfireball.net/projects/markdown/",
+			"color": "#000",
+			"dark": true,
+			"icon": "$icon.siMarkdown"
 		}
 	]
 }
