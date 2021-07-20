@@ -43,6 +43,11 @@
 			"color": "#263238",
 			"dark": true,
 			"icon": "$icon.siStylelint"
+		},
+		{
+			"title": "CodeKit",
+			"color": "#000",
+			"dark": true
 		}
 	]
 }
