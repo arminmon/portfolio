@@ -23,6 +23,7 @@ import siAffinityphoto from 'simple-icons/icons/affinityphoto'
 import siAws from 'simple-icons/icons/amazonaws'
 import siBootstrap from 'simple-icons/icons/bootstrap'
 import siBulma from 'simple-icons/icons/bulma'
+import siCoffeeScript from 'simple-icons/icons/coffeescript'
 import siCss3 from 'simple-icons/icons/css3'
 import siDribbble from 'simple-icons/icons/dribbble'
 import siElementaryos from 'simple-icons/icons/elementary'
@@ -49,6 +50,7 @@ import siMysql from 'simple-icons/icons/mysql'
 import siNextjs from 'simple-icons/icons/nextdotjs'
 import siNodejs from 'simple-icons/icons/nodedotjs'
 import siNuxtjs from 'simple-icons/icons/nuxtdotjs'
+import siPostCss from 'simple-icons/icons/postCss'
 import siPostgresql from 'simple-icons/icons/postgresql'
 import siPrettier from 'simple-icons/icons/prettier'
 import siPug from 'simple-icons/icons/pug'
@@ -96,6 +98,7 @@ const simpleIcons = {
 	siAws: siAws.path,
 	siBootstrap: siBootstrap.path,
 	siBulma: siBulma.path,
+	siCoffeeScript: siCoffeeScript.path,
 	siCss3: siCss3.path,
 	siDribbble: siDribbble.path,
 	siElementaryos: siElementaryos.path,
@@ -122,6 +125,7 @@ const simpleIcons = {
 	siNextjs: siNextjs.path,
 	siNodejs: siNodejs.path,
 	siNuxtjs: siNuxtjs.path,
+	siPostCss: siPostCss.path,
 	siPostgresql: siPostgresql.path,
 	siPrettier: siPrettier.path,
 	siPug: siPug.path,

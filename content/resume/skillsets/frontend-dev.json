@@ -35,12 +35,28 @@
 			"icon": "$icon.siSass"
 		},
 		{
+			"title": "PostCSS",
+			"subtitle": "A tool that uses JavaScript-based plugins to automate routine CSS operations",
+			"link": "https://postcss.org/",
+			"color": "#DD3A0A",
+			"dark": true,
+			"icon": "$icon.siPostCss"
+		},
+		{
 			"title": "JavaScript",
 			"subtitle": "A lightweight, interpreted, or just-in-time compiled programming language with first-class functions",
 			"link": "https://www.javascript.com/",
 			"color": "#F7DF1E",
 			"light": true,
 			"icon": "$icon.siJavascript"
+		},
+		{
+			"title": "CoffeeScript",
+			"subtitle": "Syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability",
+			"link": "https://coffeescript.org/",
+			"color": "#2F2625",
+			"dark": true,
+			"icon": "$icon.siCoffeeScript"
 		},
 		{
 			"title": "NodeJS",
