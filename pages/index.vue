@@ -42,7 +42,7 @@
 						</v-card-title>
 						<v-container>
 							<v-row justify="start">
-								<v-col v-for="link in links" :key="link.title" cols="auto">
+								<v-col v-for="link in socials" :key="link.slug" cols="auto">
 									<v-hover #default="{ hover }">
 										<v-chip
 											:color="link.color"
@@ -100,6 +100,7 @@
 export default {
 	asyncData: async ({ $content, error }) => {
 		try {
+			const socials = await $content('socials').fetch()
 			const employments = await $content('resume', 'employments').fetch()
 			const educations = await $content('resume', 'educations').fetch()
 			const memberships = await $content('resume', 'memberships').fetch()
@@ -110,7 +111,14 @@ export default {
 				.sortBy('order', 'asc')
 				.fetch()
 
-			return { employments, educations, memberships, skillsets, softSkills }
+			return {
+				socials,
+				employments,
+				educations,
+				memberships,
+				skillsets,
+				softSkills,
+			}
 		} catch (err) {
 			error(err)
 		}
@@ -143,32 +151,6 @@ export default {
 				title: 'Soft Skills',
 				icon: '$icon.mdiHumanGreeting',
 				to: '#soft_skills',
-			},
-		],
-		links: [
-			{
-				title: 'armin.monirzadeh@gmail.com',
-				icon: '$icon.mdiEmail',
-				color: '#EA4335',
-				href: 'mailto:armin.monirzadeh@gmail.com?body=Hello%20Armin%2C%0D%0A%0D%0A',
-			},
-			{
-				title: 'LinkedIn',
-				icon: '$icon.siLinkedin',
-				color: '#0A66C2',
-				href: 'https://www.linkedin.com/in/armin-monirzadeh/',
-			},
-			{
-				title: 'GitHub',
-				icon: '$icon.siGithub',
-				color: '#181717',
-				href: 'https://github.com/arminmon',
-			},
-			{
-				title: 'Dribbble',
-				icon: '$icon.siDribbble',
-				color: '#EA4C89',
-				href: 'https://dribbble.com/arminmon',
 			},
 		],
 	}),

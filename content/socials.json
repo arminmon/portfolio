@@ -1,0 +1,30 @@
+[
+	{
+		"title": "armin.monirzadeh@gmail.com",
+		"slug": "email",
+		"icon": "$icon.mdiEmail",
+		"color": "#EA4335",
+		"href": "mailto:armin.monirzadeh@gmail.com?body=Hello%20Armin%2C%0D%0A%0D%0A"
+	},
+	{
+		"title": "LinkedIn",
+		"slug": "linkedin",
+		"icon": "$icon.siLinkedin",
+		"color": "#0A66C2",
+		"href": "https://www.linkedin.com/in/armin-monirzadeh/"
+	},
+	{
+		"title": "GitHub",
+		"slug": "github",
+		"icon": "$icon.siGithub",
+		"color": "#181717",
+		"href": "https://github.com/arminmon"
+	},
+	{
+		"title": "Dribbble",
+		"slug": "dribbble",
+		"icon": "$icon.siDribbble",
+		"color": "#EA4C89",
+		"href": "https://dribbble.com/arminmon"
+	}
+]
