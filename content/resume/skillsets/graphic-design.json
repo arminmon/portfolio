@@ -32,7 +32,7 @@
 			"link": "https://www.w3.org/Graphics/SVG/",
 			"color": "#FFB13B",
 			"light": true,
-			"icon": "$icon.siSvg"
+			"icon": "$icon.siSVG"
 		},
 		{
 			"title": "Google Material Design",

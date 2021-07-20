@@ -16,7 +16,7 @@
 			"link": "https://jwt.io/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siJwt"
+			"icon": "$icon.siJWT"
 		},
 		{
 			"title": "NodeJS",
@@ -24,7 +24,7 @@
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"dark": true,
-			"icon": "$icon.siNodejs"
+			"icon": "$icon.siNodeJS"
 		},
 		{
 			"title": "TypeScript",
@@ -32,7 +32,7 @@
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
-			"icon": "$icon.siTypescript"
+			"icon": "$icon.siTypeScript"
 		},
 		{
 			"title": "AdonisJS",
@@ -40,7 +40,7 @@
 			"link": "https://adonisjs.com/",
 			"color": "#5A45FF",
 			"dark": true,
-			"icon": "$icon.adonisjs"
+			"icon": "$icon.adonisJS"
 		},
 		{
 			"title": "ExpressJS",
@@ -48,7 +48,7 @@
 			"link": "https://expressjs.com/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siExpressjs"
+			"icon": "$icon.siExpressJS"
 		},
 		{
 			"title": "Fastify",
@@ -88,7 +88,7 @@
 			"link": "https://www.postgresql.org/",
 			"color": "#4169E1",
 			"dark": true,
-			"icon": "$icon.siPostgresql"
+			"icon": "$icon.siPostgreSQL"
 		},
 		{
 			"title": "MySQL",
@@ -96,7 +96,7 @@
 			"link": "https://www.mysql.com/",
 			"color": "#4479A1",
 			"dark": true,
-			"icon": "$icon.siMysql"
+			"icon": "$icon.siMySQL"
 		},
 		{
 			"title": "KnexJS",
@@ -104,7 +104,7 @@
 			"link": "https://knexjs.org/",
 			"color": "#E16426",
 			"dark": true,
-			"icon": "$icon.knexjs"
+			"icon": "$icon.knexJS"
 		},
 		{
 			"title": "Heroku",
@@ -120,7 +120,7 @@
 			"link": "http://aws.amazon.com",
 			"color": "#232F3E",
 			"dark": true,
-			"icon": "$icon.siAws"
+			"icon": "$icon.siAWS"
 		}
 	]
 }

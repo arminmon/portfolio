@@ -8,10 +8,10 @@
 			"link": "https://html.spec.whatwg.org/",
 			"color": "#E34F26",
 			"dark": true,
-			"icon": "$icon.siHtml5"
+			"icon": "$icon.siHTML5"
 		},
 		{
-			"title": "PugJS",
+			"title": "Pug",
 			"subtitle": "A high-performance template engine heavily influenced by Haml",
 			"link": "https://pugjs.org/",
 			"color": "#A86454",
@@ -24,7 +24,7 @@
 			"link": "https://www.w3.org/Style/CSS/Overview.en.html",
 			"color": "#1572B6",
 			"dark": true,
-			"icon": "$icon.siCss3"
+			"icon": "$icon.siCSS3"
 		},
 		{
 			"title": "Sass",
@@ -48,7 +48,7 @@
 			"link": "https://www.javascript.com/",
 			"color": "#F7DF1E",
 			"light": true,
-			"icon": "$icon.siJavascript"
+			"icon": "$icon.siJavaScript"
 		},
 		{
 			"title": "CoffeeScript",
@@ -64,7 +64,7 @@
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"dark": true,
-			"icon": "$icon.siNodejs"
+			"icon": "$icon.siNodeJS"
 		},
 		{
 			"title": "TypeScript",
@@ -72,7 +72,7 @@
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
-			"icon": "$icon.siTypescript"
+			"icon": "$icon.siTypeScript"
 		},
 		{
 			"title": "VueJS",
@@ -80,7 +80,7 @@
 			"link": "https://vuejs.org/",
 			"color": "#4FC08D",
 			"dark": true,
-			"icon": "$icon.siVuejs"
+			"icon": "$icon.siVueJS"
 		},
 		{
 			"title": "NuxtJS",
@@ -88,7 +88,7 @@
 			"link": "https://nuxtjs.org",
 			"color": "#00C58E",
 			"dark": true,
-			"icon": "$icon.siNuxtjs"
+			"icon": "$icon.siNuxtJS"
 		},
 		{
 			"title": "VuetifyJS",
@@ -112,7 +112,7 @@
 			"link": "https://nextjs.org/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siNextjs"
+			"icon": "$icon.siNextJS"
 		},
 		{
 			"title": "JAMStack",
@@ -120,7 +120,7 @@
 			"link": "https://jamstack.org/",
 			"color": "#F0047F",
 			"dark": true,
-			"icon": "$icon.siJamstack"
+			"icon": "$icon.siJAMStack"
 		},
 		{
 			"title": "UIKit",
@@ -128,7 +128,7 @@
 			"link": "https://getuikit.com/",
 			"color": "#2396F3",
 			"dark": true,
-			"icon": "$icon.siUikit"
+			"icon": "$icon.siUIKit"
 		},
 		{
 			"title": "Bulma",
