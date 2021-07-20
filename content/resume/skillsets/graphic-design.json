@@ -4,30 +4,40 @@
 	"items": [
 		{
 			"title": "Figma",
+			"subtitle": "A vector graphics editor and prototyping tool which is primarily web-based",
+			"link": "https://www.figma.com/",
 			"color": "#F24E1E",
 			"dark": true,
 			"icon": "$icon.siFigma"
 		},
 		{
 			"title": "Affinity Designer",
+			"subtitle": "Vector graphics tool designed to help graphic designers, web designers, game developers, and professional illustrators create UI/UX designs, typography, icons, and concept art",
+			"link": "https://affinity.serif.com/en-gb/designer/",
 			"color": "#1B72BE",
 			"dark": true,
 			"icon": "$icon.siAffinityDesigner"
 		},
 		{
 			"title": "Affinity Photo",
+			"subtitle": "Image editing tool that provides features including panorama stitching, HDR merge, focus stacking, PSD editing and more",
+			"link": "https://affinity.serif.com/en-gb/photo/",
 			"color": "#7E4DD2",
 			"dark": true,
 			"icon": "$icon.siAffinityPhoto"
 		},
 		{
 			"title": "Scalable Vector Graphics",
+			"subtitle": "An XML based markup that can contain two-dimensional vectors",
+			"link": "https://www.w3.org/Graphics/SVG/",
 			"color": "#FFB13B",
 			"light": true,
 			"icon": "$icon.siSvg"
 		},
 		{
 			"title": "Google Material Design",
+			"subtitle": "A design language developed by Google in 2014",
+			"link": "https://material.io/design",
 			"color": "#757575",
 			"dark": true,
 			"icon": "$icon.siMaterialDesign"

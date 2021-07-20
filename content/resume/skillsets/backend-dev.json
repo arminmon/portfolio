@@ -4,84 +4,112 @@
 	"items": [
 		{
 			"title": "REST API",
+			"subtitle": "Representational State Transfer Application Programming Interface",
+			"link": "https://restfulapi.net/",
 			"color": "#EEE",
 			"light": true,
 			"icon": "$icon.mdiApi"
 		},
 		{
-			"title": "JSON Web Tokens",
+			"title": "JWT",
+			"subtitle": "JSON Web Tokens, a compact and self-contained way for securely transmitting information between parties as a JSON object",
+			"link": "https://jwt.io/",
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siJwt"
 		},
 		{
 			"title": "NodeJS",
+			"subtitle": "Asynchronous Event-driven JavaScript Runtime",
+			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"dark": true,
 			"icon": "$icon.siNodejs"
 		},
 		{
 			"title": "TypeScript",
+			"subtitle": "A language for application-scale JavaScript",
+			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
 			"icon": "$icon.siTypescript"
 		},
 		{
 			"title": "AdonisJS",
+			"subtitle": "A fully featured web framework for NodeJS",
+			"link": "https://adonisjs.com/",
 			"color": "#5A45FF",
 			"dark": true,
 			"icon": "$icon.adonisjs"
 		},
 		{
 			"title": "ExpressJS",
+			"subtitle": "A minimal and flexible NodeJS web application framework",
+			"link": "https://expressjs.com/",
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siExpressjs"
 		},
 		{
 			"title": "Fastify",
+			"subtitle": "A fast and minimal NodeJS web application framework",
+			"link": "https://fastify.io/",
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siFastify"
 		},
 		{
 			"title": "Sharp",
+			"subtitle": "High performance NodeJS image processing",
+			"link": "https://sharp.pixelplumbing.com/",
 			"color": "#99CC00",
 			"dark": true,
 			"icon": "$icon.siSharp"
 		},
 		{
 			"title": "Database Design",
+			"subtitle": "Relational database design and maintenance",
+			"link": "https://www.datanamic.com/support/lt-dez005-introduction-db-modeling.html",
 			"color": "#EEE",
 			"light": true,
 			"icon": "$icon.mdiDatabase"
 		},
 		{
 			"title": "PostgreSQL",
+			"subtitle": "An open source object-relational database system",
+			"link": "https://www.postgresql.org/",
 			"color": "#4169E1",
 			"dark": true,
 			"icon": "$icon.siPostgresql"
 		},
 		{
 			"title": "MySQL",
+			"subtitle": "A relational database management system",
+			"link": "https://www.mysql.com/",
 			"color": "#4479A1",
 			"dark": true,
 			"icon": "$icon.siMysql"
 		},
 		{
 			"title": "KnexJS",
+			"subtitle": "A \"batteries included\" SQL query builder",
+			"link": "https://knexjs.org/",
 			"color": "#E16426",
 			"dark": true,
 			"icon": "$icon.knexjs"
 		},
 		{
 			"title": "Heroku",
+			"subtitle": "A container-based cloud Platform as a Service",
+			"link": "http://heroku.com",
 			"color": "#430098",
 			"dark": true,
 			"icon": "$icon.siHeroku"
 		},
 		{
 			"title": "AWS",
+			"subtitle": "Amazon Web Services",
+			"link": "http://aws.amazon.com",
 			"color": "#232F3E",
 			"dark": true,
 			"icon": "$icon.siAws"

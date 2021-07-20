@@ -4,36 +4,48 @@
 	"items": [
 		{
 			"title": "macOS (Primary)",
+			"subtitle": "A proprietary graphical operating system developed and marketed by Apple Inc, since 2001",
+			"link": "https://www.apple.com/macos",
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siMacos"
 		},
 		{
 			"title": "iOS",
+			"subtitle": "A mobile operating system created and developed by Apple Inc",
+			"link": "https://www.apple.com/ios",
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siIos"
 		},
 		{
 			"title": "Microsoft Windows",
+			"subtitle": "A group of several proprietary graphical operating system families, all of which developed and marketed by Microsoft",
+			"link": "http://windows.microsoft.com/",
 			"color": "#0078D6",
 			"dark": true,
 			"icon": "$icon.siWindows"
 		},
 		{
 			"title": "Linux",
+			"subtitle": "A family of open-source Unix-like operating systems based on the Linux kernel",
+			"link": "https://www.linux.org/",
 			"color": "#FCC624",
 			"light": true,
 			"icon": "$icon.siLinux"
 		},
 		{
 			"title": "Ubuntu",
+			"subtitle": "A Linux distribution based on Debian and composed mostly of free and open-source software",
+			"link": "https://ubuntu.com/",
 			"color": "#E95420",
 			"dark": true,
 			"icon": "$icon.siUbuntu"
 		},
 		{
 			"title": "ElementaryOS",
+			"subtitle": "A Linux distribution based on Ubuntu LTS",
+			"link": "https://elementary.io/",
 			"color": "#64BAFF",
 			"dark": true,
 			"icon": "$icon.siElementaryos"

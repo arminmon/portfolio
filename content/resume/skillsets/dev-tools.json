@@ -3,49 +3,65 @@
 	"title": "Development Tools",
 	"items": [
 		{
-			"title": "Terminal ❤️",
+			"title": "CLI (Terminal ❤️)",
+			"subtitle": "Command-Line Interface",
+			"link": "https://www.linuxjournal.com/content/linux-command-line-interface-introduction-guide",
 			"color": "#EEE",
 			"light": true,
 			"icon": "$icon.mdiConsole"
 		},
 		{
 			"title": "Git",
+			"subtitle": "Distributed version control system",
+			"link": "https://git-scm.com/",
 			"color": "#F05032",
 			"dark": true,
 			"icon": "$icon.siGit"
 		},
 		{
 			"title": "GitHub",
+			"subtitle": "Hosting for software development and version control using Git",
+			"link": "https://github.com/",
 			"color": "#181717",
 			"dark": true,
 			"icon": "$icon.siGithub"
 		},
 		{
 			"title": "VSCode",
+			"subtitle": "Visual Studio Code editor",
+			"link": "https://code.visualstudio.com/",
 			"color": "#007ACC",
 			"dark": true,
 			"icon": "$icon.siVscode"
 		},
 		{
 			"title": "ESlint",
+			"subtitle": "Static code analysis tool for identifying problematic patterns found in JavaScript",
+			"link": "http://eslint.org",
 			"color": "#4B32C3",
 			"dark": true,
 			"icon": "$icon.siEslint"
 		},
 		{
 			"title": "Prettier",
+			"subtitle": "An opinionated code formatter",
+			"link": "https://prettier.io/",
 			"color": "#F7B93E",
 			"light": true,
 			"icon": "$icon.siPrettier"
 		},
 		{
 			"title": "Stylelint",
+			"subtitle": "A mighty, modern linter for styles",
+			"link": "https://stylelint.io/",
 			"color": "#263238",
 			"dark": true,
 			"icon": "$icon.siStylelint"
 		},
 		{
 			"title": "CodeKit",
+			"subtitle": "A modern web development tool for compiling, bundling, optimisation, etc.",
+			"link": "https://codekitapp.com",
 			"color": "#000",
 			"dark": true
 		}

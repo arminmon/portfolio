@@ -4,96 +4,128 @@
 	"items": [
 		{
 			"title": "HTML 5",
+			"subtitle": "Hypertext Markup Language",
+			"link": "https://html.spec.whatwg.org/",
 			"color": "#E34F26",
 			"dark": true,
 			"icon": "$icon.siHtml5"
 		},
 		{
-			"title": "PUG",
+			"title": "PugJS",
+			"subtitle": "A high-performance template engine heavily influenced by Haml",
+			"link": "https://pugjs.org/",
 			"color": "#A86454",
 			"dark": true,
 			"icon": "$icon.siPug"
 		},
 		{
 			"title": "CSS 3",
+			"subtitle": "Cascading Style Sheets",
+			"link": "https://www.w3.org/Style/CSS/Overview.en.html",
 			"color": "#1572B6",
 			"dark": true,
 			"icon": "$icon.siCss3"
 		},
 		{
 			"title": "Sass",
+			"subtitle": "Syntactically Awesome Style Sheets",
+			"link": "https://sass-lang.com/",
 			"color": "#CC6699",
 			"dark": true,
 			"icon": "$icon.siSass"
 		},
 		{
 			"title": "JavaScript",
+			"subtitle": "A lightweight, interpreted, or just-in-time compiled programming language with first-class functions",
+			"link": "https://www.javascript.com/",
 			"color": "#F7DF1E",
 			"light": true,
 			"icon": "$icon.siJavascript"
 		},
 		{
 			"title": "NodeJS",
+			"subtitle": "Asynchronous Event-driven JavaScript Runtime",
+			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"dark": true,
 			"icon": "$icon.siNodejs"
 		},
 		{
 			"title": "TypeScript",
+			"subtitle": "A language for application-scale JavaScript",
+			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
 			"icon": "$icon.siTypescript"
 		},
 		{
 			"title": "VueJS",
+			"subtitle": "An open-source model–view–viewmodel front end JavaScript framework",
+			"link": "https://vuejs.org/",
 			"color": "#4FC08D",
 			"dark": true,
 			"icon": "$icon.siVuejs"
 		},
 		{
 			"title": "NuxtJS",
+			"subtitle": "A meta-framework for universal VueJS applications",
+			"link": "https://nuxtjs.org",
 			"color": "#00C58E",
 			"dark": true,
 			"icon": "$icon.siNuxtjs"
 		},
 		{
 			"title": "VuetifyJS",
+			"subtitle": "A Material Design component framework for VueJS",
+			"link": "https://vuetifyjs.com/",
 			"color": "#1867C0",
 			"dark": true,
 			"icon": "$icon.siVuetify"
 		},
 		{
 			"title": "React",
+			"subtitle": "A front-end JavaScript library for building UI components",
+			"link": "https://reactjs.org/",
 			"color": "#61DAFB",
 			"light": true,
 			"icon": "$icon.siReact"
 		},
 		{
 			"title": "NextJS",
-			"color": "#000000",
+			"subtitle": "A framework to enable server-side rendering and generating static websites for React applications",
+			"link": "https://nextjs.org/",
+			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siNextjs"
 		},
 		{
 			"title": "JAMStack",
+			"subtitle": "JavaScript, APIs, and Markup",
+			"link": "https://jamstack.org/",
 			"color": "#F0047F",
 			"dark": true,
 			"icon": "$icon.siJamstack"
 		},
 		{
 			"title": "UIKit",
+			"subtitle": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
+			"link": "https://getuikit.com/",
 			"color": "#2396F3",
 			"dark": true,
 			"icon": "$icon.siUikit"
 		},
 		{
 			"title": "Bulma",
+			"subtitle": "A free, open source CSS framework based on Flexbox and built with Sass",
+			"link": "https://bulma.io/",
 			"color": "#00D1B2",
 			"dark": true,
 			"icon": "$icon.siBulma"
 		},
 		{
 			"title": "Bootstrap",
+			"subtitle": "A free and open-source CSS framework directed at responsive, mobile-first front-end web development",
+			"link": "https://getbootstrap.com/",
 			"color": "#7952B3",
 			"dark": true,
 			"icon": "$icon.siBootstrap"

@@ -4,26 +4,50 @@
 	"items": [
 		{
 			"title": "OOP",
+			"subtitle": "Object-Oriented Programming",
+			"link": "https://www.educative.io/blog/object-oriented-programming",
 			"color": "#EEE",
 			"light": true
 		},
 		{
 			"title": "SOLID",
+			"subtitle": "SRP, OCP, LSP, ISP, and DIP",
+			"link": "https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+			"notes": [
+				"Single Responsibility Principle",
+				"Open/Closed Principle",
+				"Liskov Substitution Principle",
+				"Interface Segregation Principle",
+				"Dependency Inversion Principle"
+			],
 			"color": "#EEE",
 			"light": true
 		},
 		{
 			"title": "KISS",
+			"subtitle": "Keep It Simple, Stupid",
+			"link": "https://www.interaction-design.org/literature/article/kiss-keep-it-simple-stupid-a-design-principle",
 			"color": "#EEE",
 			"light": true
 		},
 		{
 			"title": "DRY",
+			"subtitle": "Don't Repeat Yourself",
+			"link": "https://thevaluable.dev/dry-principle-cost-benefit-example/",
 			"color": "#EEE",
 			"light": true
 		},
 		{
-			"title": "Naming Conventions (BEM ❤️)",
+			"title": "Naming Conventions ❤️",
+			"subtitle": "A convention (generally agreed scheme) for naming things",
+			"link": "https://curc.readthedocs.io/en/latest/programming/coding-best-practices.html",
+			"color": "#EEE",
+			"light": true
+		},
+		{
+			"title": "BEM Methodology",
+			"subtitle": "Block__Element--Modifier, a methodology, that helps you to achieve reusable components and code sharing in the front-end",
+			"link": "http://getbem.com/",
 			"color": "#EEE",
 			"light": true
 		}
