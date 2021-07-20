@@ -30,7 +30,7 @@ export default {
 		'@nuxtjs/vuetify',
 	],
 
-	modules: ['@nuxtjs/axios', '@nuxt/content'],
+	modules: ['@nuxt/content'],
 
 	axios: {},
 
