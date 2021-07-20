@@ -30,7 +30,7 @@
 			"title": "AdonisJS",
 			"color": "#5A45FF",
 			"dark": true,
-			"icon": "$icon.siAdonisjs"
+			"icon": "$icon.adonisjs"
 		},
 		{
 			"title": "ExpressJS",

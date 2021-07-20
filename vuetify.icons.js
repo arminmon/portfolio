@@ -66,7 +66,7 @@ import siVuejs from 'simple-icons/icons/vuedotjs'
 import siVuetify from 'simple-icons/icons/vuetify'
 import siWindows from 'simple-icons/icons/windows'
 
-import adonisjsPath from '~/assets/icons/adonisjs'
+import adonisjs from '~/assets/icons/adonisjs'
 
 const materialDesignIcons = {
 	mdiApi,
@@ -88,7 +88,6 @@ const materialDesignIcons = {
 }
 
 const simpleIcons = {
-	siAdonisjs: adonisjsPath,
 	siAffinityDesigner: siAffinitydesigner.path,
 	siAffinityPhoto: siAffinityphoto.path,
 	siAws: siAws.path,
@@ -144,5 +143,6 @@ export default {
 	values: {
 		...materialDesignIcons,
 		...simpleIcons,
+		adonisjs,
 	},
 }
