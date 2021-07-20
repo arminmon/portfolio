@@ -67,6 +67,14 @@
 			"icon": "$icon.siSharp"
 		},
 		{
+			"title": "Jimp",
+			"subtitle": "An image processing library for NodeJS written entirely in JavaScript, with zero native dependencies",
+			"link": "https://github.com/oliver-moran/jimp",
+			"color": "#D2242D",
+			"dark": true,
+			"icon": "$icon.crayon"
+		},
+		{
 			"title": "Database Design",
 			"subtitle": "Relational database design and maintenance",
 			"link": "https://www.datanamic.com/support/lt-dez005-introduction-db-modeling.html",

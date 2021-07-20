@@ -70,6 +70,7 @@ import siVuetify from 'simple-icons/icons/vuetify'
 import siWindows from 'simple-icons/icons/windows'
 
 import adonisjs from '~/assets/icons/adonisjs'
+import crayon from '~/assets/icons/crayon'
 import knexjs from '~/assets/icons/knexjs'
 
 const materialDesignIcons = {
@@ -151,6 +152,7 @@ export default {
 		...materialDesignIcons,
 		...simpleIcons,
 		adonisjs,
+		crayon,
 		knexjs,
 	},
 }
