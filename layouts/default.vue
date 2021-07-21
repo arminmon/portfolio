@@ -33,11 +33,11 @@ export default {
 		blocks: [
 			{
 				title: 'NuxtJS',
-				icon: '$icon.siNuxtjs',
+				icon: '$icon.siNuxtJS',
 			},
 			{
 				title: 'VueJS',
-				icon: '$icon.siVuejs',
+				icon: '$icon.siVueJS',
 			},
 			{
 				title: 'VuetifyJS',
