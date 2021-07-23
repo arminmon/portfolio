@@ -33,8 +33,30 @@
 		<v-container :style="{ maxWidth: '1100px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
-					<v-card elevation="16" class="rounded-t-0">
-						<v-card-title class="text-h4 text-center justify-center">
+					<v-card
+						elevation="16"
+						class="rounded-t-0"
+						:style="{ overflow: 'hidden' }"
+					>
+						<v-img
+							v-show="$vuetify.breakpoint.mdAndUp"
+							:src="require('~/assets/images/opera-house.svg')"
+							aspect-ratio="2.235"
+							width="200"
+							:style="{
+								position: 'absolute',
+								bottom: '-5px',
+								right: '20px',
+								opacity: 0.05,
+							}"
+						/>
+						<v-card-title
+							class="
+								text-h4 text-center
+								justify-center
+								pa-6 pa-md-8 pa-lg-10 pa-xl-12
+							"
+						>
 							{{ $vuetify.breakpoint.smAndDown ? 'Hi' : 'Hello' }} 👋,
 							I'm&nbsp;Armin.
 						</v-card-title>
