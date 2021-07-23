@@ -47,6 +47,7 @@ import siMacos from 'simple-icons/icons/macos'
 import siMarkdown from 'simple-icons/icons/markdown'
 import siMaterialDesign from 'simple-icons/icons/materialdesign'
 import siMaterialDesignIcons from 'simple-icons/icons/materialdesignicons'
+import siMiro from 'simple-icons/icons/miro'
 import siMySQL from 'simple-icons/icons/mysql'
 import siNextJS from 'simple-icons/icons/nextdotjs'
 import siNodeJS from 'simple-icons/icons/nodedotjs'
@@ -124,6 +125,7 @@ const simpleIcons = {
 	siMarkdown: siMarkdown.path,
 	siMaterialDesign: siMaterialDesign.path,
 	siMaterialDesignIcons: siMaterialDesignIcons.path,
+	siMiro: siMiro.path,
 	siMySQL: siMySQL.path,
 	siNextJS: siNextJS.path,
 	siNodeJS: siNodeJS.path,

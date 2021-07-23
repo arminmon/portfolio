@@ -72,6 +72,14 @@
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.siMarkdown"
+		},
+		{
+			"title": "Miro",
+			"subtitle": "A collaborative online whiteboard",
+			"link": "https://miro.com/app/dashboard/",
+			"color": "#050038",
+			"dark": true,
+			"icon": "$icon.siMiro"
 		}
 	]
 }
