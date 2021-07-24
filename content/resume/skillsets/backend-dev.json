@@ -8,7 +8,7 @@
 			"link": "https://restfulapi.net/",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.mdiApi"
+			"icon": "$icon.api"
 		},
 		{
 			"title": "JWT",
@@ -16,7 +16,7 @@
 			"link": "https://jwt.io/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siJWT"
+			"icon": "$icon.jwt"
 		},
 		{
 			"title": "NodeJS",
@@ -24,7 +24,7 @@
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"dark": true,
-			"icon": "$icon.siNodeJS"
+			"icon": "$icon.node_js"
 		},
 		{
 			"title": "TypeScript",
@@ -32,7 +32,7 @@
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
-			"icon": "$icon.siTypeScript"
+			"icon": "$icon.typescript"
 		},
 		{
 			"title": "AdonisJS",
@@ -40,7 +40,7 @@
 			"link": "https://adonisjs.com/",
 			"color": "#5A45FF",
 			"dark": true,
-			"icon": "$icon.adonisJS"
+			"icon": "$icon.adonis_js"
 		},
 		{
 			"title": "ExpressJS",
@@ -48,7 +48,7 @@
 			"link": "https://expressjs.com/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siExpressJS"
+			"icon": "$icon.express_js"
 		},
 		{
 			"title": "Fastify",
@@ -56,7 +56,7 @@
 			"link": "https://fastify.io/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siFastify"
+			"icon": "$icon.fastify"
 		},
 		{
 			"title": "Sharp",
@@ -64,7 +64,7 @@
 			"link": "https://sharp.pixelplumbing.com/",
 			"color": "#99CC00",
 			"dark": true,
-			"icon": "$icon.siSharp"
+			"icon": "$icon.sharp"
 		},
 		{
 			"title": "Jimp",
@@ -80,7 +80,7 @@
 			"link": "https://www.datanamic.com/support/lt-dez005-introduction-db-modeling.html",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.mdiDatabase"
+			"icon": "$icon.database"
 		},
 		{
 			"title": "PostgreSQL",
@@ -88,7 +88,7 @@
 			"link": "https://www.postgresql.org/",
 			"color": "#4169E1",
 			"dark": true,
-			"icon": "$icon.siPostgreSQL"
+			"icon": "$icon.postgresql"
 		},
 		{
 			"title": "MySQL",
@@ -96,7 +96,7 @@
 			"link": "https://www.mysql.com/",
 			"color": "#4479A1",
 			"dark": true,
-			"icon": "$icon.siMySQL"
+			"icon": "$icon.mysql"
 		},
 		{
 			"title": "KnexJS",
@@ -104,7 +104,7 @@
 			"link": "https://knexjs.org/",
 			"color": "#E16426",
 			"dark": true,
-			"icon": "$icon.knexJS"
+			"icon": "$icon.knex_js"
 		},
 		{
 			"title": "Heroku",
@@ -112,7 +112,7 @@
 			"link": "http://heroku.com",
 			"color": "#430098",
 			"dark": true,
-			"icon": "$icon.siHeroku"
+			"icon": "$icon.heroku"
 		},
 		{
 			"title": "AWS",
@@ -120,7 +120,7 @@
 			"link": "http://aws.amazon.com",
 			"color": "#232F3E",
 			"dark": true,
-			"icon": "$icon.siAWS"
+			"icon": "$icon.aws"
 		}
 	]
 }

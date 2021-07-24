@@ -8,7 +8,7 @@
 			"link": "https://www.apple.com/macos",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siMacos"
+			"icon": "$icon.apple_macos"
 		},
 		{
 			"title": "iOS",
@@ -16,7 +16,7 @@
 			"link": "https://www.apple.com/ios",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siIOS"
+			"icon": "$icon.apple_ios"
 		},
 		{
 			"title": "Microsoft Windows",
@@ -24,7 +24,7 @@
 			"link": "http://windows.microsoft.com/",
 			"color": "#0078D6",
 			"dark": true,
-			"icon": "$icon.siWindows"
+			"icon": "$icon.ms_windows"
 		},
 		{
 			"title": "Linux",
@@ -32,7 +32,7 @@
 			"link": "https://www.linux.org/",
 			"color": "#FCC624",
 			"light": true,
-			"icon": "$icon.siLinux"
+			"icon": "$icon.linux"
 		},
 		{
 			"title": "Ubuntu",
@@ -40,7 +40,7 @@
 			"link": "https://ubuntu.com/",
 			"color": "#E95420",
 			"dark": true,
-			"icon": "$icon.siUbuntu"
+			"icon": "$icon.ubuntu"
 		},
 		{
 			"title": "ElementaryOS",
@@ -48,7 +48,7 @@
 			"link": "https://elementary.io/",
 			"color": "#64BAFF",
 			"dark": true,
-			"icon": "$icon.siElementaryOS"
+			"icon": "$icon.elementary_os"
 		}
 	]
 }

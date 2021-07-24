@@ -8,7 +8,7 @@
 			"link": "https://www.figma.com/",
 			"color": "#F24E1E",
 			"dark": true,
-			"icon": "$icon.siFigma"
+			"icon": "$icon.figma"
 		},
 		{
 			"title": "Affinity Designer",
@@ -16,7 +16,7 @@
 			"link": "https://affinity.serif.com/en-gb/designer/",
 			"color": "#1B72BE",
 			"dark": true,
-			"icon": "$icon.siAffinityDesigner"
+			"icon": "$icon.affinity_designer"
 		},
 		{
 			"title": "Affinity Photo",
@@ -24,7 +24,7 @@
 			"link": "https://affinity.serif.com/en-gb/photo/",
 			"color": "#7E4DD2",
 			"dark": true,
-			"icon": "$icon.siAffinityPhoto"
+			"icon": "$icon.affinity_photo"
 		},
 		{
 			"title": "Scalable Vector Graphics",
@@ -32,7 +32,7 @@
 			"link": "https://www.w3.org/Graphics/SVG/",
 			"color": "#FFB13B",
 			"light": true,
-			"icon": "$icon.siSVG"
+			"icon": "$icon.svg"
 		},
 		{
 			"title": "Google Material Design",
@@ -40,7 +40,7 @@
 			"link": "https://material.io/design",
 			"color": "#757575",
 			"dark": true,
-			"icon": "$icon.siMaterialDesign"
+			"icon": "$icon.material_design"
 		}
 	]
 }

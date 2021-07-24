@@ -8,7 +8,7 @@
 			"link": "https://www.linuxjournal.com/content/linux-command-line-interface-introduction-guide",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.mdiConsole"
+			"icon": "$icon.console"
 		},
 		{
 			"title": "Git",
@@ -16,7 +16,7 @@
 			"link": "https://git-scm.com/",
 			"color": "#F05032",
 			"dark": true,
-			"icon": "$icon.siGit"
+			"icon": "$icon.git"
 		},
 		{
 			"title": "GitHub",
@@ -24,7 +24,7 @@
 			"link": "https://github.com/",
 			"color": "#181717",
 			"dark": true,
-			"icon": "$icon.siGithub"
+			"icon": "$icon.github"
 		},
 		{
 			"title": "VSCode",
@@ -32,7 +32,7 @@
 			"link": "https://code.visualstudio.com/",
 			"color": "#007ACC",
 			"dark": true,
-			"icon": "$icon.siVSCode"
+			"icon": "$icon.vscode"
 		},
 		{
 			"title": "ESlint",
@@ -40,7 +40,7 @@
 			"link": "http://eslint.org",
 			"color": "#4B32C3",
 			"dark": true,
-			"icon": "$icon.siEslint"
+			"icon": "$icon.eslint"
 		},
 		{
 			"title": "Prettier",
@@ -48,7 +48,7 @@
 			"link": "https://prettier.io/",
 			"color": "#F7B93E",
 			"light": true,
-			"icon": "$icon.siPrettier"
+			"icon": "$icon.prettier"
 		},
 		{
 			"title": "Stylelint",
@@ -56,7 +56,7 @@
 			"link": "https://stylelint.io/",
 			"color": "#263238",
 			"dark": true,
-			"icon": "$icon.siStylelint"
+			"icon": "$icon.stylelint"
 		},
 		{
 			"title": "CodeKit",
@@ -71,7 +71,7 @@
 			"link": "https://daringfireball.net/projects/markdown/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.siMarkdown"
+			"icon": "$icon.markdown"
 		},
 		{
 			"title": "Miro",
@@ -79,7 +79,7 @@
 			"link": "https://miro.com/app/dashboard/",
 			"color": "#050038",
 			"dark": true,
-			"icon": "$icon.siMiro"
+			"icon": "$icon.miro"
 		}
 	]
 }

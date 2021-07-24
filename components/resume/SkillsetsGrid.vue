@@ -77,7 +77,7 @@
 					<v-btn text plain @click="closeDialog">Close</v-btn>
 					<v-spacer />
 					<v-btn text link target="_blank" :href="skill.link">
-						<v-icon left>$icon.mdiLinkVariant</v-icon>
+						<v-icon left>$icon.link</v-icon>
 						Learn more
 					</v-btn>
 				</v-card-actions>

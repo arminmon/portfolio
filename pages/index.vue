@@ -11,7 +11,7 @@
 		>
 			<template #activator>
 				<v-btn v-model="menuFab" fab elevation="18" color="primary">
-					<v-icon>$icon.mdiDotsVertical</v-icon>
+					<v-icon>$icon.dots_vertical</v-icon>
 				</v-btn>
 			</template>
 			<v-tooltip v-for="(nav, index) in navs" :key="`nav-${index}`" left>
@@ -148,30 +148,30 @@ export default {
 	data: () => ({
 		menuFab: false,
 		navs: [
-			{ title: 'Scroll Up', icon: '$icon.mdiChevronUp', to: 0 },
+			{ title: 'Scroll Up', icon: '$icon.chevron_up', to: 0 },
 			{
 				title: 'Employment History',
-				icon: '$icon.mdiDomain',
+				icon: '$icon.domain',
 				to: '#employment_history',
 			},
 			{
 				title: 'Education History',
-				icon: '$icon.mdiSchool',
+				icon: '$icon.school',
 				to: '#education_history',
 			},
 			{
 				title: 'Professional Memberships',
-				icon: '$icon.mdiHandshake',
+				icon: '$icon.handshake',
 				to: '#membership_history',
 			},
 			{
 				title: 'Technical Skillsets',
-				icon: '$icon.mdiPencilRuler',
+				icon: '$icon.pencil_ruler',
 				to: '#technical_skillsets',
 			},
 			{
 				title: 'Soft Skills',
-				icon: '$icon.mdiHumanGreeting',
+				icon: '$icon.human_greeting',
 				to: '#soft_skills',
 			},
 		],

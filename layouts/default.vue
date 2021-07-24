@@ -8,7 +8,7 @@
 				<v-row dense justify="center">
 					<template v-for="(block, index) in blocks">
 						<v-col v-if="index !== 0" :key="`${block.title}-plus`" cols="auto">
-							<v-icon x-small :style="{ opacity: 0.5 }">$icon.mdiPlus</v-icon>
+							<v-icon x-small :style="{ opacity: 0.5 }">$icon.plus</v-icon>
 						</v-col>
 						<v-col :key="block.title" cols="auto">
 							<v-tooltip top>
@@ -33,43 +33,43 @@ export default {
 		blocks: [
 			{
 				title: 'NuxtJS',
-				icon: '$icon.siNuxtJS',
+				icon: '$icon.nuxt_js',
 			},
 			{
 				title: 'VueJS',
-				icon: '$icon.siVueJS',
+				icon: '$icon.vue_js',
 			},
 			{
 				title: 'VuetifyJS',
-				icon: '$icon.siVuetify',
+				icon: '$icon.vuetify',
 			},
 			{
 				title: 'Google Material Design',
-				icon: '$icon.siMaterialDesign',
+				icon: '$icon.material_design',
 			},
 			{
 				title: 'Material Design Icons',
-				icon: '$icon.siMaterialDesignIcons',
+				icon: '$icon.material_design_icons',
 			},
 			{
 				title: 'Simple Icons',
-				icon: '$icon.siSimpleIcons',
+				icon: '$icon.simple_icons',
 			},
 			{
 				title: 'JetBrains Mono Font',
-				icon: '$icon.siJetBrains',
+				icon: '$icon.jetbrains',
 			},
 			{
 				title: 'GitHub Actions',
-				icon: '$icon.siGithubActions',
+				icon: '$icon.github_actions',
 			},
 			{
 				title: 'GitHub Pages',
-				icon: '$icon.siGithub',
+				icon: '$icon.github',
 			},
 			{
 				title: 'Theine',
-				icon: '$icon.mdiTea',
+				icon: '$icon.tea',
 			},
 		],
 	}),
