@@ -56,6 +56,10 @@ export default {
 				icon: '$icon.simple_icons',
 			},
 			{
+				title: 'Noun Project',
+				icon: '$icon.noun_project',
+			},
+			{
 				title: 'JetBrains Mono Font',
 				icon: '$icon.jetbrains',
 			},

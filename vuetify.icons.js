@@ -51,6 +51,7 @@ import Miro from 'simple-icons/icons/miro'
 import MySQL from 'simple-icons/icons/mysql'
 import NextJS from 'simple-icons/icons/nextdotjs'
 import NodeJS from 'simple-icons/icons/nodedotjs'
+import NounProject from 'simple-icons/icons/nounproject'
 import NuxtJS from 'simple-icons/icons/nuxtdotjs'
 import PostCss from 'simple-icons/icons/postcss'
 import PostgreSQL from 'simple-icons/icons/postgresql'
@@ -130,6 +131,7 @@ const simpleIcons = {
 	mysql: MySQL.path,
 	next_js: NextJS.path,
 	node_js: NodeJS.path,
+	noun_project: NounProject.path,
 	nuxt_js: NuxtJS.path,
 	postcss: PostCss.path,
 	postgresql: PostgreSQL.path,
