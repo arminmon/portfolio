@@ -39,7 +39,7 @@ export default {
 	vuetify: {
 		treeShake: true,
 		defaultAssets: false,
-		customVariables: ['~/assets/styles/vuetify/_override'],
+		customVariables: ['~/assets/styles/_vuetify'],
 		optionsPath: './vuetify.options.js',
 	},
 
