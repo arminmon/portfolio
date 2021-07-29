@@ -24,7 +24,7 @@
 							dense
 						>
 							<v-btn value="sortDesc">
-								<v-icon>$mdiSortCalendarDescending</v-icon>
+								<v-icon>$icon.sort_calendar_desc</v-icon>
 							</v-btn>
 						</v-btn-toggle>
 					</v-toolbar>
