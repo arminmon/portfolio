@@ -107,6 +107,14 @@
 			"icon": "$icon.react"
 		},
 		{
+			"title": "Angular",
+			"subtitle": "A platform and framework for building single-page client applications using HTML and TypeScript",
+			"link": "https://angular.io/",
+			"color": "#DD0031",
+			"dark": true,
+			"icon": "$icon.angular"
+		},
+		{
 			"title": "NextJS",
 			"subtitle": "A framework to enable server-side rendering and generating static websites for React applications",
 			"link": "https://nextjs.org/",

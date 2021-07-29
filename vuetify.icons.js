@@ -20,6 +20,7 @@ import {
 
 import AffinityDesigner from 'simple-icons/icons/affinitydesigner'
 import AffinityPhoto from 'simple-icons/icons/affinityphoto'
+import Angular from 'simple-icons/icons/angular'
 import AppleIos from 'simple-icons/icons/ios'
 import AppleMacos from 'simple-icons/icons/macos'
 import AWS from 'simple-icons/icons/amazonaws'
@@ -99,6 +100,7 @@ const materialDesignIcons = {
 const simpleIcons = {
 	affinity_designer: AffinityDesigner.path,
 	affinity_photo: AffinityPhoto.path,
+	angular: Angular.path,
 	apple_ios: AppleIos.path,
 	apple_macos: AppleMacos.path,
 	aws: AWS.path,
