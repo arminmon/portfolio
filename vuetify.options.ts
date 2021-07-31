@@ -1,9 +1,13 @@
+import type { GlobalVuetifyPreset as VuetifyOptions } from 'vuetify/types/services/presets'
 import colors from 'vuetify/lib/util/colors'
 import icons from '~/vuetify.icons'
 
-export default {
+const options: VuetifyOptions = {
 	rtl: false,
-	icons,
+	icons: {
+		iconfont: 'mdiSvg',
+		values: icons,
+	},
 	theme: {
 		dark: false,
 		options: { customProperties: true },
@@ -27,3 +31,5 @@ export default {
 		},
 	},
 }
+
+export default options

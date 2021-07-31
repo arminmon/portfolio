@@ -14,7 +14,7 @@
 					<v-icon>$icon.dots_vertical</v-icon>
 				</v-btn>
 			</template>
-			<v-tooltip v-for="(nav, index) in navs" :key="`nav-${index}`" left>
+			<v-tooltip v-for="(nav, index) in navLinks" :key="`nav-${index}`" left>
 				<template #activator="{ on, attrs }">
 					<v-btn
 						v-bind="attrs"
@@ -118,8 +118,11 @@
 	</v-sheet>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+import { NavLink } from '~/types/common'
+
+@Component({
 	asyncData: async ({ $content, error }) => {
 		try {
 			const socials = await $content('socials').fetch()
@@ -145,42 +148,43 @@ export default {
 			error(err)
 		}
 	},
-	data: () => ({
-		menuFab: false,
-		navs: [
-			{ title: 'Scroll Up', icon: '$icon.chevron_up', to: 0 },
-			{
-				title: 'Employment History',
-				icon: '$icon.domain',
-				to: '#employment_history',
-			},
-			{
-				title: 'Education History',
-				icon: '$icon.school',
-				to: '#education_history',
-			},
-			{
-				title: 'Professional Memberships',
-				icon: '$icon.handshake',
-				to: '#membership_history',
-			},
-			{
-				title: 'Technical Skillsets',
-				icon: '$icon.pencil_ruler',
-				to: '#technical_skillsets',
-			},
-			{
-				title: 'Soft Skills',
-				icon: '$icon.human_greeting',
-				to: '#soft_skills',
-			},
-		],
-	}),
+})
+export default class PageIndex extends Vue {
+	menuFab: boolean = false
+	navLinks: NavLink[] = [
+		{ title: 'Scroll Up', icon: '$icon.chevron_up', to: 0 },
+		{
+			title: 'Employment History',
+			icon: '$icon.domain',
+			to: '#employment_history',
+		},
+		{
+			title: 'Education History',
+			icon: '$icon.school',
+			to: '#education_history',
+		},
+		{
+			title: 'Professional Memberships',
+			icon: '$icon.handshake',
+			to: '#membership_history',
+		},
+		{
+			title: 'Technical Skillsets',
+			icon: '$icon.pencil_ruler',
+			to: '#technical_skillsets',
+		},
+		{
+			title: 'Soft Skills',
+			icon: '$icon.human_greeting',
+			to: '#soft_skills',
+		},
+	]
+
 	head() {
 		return {
 			title: 'RÉSUMÉ',
 		}
-	},
+	}
 }
 </script>
 

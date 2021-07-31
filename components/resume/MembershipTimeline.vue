@@ -100,16 +100,15 @@
 	</v-timeline>
 </template>
 
-<script>
-export default {
-	props: {
-		memberships: {
-			type: Array,
-			required: true,
-		},
-	},
-	data: () => ({
-		options: ['sortDesc'],
-	}),
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { MembershipModel } from '~/types/models'
+
+@Component
+export default class ResumeMembershipTimeline extends Vue {
+	options: string[] = ['sortDesc']
+
+	@Prop({ required: true })
+	memberships!: MembershipModel[]
 }
 </script>

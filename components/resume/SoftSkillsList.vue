@@ -22,13 +22,13 @@
 	</v-container>
 </template>
 
-<script>
-export default {
-	props: {
-		skills: {
-			type: Array,
-			required: true,
-		},
-	},
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { SoftSkillModel } from '~/types/models'
+
+@Component
+export default class ResumeSoftSkillsList extends Vue {
+	@Prop({ required: true })
+	skills!: SoftSkillModel[]
 }
 </script>

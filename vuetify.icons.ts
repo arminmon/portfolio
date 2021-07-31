@@ -154,13 +154,15 @@ const simpleIcons = {
 	vuetify: Vuetify.path,
 }
 
-export default {
-	iconfont: 'mdiSvg',
-	values: {
-		...materialDesignIcons,
-		...simpleIcons,
-		adonis_js: adonisJS,
-		crayon,
-		knex_js: knexJS,
-	},
+const values = {
+	...materialDesignIcons,
+	...simpleIcons,
+	adonis_js: adonisJS,
+	crayon,
+	knex_js: knexJS,
 }
+
+export default values
+
+const iconNames = Object.keys(values).map((key) => `$icon.${key}`)
+export type IconName = typeof iconNames[number]

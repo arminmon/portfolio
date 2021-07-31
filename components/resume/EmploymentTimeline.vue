@@ -125,16 +125,15 @@
 	</v-timeline>
 </template>
 
-<script>
-export default {
-	props: {
-		employments: {
-			type: Array,
-			required: true,
-		},
-	},
-	data: () => ({
-		options: ['sortDesc'],
-	}),
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { EmploymentModel } from '~/types/models'
+
+@Component
+export default class ResumeEmploymentTimeline extends Vue {
+	options: string[] = ['sortDesc']
+
+	@Prop({ required: true })
+	employments!: EmploymentModel[]
 }
 </script>

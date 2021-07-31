@@ -23,19 +23,20 @@
 	</v-app>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
+
+@Component({
 	layout: 'empty',
-	props: {
-		error: {
-			type: Object,
-			default: null,
-		},
-	},
+})
+export default class LayoutError extends Vue {
+	@Prop()
+	error: any = null
+
 	head() {
 		return {
-			title: this.error.statusCode || 500,
+			title: this.error!.statusCode || 500,
 		}
-	},
+	}
 }
 </script>

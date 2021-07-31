@@ -1,4 +1,6 @@
-export default {
+import { NuxtConfig } from '@nuxt/types'
+
+const configs: NuxtConfig = {
 	target: 'static',
 
 	head: {
@@ -21,10 +23,11 @@ export default {
 
 	components: true,
 
-	pageTransition: 'fade-transition',
-	layoutTransition: 'fade-transition',
+	pageTransition: { name: 'fade-transition' },
+	layoutTransition: { name: 'fade-transition' },
 
 	buildModules: [
+		'@nuxt/typescript-build',
 		'@nuxtjs/eslint-module',
 		'@nuxtjs/stylelint-module',
 		'@nuxtjs/vuetify',
@@ -40,10 +43,12 @@ export default {
 		treeShake: true,
 		defaultAssets: false,
 		customVariables: ['~/assets/styles/_vuetify'],
-		optionsPath: './vuetify.options.js',
+		optionsPath: './vuetify.options.ts',
 	},
 
 	build: {},
 
 	telemetry: false,
 }
+
+export default configs

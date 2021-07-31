@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES2018",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+		"esModuleInterop": true,
+		"allowJs": true,
+		"sourceMap": true,
+		"strict": true,
+		"noEmit": true,
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./*"],
+			"@/*": ["./*"]
+		},
+		"typeRoots": [
+			"./node_modules/@types",
+			"./types"
+		],
+		"types": [
+			"@types/node",
+			"@nuxt/types",
+			"@nuxt/content",
+			"@nuxtjs/vuetify",
+			"vuetify",
+			"simple-icons"
+		],
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
+	},
+	"exclude": ["node_modules"]
+}

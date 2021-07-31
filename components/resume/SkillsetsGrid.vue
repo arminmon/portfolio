@@ -86,26 +86,25 @@
 	</v-container>
 </template>
 
-<script>
-export default {
-	props: {
-		skillsets: {
-			type: Array,
-			required: true,
-		},
-	},
-	data: () => ({
-		dialog: false,
-		skill: null,
-	}),
-	methods: {
-		openDialog(skill) {
-			this.skill = skill
-			this.dialog = true
-		},
-		closeDialog() {
-			this.dialog = false
-		},
-	},
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
+import { SkillModel, SkillsetModel } from '~/types/models'
+
+@Component
+export default class ResumeSkillsetsGrid extends Vue {
+	dialog: boolean = false
+	skill: SkillModel | null = null
+
+	@Prop({ required: true })
+	skillsets!: SkillsetModel[]
+
+	openDialog(skill: SkillModel) {
+		this.skill = skill
+		this.dialog = true
+	}
+
+	closeDialog() {
+		this.dialog = false
+	}
 }
 </script>
