@@ -26,7 +26,7 @@
 					@click="openDialog(item)"
 				>
 					<v-avatar v-if="item.icon" left color="rgba(255,255,255,.2)">
-						<v-icon size="18" class="rounded-0">
+						<v-icon class="rounded-0">
 							{{ item.icon }}
 						</v-icon>
 					</v-avatar>
