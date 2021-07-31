@@ -75,6 +75,14 @@
 			"icon": "$icon.typescript"
 		},
 		{
+			"title": "Axios",
+			"subtitle": "A Promise-based HTTP client for the browser and NodeJS",
+			"link": "https://axios-http.com/",
+			"color": "#5A29E4",
+			"dark": true,
+			"icon": "$icon.axios"
+		},
+		{
 			"title": "VueJS",
 			"subtitle": "An open-source model–view–viewmodel front end JavaScript framework",
 			"link": "https://vuejs.org/",
