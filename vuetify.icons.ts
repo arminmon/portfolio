@@ -27,6 +27,7 @@ import AWS from 'simple-icons/icons/amazonaws'
 import Bootstrap from 'simple-icons/icons/bootstrap'
 import Bulma from 'simple-icons/icons/bulma'
 import CoffeeScript from 'simple-icons/icons/coffeescript'
+import Confluence from 'simple-icons/icons/confluence'
 import CSS3 from 'simple-icons/icons/css3'
 import Dribbble from 'simple-icons/icons/dribbble'
 import ElementaryOS from 'simple-icons/icons/elementary'
@@ -42,6 +43,7 @@ import HTML5 from 'simple-icons/icons/html5'
 import JAMStack from 'simple-icons/icons/jamstack'
 import JavaScript from 'simple-icons/icons/javascript'
 import JetBrains from 'simple-icons/icons/jetbrains'
+import Jira from 'simple-icons/icons/jira'
 import JWT from 'simple-icons/icons/jsonwebtokens'
 import Linkedin from 'simple-icons/icons/linkedin'
 import Linux from 'simple-icons/icons/linux'
@@ -64,6 +66,7 @@ import Sharp from 'simple-icons/icons/sharp'
 import SimpleIcons from 'simple-icons/icons/simpleicons'
 import Stylelint from 'simple-icons/icons/stylelint'
 import SVG from 'simple-icons/icons/svg'
+import Trello from 'simple-icons/icons/trello'
 import Twitter from 'simple-icons/icons/twitter'
 import TypeScript from 'simple-icons/icons/typescript'
 import Ubuntu from 'simple-icons/icons/ubuntu'
@@ -107,6 +110,7 @@ const simpleIcons = {
 	bootstrap: Bootstrap.path,
 	bulma: Bulma.path,
 	coffeescript: CoffeeScript.path,
+	confluence: Confluence.path,
 	css3: CSS3.path,
 	dribbble: Dribbble.path,
 	elementary_os: ElementaryOS.path,
@@ -122,6 +126,7 @@ const simpleIcons = {
 	jamstack: JAMStack.path,
 	javascript: JavaScript.path,
 	jetbrains: JetBrains.path,
+	jira: Jira.path,
 	jwt: JWT.path,
 	linkedin: Linkedin.path,
 	linux: Linux.path,
@@ -145,6 +150,7 @@ const simpleIcons = {
 	simple_icons: SimpleIcons.path,
 	stylelint: Stylelint.path,
 	svg: SVG.path,
+	trello: Trello.path,
 	twitter: Twitter.path,
 	typescript: TypeScript.path,
 	ubuntu: Ubuntu.path,
