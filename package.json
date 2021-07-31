@@ -24,7 +24,6 @@
   "dependencies": {
     "@fontsource/jetbrains-mono": "^4.5.0",
     "@nuxt/content": "^1.14.0",
-    "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.2",
     "nuxt": "^2.15.7"
   },
@@ -51,8 +50,6 @@
     "lint-staged": "^11.0.0",
     "nuxt-property-decorator": "^2.9.1",
     "prettier": "^2.3.2",
-    "pug": "^3.0.2",
-    "pug-plain-loader": "^1.1.0",
     "simple-icons": "^5.6.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
