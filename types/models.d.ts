@@ -66,7 +66,7 @@ export interface SkillModel {
 	color: string
 	light?: boolean
 	dark?: boolean
-	icon: IconName
+	icon?: IconName
 }
 
 export interface SkillsetModel extends IContentDocument {
