@@ -24,6 +24,7 @@ import Angular from 'simple-icons/icons/angular'
 import AppleIos from 'simple-icons/icons/ios'
 import AppleMacos from 'simple-icons/icons/macos'
 import AWS from 'simple-icons/icons/amazonaws'
+import AWSS3 from 'simple-icons/icons/amazons3'
 import Bootstrap from 'simple-icons/icons/bootstrap'
 import Bulma from 'simple-icons/icons/bulma'
 import CoffeeScript from 'simple-icons/icons/coffeescript'
@@ -107,6 +108,7 @@ const simpleIcons = {
 	apple_ios: AppleIos.path,
 	apple_macos: AppleMacos.path,
 	aws: AWS.path,
+	aws_s3: AWSS3.path,
 	bootstrap: Bootstrap.path,
 	bulma: Bulma.path,
 	coffeescript: CoffeeScript.path,

@@ -121,6 +121,14 @@
 			"color": "#232F3E",
 			"dark": true,
 			"icon": "$icon.aws"
+		},
+		{
+			"title": "Amazon S3",
+			"subtitle": "Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface.",
+			"link": "http://aws.amazon.com/s3/",
+			"color": "#569A31",
+			"dark": true,
+			"icon": "$icon.aws_s3"
 		}
 	]
 }
