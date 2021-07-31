@@ -76,7 +76,7 @@
 				<v-card-actions>
 					<v-btn text plain @click="closeDialog">Close</v-btn>
 					<v-spacer />
-					<v-btn text link target="_blank" :href="skill.link">
+					<v-btn v-if="skill.link" text link target="_blank" :href="skill.link">
 						<v-icon left>$icon.link</v-icon>
 						Learn more
 					</v-btn>

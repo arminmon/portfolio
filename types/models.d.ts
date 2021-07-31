@@ -62,7 +62,7 @@ export interface MembershipModel extends IContentDocument {
 export interface SkillModel {
 	title: string
 	subtitle?: string
-	link: string
+	link?: string
 	color: string
 	light?: boolean
 	dark?: boolean
