@@ -11,7 +11,15 @@
 			<template #header="{ items }">
 				<v-timeline-item hide-dot>
 					<v-toolbar dense flat color="transparent">
-						<v-toolbar-title class="primary--text text-wrap">
+						<v-toolbar-title
+							:class="[
+								'text-subtitle-1',
+								'text-md-h6',
+								'text-uppercase',
+								'text-wrap',
+								'primary--text',
+							]"
+						>
 							Education History
 						</v-toolbar-title>
 						<v-spacer />
