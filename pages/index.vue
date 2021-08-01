@@ -70,6 +70,7 @@
 									:color="link.color"
 									dark
 									large
+									outlined
 									:href="link.href"
 									target="_blank"
 									:class="{
