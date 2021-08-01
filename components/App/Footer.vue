@@ -24,11 +24,11 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { BuildingBlockModel } from '~/types/models'
+import { BuildingBlock } from '~/types/models'
 
 @Component
 export default class AppFooter extends Vue {
-	blocks: BuildingBlockModel[] = [
+	blocks: BuildingBlock[] = [
 		{
 			title: 'NuxtJS',
 			icon: '$icon.nuxt_js',

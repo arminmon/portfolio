@@ -1,12 +1,12 @@
 import type { IContentDocument } from '@nuxt/content/types/content'
 import type { IconName } from '~/vuetify.icons'
 
-export interface BuildingBlockModel {
+export interface BuildingBlock {
 	title: string
 	icon: IconName
 }
 
-export interface SocialLinkModel extends IContentDocument {
+export interface SocialLink extends IContentDocument {
 	title: string
 	slug: string
 	icon: string
@@ -14,12 +14,7 @@ export interface SocialLinkModel extends IContentDocument {
 	href: string
 }
 
-export interface EducationDetailModel {
-	title: string
-	items: string[]
-}
-
-export interface EducationModel extends IContentDocument {
+export interface Education extends IContentDocument {
 	title: string
 	subtitle?: string
 	institution: string
@@ -29,15 +24,13 @@ export interface EducationModel extends IContentDocument {
 	location: string
 	start_date: string
 	graduation_date?: string
-	details: EducationDetailModel[]
+	details: {
+		title: string
+		items: string[]
+	}
 }
 
-export interface EmploymentDetailModel {
-	title: string
-	items: string[]
-}
-
-export interface EmploymentModel extends IContentDocument {
+export interface Employment extends IContentDocument {
 	title: string
 	type: string
 	employer: string
@@ -46,10 +39,13 @@ export interface EmploymentModel extends IContentDocument {
 	location: string
 	start_date: string
 	end_date?: string
-	details: EmploymentDetailModel[]
+	details: {
+		title: string
+		items: string[]
+	}
 }
 
-export interface MembershipModel extends IContentDocument {
+export interface Membership extends IContentDocument {
 	title: string
 	subtitle: string
 	initials?: string
@@ -59,7 +55,7 @@ export interface MembershipModel extends IContentDocument {
 	join_date: string
 }
 
-export interface SkillModel {
+export interface Skill {
 	title: string
 	subtitle?: string
 	link?: string
@@ -69,12 +65,12 @@ export interface SkillModel {
 	icon?: IconName
 }
 
-export interface SkillsetModel extends IContentDocument {
+export interface Skillset extends IContentDocument {
 	order?: number
 	title: string
-	items: SkillModel[]
+	items: Skill[]
 }
 
-export interface SoftSkillModel extends IContentDocument {
+export interface SoftSkill extends IContentDocument {
 	order?: number
 }

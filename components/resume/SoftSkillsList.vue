@@ -24,11 +24,11 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import { SoftSkillModel } from '~/types/models'
+import type { SoftSkill } from '~/types/models'
 
 @Component
 export default class ResumeSoftSkillsList extends Vue {
 	@Prop({ required: true })
-	skills!: SoftSkillModel[]
+	skills!: SoftSkill
 }
 </script>

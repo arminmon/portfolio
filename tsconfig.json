@@ -14,12 +14,8 @@
 			"~/*": ["./*"],
 			"@/*": ["./*"]
 		},
-		"typeRoots": [
-			"./node_modules/@types",
-			"./types"
-		],
 		"types": [
-			"@types/node",
+			"node",
 			"@nuxt/types",
 			"@nuxt/content",
 			"@nuxtjs/vuetify",

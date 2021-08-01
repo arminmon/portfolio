@@ -121,35 +121,10 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { NavLink } from '~/types/common'
+import type { Context } from '@nuxt/types'
+import type { NavLink } from '~/types/elements'
 
-@Component({
-	asyncData: async ({ $content, error }) => {
-		try {
-			const socials = await $content('socials').fetch()
-			const employments = await $content('resume', 'employments').fetch()
-			const educations = await $content('resume', 'educations').fetch()
-			const memberships = await $content('resume', 'memberships').fetch()
-			const skillsets = await $content('resume', 'skillsets')
-				.sortBy('order', 'asc')
-				.fetch()
-			const softSkills = await $content('resume', 'soft-skills')
-				.sortBy('order', 'asc')
-				.fetch()
-
-			return {
-				socials,
-				employments,
-				educations,
-				memberships,
-				skillsets,
-				softSkills,
-			}
-		} catch (err) {
-			error(err)
-		}
-	},
-})
+@Component
 export default class PageIndex extends Vue {
 	menuFab: boolean = false
 	navLinks: NavLink[] = [
@@ -180,6 +155,32 @@ export default class PageIndex extends Vue {
 			to: '#soft_skills',
 		},
 	]
+
+	async asyncData({ $content, error }: Context) {
+		try {
+			const socials = await $content('socials').fetch()
+			const employments = await $content('resume', 'employments').fetch()
+			const educations = await $content('resume', 'educations').fetch()
+			const memberships = await $content('resume', 'memberships').fetch()
+			const skillsets = await $content('resume', 'skillsets')
+				.sortBy('order', 'asc')
+				.fetch()
+			const softSkills = await $content('resume', 'soft-skills')
+				.sortBy('order', 'asc')
+				.fetch()
+
+			return {
+				socials,
+				employments,
+				educations,
+				memberships,
+				skillsets,
+				softSkills,
+			}
+		} catch (err) {
+			error(err)
+		}
+	}
 
 	head() {
 		return {

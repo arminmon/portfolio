@@ -127,13 +127,13 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import { EducationModel } from '~/types/models'
+import type { Education } from '~/types/models'
 
 @Component
 export default class ResumeEducationTimeline extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	educations!: EducationModel[]
+	educations!: Education[]
 }
 </script>
