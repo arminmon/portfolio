@@ -2,12 +2,13 @@
 	<v-timeline :dense="$vuetify.breakpoint.smAndDown">
 		<v-data-iterator
 			:items="employments"
+			item-key="slug"
 			sort-by="start_date"
 			:sort-desc="options.includes('sortDesc')"
 			disable-pagination
 			hide-default-footer
 		>
-			<template #default="{ items }">
+			<template #header="{ items }">
 				<v-timeline-item hide-dot>
 					<v-toolbar dense flat color="transparent">
 						<v-toolbar-title class="primary--text text-wrap">
@@ -44,14 +45,9 @@
 						</v-toolbar>
 					</template>
 				</v-timeline-item>
-
-				<v-timeline-item
-					v-for="item in items"
-					:key="item.slug"
-					:color="item.color"
-					fill-dot
-					right
-				>
+			</template>
+			<template #item="{ item }">
+				<v-timeline-item :color="item.color" fill-dot right>
 					<v-card color="transparent" flat>
 						<v-card-text
 							v-if="$vuetify.breakpoint.smAndDown"
