@@ -8,6 +8,8 @@ $body-font-family: 'JetBrains Mono', monospace, sans-serif;
 $shadow-key-umbra-opacity: rgba(0, 0, 0, 0.015) !default;
 $shadow-key-penumbra-opacity: rgba(0, 0, 0, 0.05) !default;
 $shadow-key-ambient-opacity: rgba(0, 0, 0, 0.09) !default;
+// Spacing
+$spacer: 4px;
 // Material
 $material-dark: (
 	'toggle-buttons': (
