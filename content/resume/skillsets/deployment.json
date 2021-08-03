@@ -27,6 +27,14 @@
 			"icon": "$icon.jamstack"
 		},
 		{
+			"title": "Surge",
+			"subtitle": "Static web publishing for Front-End Developers",
+			"link": "https://surge.sh/",
+			"color": "#5CC18D",
+			"dark": true,
+			"icon": "$icon.surge"
+		},
+		{
 			"title": "Netlify",
 			"subtitle": "An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps",
 			"link": "https://www.netlify.com/",

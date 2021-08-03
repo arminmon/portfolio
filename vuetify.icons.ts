@@ -82,6 +82,7 @@ import adonisJS from '~/assets/icons/adonisJS'
 import axios from '~/assets/icons/axios'
 import crayon from '~/assets/icons/crayon'
 import knexJS from '~/assets/icons/knexJS'
+import surge from '~/assets/icons/surge'
 
 const materialDesignIcons = {
 	api: mdiApi,
@@ -172,6 +173,7 @@ const values = {
 	axios,
 	crayon,
 	knex_js: knexJS,
+	surge,
 }
 
 export default values
