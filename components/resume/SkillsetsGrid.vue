@@ -10,7 +10,7 @@
 					'primary--text',
 				]"
 			>
-				Technical Skillsets
+				{{ $t('Technical Skillsets') }}
 			</v-toolbar-title>
 		</v-toolbar>
 		<v-row
@@ -19,7 +19,7 @@
 			:dense="$vuetify.breakpoint.smAndDown"
 		>
 			<v-col cols="12" class="pb-0">
-				<v-subheader>{{ skillset.title }}</v-subheader>
+				<v-subheader>{{ $t(skillset.title) }}</v-subheader>
 			</v-col>
 			<v-col
 				v-for="item in skillset.items"
@@ -60,8 +60,8 @@
 					size="200"
 					:style="{
 						position: 'absolute',
-						top: '-15%',
-						right: '-15%',
+						left: !$vuetify.rtl ? 'unset' : '-15%',
+						right: $vuetify.rtl ? 'unset' : '-15%',
 						opacity: '.1',
 					}"
 				>
@@ -82,11 +82,13 @@
 					</ul>
 				</v-card-text>
 				<v-card-actions>
-					<v-btn text plain @click="closeDialog">Close</v-btn>
+					<v-btn text plain @click="closeDialog">
+						{{ $t('$vuetify.close') }}
+					</v-btn>
 					<v-spacer />
 					<v-btn v-if="skill.link" text link target="_blank" :href="skill.link">
 						<v-icon left>$icon.link</v-icon>
-						Learn more
+						{{ $t('Learn More') }}
 					</v-btn>
 				</v-card-actions>
 			</v-card>

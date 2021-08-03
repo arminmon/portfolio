@@ -5,7 +5,8 @@
 			id="speedDial"
 			v-model="menuFab"
 			top
-			right
+			:right="!$vuetify.rtl"
+			:left="$vuetify.rtl"
 			direction="bottom"
 			transition="slide-y-transition"
 		>
@@ -14,7 +15,12 @@
 					<v-icon>$icon.dots_vertical</v-icon>
 				</v-btn>
 			</template>
-			<v-tooltip v-for="(nav, index) in navLinks" :key="`nav-${index}`" left>
+			<v-tooltip
+				v-for="(nav, index) in navLinks"
+				:key="`nav-${index}`"
+				:left="!$vuetify.rtl"
+				:right="$vuetify.rtl"
+			>
 				<template #activator="{ on, attrs }">
 					<v-btn
 						v-bind="attrs"
@@ -27,7 +33,7 @@
 						<v-icon color="primary">{{ nav.icon }}</v-icon>
 					</v-btn>
 				</template>
-				<span>{{ nav.title }}</span>
+				<span>{{ $t(nav.title) }}</span>
 			</v-tooltip>
 		</v-speed-dial>
 		<v-container :style="{ maxWidth: '1100px' }">
@@ -46,7 +52,8 @@
 							:style="{
 								position: 'absolute',
 								bottom: '-5px',
-								right: '20px',
+								left: !$vuetify.rtl ? 'unset' : '20px',
+								right: $vuetify.rtl ? 'unset' : '20px',
 								opacity: 0.05,
 							}"
 						/>
@@ -57,8 +64,9 @@
 								pa-6 pa-md-8 pa-lg-10 pa-xl-12
 							"
 						>
-							{{ $vuetify.breakpoint.smAndDown ? 'Hi' : 'Hello' }} 👋,
-							I'm&nbsp;Armin.
+							{{ $vuetify.breakpoint.smAndDown ? $t('Hi') : $t('Hello') }}
+							👋,&nbsp;
+							<span class="text-nowrap">{{ $t("I'm Armin") }}.</span>
 						</v-card-title>
 					</v-card>
 				</v-col>

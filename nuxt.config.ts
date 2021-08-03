@@ -19,7 +19,7 @@ const configs: NuxtConfig = {
 
 	css: ['~/assets/styles/app'],
 
-	plugins: ['~/plugins/vue-filters'],
+	plugins: ['~/plugins/i18n'],
 
 	components: true,
 
@@ -33,11 +33,61 @@ const configs: NuxtConfig = {
 		'@nuxtjs/vuetify',
 	],
 
-	modules: ['@nuxt/content'],
-
-	axios: {},
+	modules: ['@nuxt/content', 'nuxt-i18n'],
 
 	content: {},
+
+	i18n: {
+		strategy: 'no_prefix',
+		detectBrowserLanguage: false,
+		defaultLocale: 'en',
+		locales: [
+			{
+				code: 'en',
+				iso: 'en-AU',
+				dir: 'ltr',
+				file: 'en.ts',
+				isCatchallLocale: true,
+			},
+			{
+				code: 'fa',
+				iso: 'fa-IR',
+				dir: 'rtl',
+				file: 'fa.ts',
+			},
+		],
+		vueI18n: {
+			silentFallbackWarn: true,
+			silentTranslationWarn: true,
+			dateTimeFormats: {
+				en: {
+					'long YMD': {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric',
+					},
+					'long YM': {
+						year: 'numeric',
+						month: 'long',
+					},
+				},
+				fa: {
+					'long YMD': {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric',
+					},
+					'long YM': {
+						year: 'numeric',
+						month: 'long',
+					},
+				},
+			},
+		},
+		lazy: true,
+		langDir: 'locales/',
+		vueI18nLoader: true,
+	},
 
 	vuetify: {
 		treeShake: true,

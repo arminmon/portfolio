@@ -20,7 +20,7 @@
 								'primary--text',
 							]"
 						>
-							Employment History
+							{{ $t('Employment History') }}
 						</v-toolbar-title>
 						<v-spacer />
 						<v-btn-toggle
@@ -48,7 +48,7 @@
 								borderless
 								dense
 							>
-								<v-btn value="sortDesc">Latest First</v-btn>
+								<v-btn value="sortDesc">{{ $t('Latest First') }}</v-btn>
 							</v-btn-toggle>
 						</v-toolbar>
 					</template>
@@ -62,29 +62,29 @@
 							class="text-caption pb-0"
 						>
 							<span>
-								{{ item.start_date | formatDate }}
+								{{ $d(new Date(item.start_date), 'long YM') }}
 							</span>
 							<span v-if="item.end_date">
-								— {{ item.end_date | formatDate }}
+								— {{ $d(new Date(item.end_date), 'long YM') }}
 							</span>
 						</v-card-text>
-						<v-card-title>{{ item.title }}</v-card-title>
+						<v-card-title>{{ $t(item.title) }}</v-card-title>
 						<v-card-subtitle>
 							<span>
-								{{ item.employer }}
+								{{ $t(item.employer) }}
 							</span>
 							<v-chip v-if="item.type" label x-small>
-								{{ item.type }}
+								{{ $t(item.type) }}
 							</v-chip>
 						</v-card-subtitle>
 						<v-card-text>
 							<v-expansion-panels v-if="item.details" multiple hover>
 								<v-expansion-panel
 									v-for="detail in item.details"
-									:key="detail.title"
+									:key="`${item.slug}-${detail.title}`"
 								>
 									<v-expansion-panel-header>
-										{{ detail.title }}
+										{{ $t(detail.title) }}
 									</v-expansion-panel-header>
 									<v-expansion-panel-content>
 										<ul>
@@ -104,10 +104,10 @@
 						<v-card color="transparent" flat>
 							<v-card-text class="text-caption">
 								<div v-if="item.end_date">
-									{{ item.end_date | formatDate }}
+									{{ $d(new Date(item.end_date), 'long YM') }}
 								</div>
 								<div>
-									{{ item.start_date | formatDate }}
+									{{ $d(new Date(item.start_date), 'long YM') }}
 								</div>
 							</v-card-text>
 						</v-card>

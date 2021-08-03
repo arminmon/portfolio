@@ -20,7 +20,7 @@
 								'primary--text',
 							]"
 						>
-							Professional Memberships
+							{{ $t('Professional Memberships') }}
 						</v-toolbar-title>
 						<v-spacer />
 						<v-btn-toggle
@@ -48,7 +48,7 @@
 								borderless
 								dense
 							>
-								<v-btn value="sortDesc">Latest First</v-btn>
+								<v-btn value="sortDesc">{{ $t('Latest First') }}</v-btn>
 							</v-btn-toggle>
 						</v-toolbar>
 					</template>
@@ -62,29 +62,19 @@
 							class="text-caption"
 						>
 							<span>
-								{{ item.join_date | formatDate }}
+								Since {{ $d(new Date(item.join_date), 'long YMD') }}
 							</span>
 						</v-card-text>
 						<v-card-title>{{ item.title }}</v-card-title>
 						<v-card-subtitle v-if="item.subtitle">
 							{{ item.subtitle }}
 						</v-card-subtitle>
-						<v-card-text>{{ item.institution }}</v-card-text>
+						<v-card-text>{{ $t(item.institution) }}</v-card-text>
 					</v-card>
 					<template #opposite>
 						<v-card flat>
 							<v-card-text class="text-caption">
-								<div>
-									Since
-									{{
-										item.join_date
-											| formatDate({
-												year: 'numeric',
-												month: 'long',
-												day: 'numeric',
-											})
-									}}
-								</div>
+								<div>Since {{ $d(new Date(item.join_date), 'long YMD') }}</div>
 							</v-card-text>
 						</v-card>
 					</template>

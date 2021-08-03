@@ -20,7 +20,7 @@
 								'primary--text',
 							]"
 						>
-							Education History
+							{{ $t('Education History') }}
 						</v-toolbar-title>
 						<v-spacer />
 						<v-btn-toggle
@@ -48,7 +48,7 @@
 								borderless
 								dense
 							>
-								<v-btn value="sortDesc">Latest First</v-btn>
+								<v-btn value="sortDesc">{{ $t('Latest First') }}</v-btn>
 							</v-btn-toggle>
 						</v-toolbar>
 					</template>
@@ -62,17 +62,17 @@
 							class="text-caption"
 						>
 							<span>
-								{{ item.start_date | formatDate }}
+								{{ $d(new Date(item.start_date), 'long YM') }}
 							</span>
 							<span class="font-weight-black">
-								— {{ item.graduation_date | formatDate }}
+								— {{ $d(new Date(item.graduation_date), 'long YM') }}
 							</span>
 						</v-card-text>
-						<v-card-title>{{ item.title }}</v-card-title>
+						<v-card-title>{{ $t(item.title) }}</v-card-title>
 						<v-card-subtitle v-if="item.subtitle">
-							{{ item.subtitle }}
+							{{ $t(item.subtitle) }}
 						</v-card-subtitle>
-						<v-card-text>{{ item.institution }}</v-card-text>
+						<v-card-text>{{ $t(item.institution) }}</v-card-text>
 						<v-card-text>
 							<v-expansion-panels v-if="item.details" multiple hover>
 								<v-expansion-panel
@@ -80,7 +80,7 @@
 									:key="detail.title"
 								>
 									<v-expansion-panel-header>
-										{{ detail.title }}
+										{{ $t(detail.title) }}
 									</v-expansion-panel-header>
 									<v-expansion-panel-content>
 										<ul>
@@ -100,10 +100,10 @@
 						<v-card flat>
 							<v-card-text class="text-caption">
 								<div class="font-weight-black">
-									{{ item.graduation_date | formatDate }}
+									{{ $d(new Date(item.graduation_date), 'long YM') }}
 								</div>
 								<div>
-									{{ item.start_date | formatDate }}
+									{{ $d(new Date(item.start_date), 'long YM') }}
 								</div>
 							</v-card-text>
 						</v-card>

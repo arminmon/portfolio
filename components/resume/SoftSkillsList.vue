@@ -2,7 +2,7 @@
 	<v-container>
 		<v-toolbar flat color="transparent">
 			<v-toolbar-title class="primary--text text-wrap">
-				Soft Skills
+				{{ $t('Soft Skills') }}
 			</v-toolbar-title>
 		</v-toolbar>
 		<v-row>
@@ -10,7 +10,7 @@
 				<v-expansion-panels hover>
 					<v-expansion-panel v-for="skill in skills" :key="skill.slug">
 						<v-expansion-panel-header class="primary--text text--darken-2">
-							{{ skill.title }}
+							{{ $t(skill.title) }}
 						</v-expansion-panel-header>
 						<v-expansion-panel-content>
 							<nuxt-content :document="skill" />

@@ -1,0 +1,12 @@
+// Vuetify RTL fix
+.v-application--is-rtl {
+	.blockquote {
+		padding: $spacer * 4 $spacer * 6 $spacer * 4 0;
+	}
+
+	ol,
+	ul {
+		padding-right: $spacer * 6;
+		padding-left: unset;
+	}
+}

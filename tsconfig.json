@@ -19,6 +19,7 @@
 			"@nuxt/types",
 			"@nuxt/content",
 			"@nuxtjs/vuetify",
+			"nuxt-i18n",
 			"vuetify",
 			"simple-icons"
 		],

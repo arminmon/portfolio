@@ -1,8 +1,12 @@
 import type { GlobalVuetifyPreset as VuetifyOptions } from 'vuetify/types/services/presets'
+import type { Context } from '@nuxt/types'
 import colors from 'vuetify/lib/util/colors'
 import icons from '~/vuetify.icons'
 
-const options: VuetifyOptions = {
+const options = ({ app }: Context): VuetifyOptions => ({
+	lang: {
+		t: (key, ...params) => <string>app.i18n.t(key, params),
+	},
 	rtl: false,
 	icons: {
 		iconfont: 'mdiSvg',
@@ -30,6 +34,6 @@ const options: VuetifyOptions = {
 			},
 		},
 	},
-}
+})
 
 export default options
