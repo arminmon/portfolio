@@ -25,6 +25,14 @@
 			"color": "#F0047F",
 			"dark": true,
 			"icon": "$icon.jamstack"
+		},
+		{
+			"title": "Netlify",
+			"subtitle": "An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps",
+			"link": "https://www.netlify.com/",
+			"color": "#00C7B7",
+			"dark": true,
+			"icon": "$icon.netlify"
 		}
 	]
 }

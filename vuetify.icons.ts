@@ -54,6 +54,7 @@ import MaterialDesignIcons from 'simple-icons/icons/materialdesignicons'
 import Miro from 'simple-icons/icons/miro'
 import MySQL from 'simple-icons/icons/mysql'
 import NextJS from 'simple-icons/icons/nextdotjs'
+import Netlify from 'simple-icons/icons/netlify'
 import NodeJS from 'simple-icons/icons/nodedotjs'
 import NounProject from 'simple-icons/icons/nounproject'
 import NuxtJS from 'simple-icons/icons/nuxtdotjs'
@@ -139,6 +140,7 @@ const simpleIcons = {
 	miro: Miro.path,
 	ms_windows: Windows.path,
 	mysql: MySQL.path,
+	netlify: Netlify.path,
 	next_js: NextJS.path,
 	node_js: NodeJS.path,
 	noun_project: NounProject.path,
