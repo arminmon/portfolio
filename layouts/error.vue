@@ -31,11 +31,11 @@ import { Component, Prop, Vue } from 'nuxt-property-decorator'
 })
 export default class LayoutError extends Vue {
 	@Prop()
-	error: any = null
+	error!: any
 
 	head() {
 		return {
-			title: this.error!.statusCode || 500,
+			title: this.error ? this.error!.statusCode : 'ERROR',
 		}
 	}
 }
