@@ -1,11 +1,4 @@
 @import 'fonts';
 @import 'vuetify';
 @import 'fixes';
-
-.v-application {
-	.v-overlay {
-		&--active, &__scrim{
-			backdrop-filter: blur(5px);
-		}
-	}
-}
+@import 'overrides';
