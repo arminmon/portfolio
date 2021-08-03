@@ -72,38 +72,6 @@
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.markdown"
-		},
-		{
-			"title": "Miro",
-			"subtitle": "A collaborative online whiteboard",
-			"link": "https://miro.com/app/dashboard/",
-			"color": "#050038",
-			"dark": true,
-			"icon": "$icon.miro"
-		},
-		{
-			"title": "Trello",
-			"subtitle": "A web-based, Kanban-style, list-making application and is a subsidiary of Atlassian.",
-			"link": "https://trello.com",
-			"color": "#0052CC",
-			"dark": true,
-			"icon": "$icon.trello"
-		},
-		{
-			"title": "Jira",
-			"subtitle": "A proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.",
-			"link": "https://www.atlassian.com/software/jira",
-			"color": "#0052CC",
-			"dark": true,
-			"icon": "$icon.jira"
-		},
-		{
-			"title": "Confluence",
-			"subtitle": "A web-based corporate wiki developed by Atlassian",
-			"link": "https://www.atlassian.com/software/confluence",
-			"color": "#172B4D",
-			"dark": true,
-			"icon": "$icon.confluence"
 		}
 	]
 }
