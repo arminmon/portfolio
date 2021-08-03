@@ -91,7 +91,7 @@ const materialDesignIcons = {
 	dots_vertical: mdiDotsVertical,
 	email: mdiEmail,
 	handshake: mdiHandshake,
-	home_assistant: mdiHomeAssistant,
+	home: mdiHomeAssistant,
 	human_greeting: mdiHumanGreeting,
 	link: mdiLinkVariant,
 	pencil_ruler: mdiPencilRuler,
