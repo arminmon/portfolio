@@ -46,6 +46,7 @@ const messages = {
 	'Frontend Development': 'توسعه فرانت‌اند',
 	'Backend Development': 'توسعه بک‌اند',
 	'Development Tools': 'ابزار توسعه',
+	'Deployment': 'به‌کاراندازی',
 	'Project Tools': 'ابزار پروژه',
 	'Principles': 'اصول',
 	'Graphic Design': 'طراحی گرافیک',

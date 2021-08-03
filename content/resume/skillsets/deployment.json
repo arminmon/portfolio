@@ -1,0 +1,30 @@
+{
+	"order": 2,
+	"title": "Deployment",
+	"items": [
+		{
+			"title": "Heroku",
+			"subtitle": "A container-based cloud Platform as a Service",
+			"link": "http://heroku.com",
+			"color": "#430098",
+			"dark": true,
+			"icon": "$icon.heroku"
+		},
+		{
+			"title": "AWS",
+			"subtitle": "Amazon Web Services",
+			"link": "http://aws.amazon.com",
+			"color": "#232F3E",
+			"dark": true,
+			"icon": "$icon.aws"
+		},
+		{
+			"title": "JAMStack",
+			"subtitle": "JavaScript, APIs, and Markup",
+			"link": "https://jamstack.org/",
+			"color": "#F0047F",
+			"dark": true,
+			"icon": "$icon.jamstack"
+		}
+	]
+}

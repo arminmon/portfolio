@@ -131,14 +131,6 @@
 			"icon": "$icon.next_js"
 		},
 		{
-			"title": "JAMStack",
-			"subtitle": "JavaScript, APIs, and Markup",
-			"link": "https://jamstack.org/",
-			"color": "#F0047F",
-			"dark": true,
-			"icon": "$icon.jamstack"
-		},
-		{
 			"title": "UIKit",
 			"subtitle": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
 			"link": "https://getuikit.com/",

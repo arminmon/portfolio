@@ -107,22 +107,6 @@
 			"icon": "$icon.knex_js"
 		},
 		{
-			"title": "Heroku",
-			"subtitle": "A container-based cloud Platform as a Service",
-			"link": "http://heroku.com",
-			"color": "#430098",
-			"dark": true,
-			"icon": "$icon.heroku"
-		},
-		{
-			"title": "AWS",
-			"subtitle": "Amazon Web Services",
-			"link": "http://aws.amazon.com",
-			"color": "#232F3E",
-			"dark": true,
-			"icon": "$icon.aws"
-		},
-		{
 			"title": "Amazon S3",
 			"subtitle": "Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface.",
 			"link": "http://aws.amazon.com/s3/",
