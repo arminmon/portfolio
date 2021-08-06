@@ -28,7 +28,7 @@ const configs: NuxtConfig = {
 	layoutTransition: { name: 'fade-transition' },
 
 	loadingIndicator: {
-		name: 'nuxt',
+		name: 'cube-grid',
 		color: '#FFF',
 		background: '#3B8070',
 	},
