@@ -27,14 +27,6 @@
 			"icon": "$icon.ms_windows"
 		},
 		{
-			"title": "Linux",
-			"subtitle": "A family of open-source Unix-like operating systems based on the Linux kernel",
-			"link": "https://www.linux.org/",
-			"color": "#FCC624",
-			"light": true,
-			"icon": "$icon.linux"
-		},
-		{
 			"title": "Ubuntu",
 			"subtitle": "A Linux distribution based on Debian and composed mostly of free and open-source software",
 			"link": "https://ubuntu.com/",

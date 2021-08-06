@@ -47,7 +47,6 @@ import JetBrains from 'simple-icons/icons/jetbrains'
 import Jira from 'simple-icons/icons/jira'
 import JWT from 'simple-icons/icons/jsonwebtokens'
 import Linkedin from 'simple-icons/icons/linkedin'
-import Linux from 'simple-icons/icons/linux'
 import Markdown from 'simple-icons/icons/markdown'
 import MaterialDesign from 'simple-icons/icons/materialdesign'
 import MaterialDesignIcons from 'simple-icons/icons/materialdesignicons'
@@ -134,7 +133,6 @@ const simpleIcons = {
 	jira: Jira.path,
 	jwt: JWT.path,
 	linkedin: Linkedin.path,
-	linux: Linux.path,
 	markdown: Markdown.path,
 	material_design_icons: MaterialDesignIcons.path,
 	material_design: MaterialDesign.path,
