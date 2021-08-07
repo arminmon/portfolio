@@ -21,7 +21,8 @@
 			"@nuxtjs/vuetify",
 			"nuxt-i18n",
 			"vuetify",
-			"simple-icons"
+			"simple-icons",
+			"chroma-js"
 		],
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true

@@ -20,7 +20,7 @@ const configs: NuxtConfig = {
 
 	css: ['~/assets/styles/app'],
 
-	plugins: ['~/plugins/i18n'],
+	plugins: ['~/plugins/i18n', '~/plugins/chroma'],
 
 	components: true,
 
