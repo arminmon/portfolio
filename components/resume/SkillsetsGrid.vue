@@ -47,8 +47,8 @@
 				v-if="skill"
 				v-model="dialog"
 				max-width="320px"
-				:overlay-color="skill.color"
-				overlay-opacity=".2"
+				:overlay-color="$chroma(skill.color).darken(3).hex()"
+				overlay-opacity=".3"
 			>
 				<v-card
 					:color="skill.color"
