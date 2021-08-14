@@ -35,7 +35,7 @@
 			"icon": "$icon.typescript"
 		},
 		{
-			"title": "AdonisJS",
+			"title": "Adonis",
 			"subtitle": "A fully featured web framework for NodeJS",
 			"link": "https://adonisjs.com/",
 			"color": "#5A45FF",
@@ -43,7 +43,7 @@
 			"icon": "$icon.adonis_js"
 		},
 		{
-			"title": "ExpressJS",
+			"title": "Express",
 			"subtitle": "A minimal and flexible NodeJS web application framework",
 			"link": "https://expressjs.com/",
 			"color": "#000",
