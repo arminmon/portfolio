@@ -1,3 +1,5 @@
+import SvgPath from 'svgpath'
+
 import {
 	mdiApi,
 	mdiChevronUp,
@@ -83,7 +85,11 @@ import crayon from '~/assets/icons/crayon'
 import knexJS from '~/assets/icons/knexJS'
 import surge from '~/assets/icons/surge'
 
-const materialDesignIcons = {
+declare interface IconValues {
+	[key: string]: string
+}
+
+const materialDesignIcons: IconValues = {
 	api: mdiApi,
 	chevron_up: mdiChevronUp,
 	console: mdiConsole,
@@ -103,7 +109,7 @@ const materialDesignIcons = {
 	tea: mdiTea,
 }
 
-const simpleIcons = {
+const simpleIcons: IconValues = {
 	affinity_designer: AffinityDesigner.path,
 	affinity_photo: AffinityPhoto.path,
 	angular: Angular.path,
@@ -164,7 +170,17 @@ const simpleIcons = {
 	vuetify: Vuetify.path,
 }
 
-const values = {
+// Transform Simple Icons to align with MDI principles
+Object.keys(simpleIcons).forEach((key) => {
+	simpleIcons[key] = SvgPath(simpleIcons[key])
+		.scale(20 / 24)
+		.translate(2, 2)
+		.rel()
+		.round(1)
+		.toString()
+})
+
+const values: IconValues = {
 	...materialDesignIcons,
 	...simpleIcons,
 	adonis_js: adonisJS,
