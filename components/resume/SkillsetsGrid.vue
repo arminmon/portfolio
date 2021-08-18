@@ -38,9 +38,9 @@
 							v-if="item.icon"
 							left
 							:color="
-								item.dark
-									? $chroma(item.color).brighten(0.25).hex()
-									: $chroma(item.color).darken(0.25).hex()
+								item.light
+									? $chroma(item.color).brighten(0.15).hex()
+									: $chroma(item.color).darken(0.15).hex()
 							"
 						>
 							<v-icon class="rounded-0">
