@@ -13,7 +13,7 @@
 			<template #activator>
 				<v-btn
 					v-model="menuFab"
-					aria-label="Navigation menu"
+					:aria-label="$t('Navigation Menu')"
 					fab
 					elevation="18"
 					color="primary"

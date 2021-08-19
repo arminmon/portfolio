@@ -7,6 +7,7 @@ const messages = {
 	'Hello': 'درود',
 	'Hi': 'درود',
 
+	'Navigation Menu': 'منوی ناوبری',
 	'Scroll Up': 'برگشت به بالا',
 
 	'Employment History': 'سوابق شغلی',
