@@ -27,12 +27,6 @@ const configs: NuxtConfig = {
 	pageTransition: { name: 'fade-transition' },
 	layoutTransition: { name: 'fade-transition' },
 
-	loadingIndicator: {
-		name: 'cube-grid',
-		color: '#FFF',
-		background: '#3B8070',
-	},
-
 	buildModules: [
 		'@nuxt/typescript-build',
 		'@nuxtjs/eslint-module',
