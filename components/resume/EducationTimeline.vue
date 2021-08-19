@@ -33,7 +33,7 @@
 								borderless
 								dense
 							>
-								<v-btn value="sortDesc">
+								<v-btn value="sortDesc" :aria-label="$t('Latest First')">
 									<v-icon>$icon.sort_calendar_desc</v-icon>
 								</v-btn>
 							</v-btn-toggle>
