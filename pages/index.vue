@@ -11,7 +11,13 @@
 			transition="slide-y-transition"
 		>
 			<template #activator>
-				<v-btn v-model="menuFab" fab elevation="18" color="primary">
+				<v-btn
+					v-model="menuFab"
+					aria-label="Navigation menu"
+					fab
+					elevation="18"
+					color="primary"
+				>
 					<v-icon>$icon.dots_vertical</v-icon>
 				</v-btn>
 			</template>

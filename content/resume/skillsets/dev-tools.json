@@ -15,7 +15,7 @@
 			"subtitle": "Distributed version control system",
 			"link": "https://git-scm.com/",
 			"color": "#F05032",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.git"
 		},
 		{

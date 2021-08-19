@@ -7,7 +7,7 @@
 			"subtitle": "Hypertext Markup Language",
 			"link": "https://html.spec.whatwg.org/",
 			"color": "#E34F26",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.html5"
 		},
 		{
@@ -31,7 +31,7 @@
 			"subtitle": "Syntactically Awesome Style Sheets",
 			"link": "https://sass-lang.com/",
 			"color": "#CC6699",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.sass"
 		},
 		{
@@ -63,7 +63,7 @@
 			"subtitle": "Asynchronous Event-driven JavaScript Runtime",
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.node_js"
 		},
 		{
@@ -87,7 +87,7 @@
 			"subtitle": "An open-source model–view–viewmodel front end JavaScript framework",
 			"link": "https://vuejs.org/",
 			"color": "#4FC08D",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.vue_js"
 		},
 		{
@@ -95,7 +95,7 @@
 			"subtitle": "A meta-framework for universal VueJS applications",
 			"link": "https://nuxtjs.org",
 			"color": "#00C58E",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.nuxt_js"
 		},
 		{
@@ -135,7 +135,7 @@
 			"subtitle": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
 			"link": "https://getuikit.com/",
 			"color": "#2396F3",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.uikit"
 		},
 		{
@@ -143,7 +143,7 @@
 			"subtitle": "A free, open source CSS framework based on Flexbox and built with Sass",
 			"link": "https://bulma.io/",
 			"color": "#00D1B2",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.bulma"
 		},
 		{

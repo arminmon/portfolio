@@ -7,7 +7,7 @@
 			"subtitle": "A vector graphics editor and prototyping tool which is primarily web-based",
 			"link": "https://www.figma.com/",
 			"color": "#F24E1E",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.figma"
 		},
 		{

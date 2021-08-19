@@ -23,7 +23,7 @@
 			"subtitle": "JavaScript, APIs, and Markup",
 			"link": "https://jamstack.org/",
 			"color": "#F0047F",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.jamstack"
 		},
 		{
@@ -31,7 +31,7 @@
 			"subtitle": "Static web publishing for Front-End Developers",
 			"link": "https://surge.sh/",
 			"color": "#5CC18D",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.surge"
 		},
 		{
@@ -39,7 +39,7 @@
 			"subtitle": "An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps",
 			"link": "https://www.netlify.com/",
 			"color": "#00C7B7",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.netlify"
 		}
 	]

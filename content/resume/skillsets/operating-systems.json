@@ -31,7 +31,7 @@
 			"subtitle": "A Linux distribution based on Debian and composed mostly of free and open-source software",
 			"link": "https://ubuntu.com/",
 			"color": "#E95420",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.ubuntu"
 		},
 		{
@@ -39,7 +39,7 @@
 			"subtitle": "A Linux distribution based on Ubuntu LTS",
 			"link": "https://elementary.io/",
 			"color": "#64BAFF",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.elementary_os"
 		}
 	]

@@ -23,7 +23,7 @@
 			"subtitle": "Asynchronous Event-driven JavaScript Runtime",
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.node_js"
 		},
 		{
@@ -63,7 +63,7 @@
 			"subtitle": "High performance NodeJS image processing",
 			"link": "https://sharp.pixelplumbing.com/",
 			"color": "#99CC00",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.sharp"
 		},
 		{
@@ -103,7 +103,7 @@
 			"subtitle": "A \"batteries included\" SQL query builder",
 			"link": "https://knexjs.org/",
 			"color": "#E16426",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.knex_js"
 		},
 		{
@@ -111,7 +111,7 @@
 			"subtitle": "Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface.",
 			"link": "http://aws.amazon.com/s3/",
 			"color": "#569A31",
-			"dark": true,
+			"light": true,
 			"icon": "$icon.aws_s3"
 		}
 	]
