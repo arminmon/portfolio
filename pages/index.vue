@@ -81,6 +81,7 @@
 									outlined
 									:href="link.href"
 									target="_blank"
+									rel="noopener noreferrer"
 									:class="{
 										'px-6': true,
 										'transition-swing': true,

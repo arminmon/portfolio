@@ -99,8 +99,9 @@
 							v-if="skill.link"
 							text
 							link
-							target="_blank"
 							:href="skill.link"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<v-icon left>$icon.link</v-icon>
 							{{ $t('Learn More') }}
