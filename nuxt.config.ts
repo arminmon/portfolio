@@ -22,7 +22,7 @@ const configs: NuxtConfig = {
 		],
 	},
 
-	css: ['~/assets/styles/app'],
+	css: ['@fontsource/jetbrains-mono', '~/assets/styles/app'],
 
 	plugins: ['~/plugins/i18n', '~/plugins/chroma'],
 
