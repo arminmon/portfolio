@@ -24,7 +24,7 @@ const configs: NuxtConfig = {
 
 	css: ['@fontsource/jetbrains-mono', '~/assets/styles/app'],
 
-	plugins: ['~/plugins/i18n', '~/plugins/chroma'],
+	plugins: ['~/plugins/i18n', '~/plugins/chroma', '~/plugins/vue-masonry'],
 
 	components: true,
 
