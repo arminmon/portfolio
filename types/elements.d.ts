@@ -1,6 +1,6 @@
 import type { IconName } from '~/vuetify.icons'
 
-export interface NavLink {
+declare interface NavLink {
 	title: string
 	icon: IconName
 	to: string | number

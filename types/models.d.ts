@@ -1,12 +1,12 @@
 import type { IContentDocument } from '@nuxt/content/types/content'
 import type { IconName } from '~/vuetify.icons'
 
-export interface BuildingBlock {
+declare interface BuildingBlock {
 	title: string
 	icon: IconName
 }
 
-export interface SocialLink extends IContentDocument {
+declare interface SocialLink extends IContentDocument {
 	title: string
 	slug: string
 	icon: string
@@ -14,7 +14,7 @@ export interface SocialLink extends IContentDocument {
 	href: string
 }
 
-export interface Education extends IContentDocument {
+declare interface Education extends IContentDocument {
 	title: string
 	subtitle?: string
 	institution: string
@@ -30,7 +30,7 @@ export interface Education extends IContentDocument {
 	}
 }
 
-export interface Employment extends IContentDocument {
+declare interface Employment extends IContentDocument {
 	title: string
 	type: string
 	employer: string
@@ -45,7 +45,7 @@ export interface Employment extends IContentDocument {
 	}
 }
 
-export interface Membership extends IContentDocument {
+declare interface Membership extends IContentDocument {
 	title: string
 	subtitle: string
 	initials?: string
@@ -55,7 +55,7 @@ export interface Membership extends IContentDocument {
 	join_date: string
 }
 
-export interface Skill {
+declare interface Skill {
 	title: string
 	subtitle?: string
 	link?: string
@@ -65,12 +65,12 @@ export interface Skill {
 	icon?: IconName
 }
 
-export interface Skillset extends IContentDocument {
+declare interface Skillset extends IContentDocument {
 	order?: number
 	title: string
 	items: Skill[]
 }
 
-export interface SoftSkill extends IContentDocument {
+declare interface SoftSkill extends IContentDocument {
 	order?: number
 }
