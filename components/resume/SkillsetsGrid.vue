@@ -15,7 +15,7 @@
 				</v-toolbar-title>
 			</v-toolbar>
 			<v-row
-				v-for="skillset in skillsets"
+				v-for="skillset in items"
 				:key="skillset.slug"
 				:dense="$vuetify.breakpoint.smAndDown"
 			>
@@ -127,7 +127,7 @@ export default class ResumeSkillsetsGrid extends Vue {
 	skill: Skill | null = null
 
 	@Prop({ required: true })
-	skillsets!: Skillset[]
+	items!: Skillset[]
 
 	openDialog(skill: Skill) {
 		this.skill = skill

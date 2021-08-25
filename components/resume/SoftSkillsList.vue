@@ -8,7 +8,7 @@
 		<v-row>
 			<v-col cols="12">
 				<v-expansion-panels hover>
-					<v-expansion-panel v-for="skill in skills" :key="skill.slug">
+					<v-expansion-panel v-for="skill in items" :key="skill.slug">
 						<v-expansion-panel-header class="primary--text text--darken-2">
 							{{ $t(skill.title) }}
 						</v-expansion-panel-header>
@@ -29,6 +29,6 @@ import type { SoftSkill } from '~/types/models'
 @Component
 export default class ResumeSoftSkillsList extends Vue {
 	@Prop({ required: true })
-	skills!: SoftSkill
+	items!: SoftSkill[]
 }
 </script>

@@ -2,7 +2,7 @@
 	<client-only>
 		<v-timeline :dense="$vuetify.breakpoint.smAndDown">
 			<v-data-iterator
-				:items="educations"
+				:items="items"
 				item-key="slug"
 				sort-by="start_date"
 				:sort-desc="options.includes('sortDesc')"
@@ -136,6 +136,6 @@ export default class ResumeEducationTimeline extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	educations!: Education[]
+	items!: Education[]
 }
 </script>
