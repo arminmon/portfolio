@@ -131,6 +131,14 @@
 			"icon": "$icon.angular"
 		},
 		{
+			"title": "Jasmine",
+			"subtitle": "A behavior-driven development framework for testing JavaScript code that plays very well with Karma.",
+			"link": "https://jasmine.github.io/",
+			"color": "#8A4182",
+			"dark": true,
+			"icon": "$icon.jasmine"
+		},
+		{
 			"title": "UIKit",
 			"subtitle": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
 			"link": "https://getuikit.com/",
