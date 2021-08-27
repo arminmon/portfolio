@@ -2,6 +2,12 @@
 	<v-footer app absolute>
 		<v-container class="py-12">
 			<v-row dense justify="center">
+				<v-col cols="auto">
+					<span class="text-caption" :style="{ opacity: 0.5 }">this</span>
+				</v-col>
+				<v-col cols="auto">
+					<v-icon x-small :style="{ opacity: 0.5 }">$icon.equal</v-icon>
+				</v-col>
 				<template v-for="(block, index) in blocks">
 					<v-col v-if="index !== 0" :key="`${block.title}-plus`" cols="auto">
 						<v-icon x-small :style="{ opacity: 0.5 }">$icon.plus</v-icon>
