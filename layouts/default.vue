@@ -1,5 +1,9 @@
 <template>
 	<v-app>
+		<app-floating-action-button
+			ref="appFab"
+			@open-app-drawer="appDrawer.$emit('open-drawer')"
+		/>
 		<app-drawer
 			ref="appDrawer"
 			@drawer-closed="appFab.$emit('app-drawer-closed')"
@@ -16,6 +20,9 @@ import { Component, Ref, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class LayoutDefault extends Vue {
+	@Ref()
+	readonly appFab!: Vue
+
 	head() {
 		return this.$nuxtI18nHead({ addSeoAttributes: true })
 	}
