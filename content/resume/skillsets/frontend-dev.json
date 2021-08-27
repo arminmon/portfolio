@@ -132,7 +132,7 @@
 		},
 		{
 			"title": "Jasmine",
-			"subtitle": "A behavior-driven development framework for testing JavaScript code that plays very well with Karma.",
+			"subtitle": "A behavior-driven development framework for testing JavaScript code that plays very well with Karma",
 			"link": "https://jasmine.github.io/",
 			"color": "#8A4182",
 			"dark": true,
