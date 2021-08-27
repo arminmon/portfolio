@@ -161,6 +161,14 @@
 			"color": "#7952B3",
 			"dark": true,
 			"icon": "$icon.bootstrap"
+		},
+		{
+			"title": "The A11y Project",
+			"subtitle": "The A11y Project is a community-driven effort to make digital accessibility easier",
+			"link": "https://www.a11yproject.com/",
+			"color": "#EEE",
+			"light": true,
+			"icon": "$icon.human"
 		}
 	]
 }
