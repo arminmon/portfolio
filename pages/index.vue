@@ -1,47 +1,5 @@
 <template>
 	<v-sheet class="pb-12">
-		<v-speed-dial
-			v-show="$vuetify.breakpoint.mdAndUp"
-			id="speedDial"
-			v-model="menuFab"
-			top
-			:right="!$vuetify.rtl"
-			:left="$vuetify.rtl"
-			direction="bottom"
-			transition="slide-y-transition"
-		>
-			<template #activator>
-				<v-btn
-					v-model="menuFab"
-					:aria-label="$t('Navigation Menu')"
-					fab
-					elevation="18"
-					color="primary"
-				>
-					<v-icon>$icon.dots_vertical</v-icon>
-				</v-btn>
-			</template>
-			<v-tooltip
-				v-for="(nav, index) in navLinks"
-				:key="`nav-${index}`"
-				:left="!$vuetify.rtl"
-				:right="$vuetify.rtl"
-			>
-				<template #activator="{ on, attrs }">
-					<v-btn
-						v-bind="attrs"
-						fab
-						small
-						elevation="9"
-						@click="$vuetify.goTo(nav.to, { offset: 24 })"
-						v-on="on"
-					>
-						<v-icon color="primary">{{ nav.icon }}</v-icon>
-					</v-btn>
-				</template>
-				<span>{{ $t(nav.title) }}</span>
-			</v-tooltip>
-		</v-speed-dial>
 		<v-container :style="{ maxWidth: '1100px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
@@ -142,40 +100,9 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
 import type { Context } from '@nuxt/types'
-import type { NavLink } from '~/types/elements'
 
 @Component
 export default class PageIndex extends Vue {
-	menuFab: boolean = false
-	navLinks: NavLink[] = [
-		{ title: 'Scroll Up', icon: '$icon.chevron_up', to: 0 },
-		{
-			title: 'Employment History',
-			icon: '$icon.domain',
-			to: '#employment_history',
-		},
-		{
-			title: 'Education History',
-			icon: '$icon.school',
-			to: '#education_history',
-		},
-		{
-			title: 'Professional Memberships',
-			icon: '$icon.handshake',
-			to: '#membership_history',
-		},
-		{
-			title: 'Technical Skillsets',
-			icon: '$icon.pencil_ruler',
-			to: '#technical_skillsets',
-		},
-		{
-			title: 'Soft Skills',
-			icon: '$icon.human_greeting',
-			to: '#soft_skills',
-		},
-	]
-
 	async asyncData({ $content, error }: Context) {
 		try {
 			const socials = await $content('socials').fetch()
@@ -209,10 +136,3 @@ export default class PageIndex extends Vue {
 	}
 }
 </script>
-
-<style lang="scss" scoped>
-#speedDial {
-	position: fixed;
-	z-index: 150;
-}
-</style>
