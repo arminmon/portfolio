@@ -1,5 +1,9 @@
 <template>
 	<v-app>
+		<app-drawer
+			ref="appDrawer"
+			@drawer-closed="appFab.$emit('app-drawer-closed')"
+		/>
 		<v-main>
 			<nuxt />
 		</v-main>
@@ -8,7 +12,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
+import { Component, Ref, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class LayoutDefault extends Vue {
