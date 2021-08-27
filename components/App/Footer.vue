@@ -1,6 +1,6 @@
 <template>
 	<v-footer app absolute>
-		<v-container class="py-12">
+		<v-container class="pt-12 pb-16 pb-sm-12">
 			<v-row dense justify="center">
 				<v-col cols="auto">
 					<span class="text-caption" :style="{ opacity: 0.5 }">this</span>
