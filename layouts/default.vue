@@ -23,6 +23,9 @@ export default class LayoutDefault extends Vue {
 	@Ref()
 	readonly appFab!: Vue
 
+	@Ref()
+	readonly appDrawer!: Vue
+
 	head() {
 		return this.$nuxtI18nHead({ addSeoAttributes: true })
 	}
