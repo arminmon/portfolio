@@ -83,7 +83,7 @@
 			"icon": "$icon.axios"
 		},
 		{
-			"title": "VueJS",
+			"title": "Vue",
 			"subtitle": "An open-source model–view–viewmodel front end JavaScript framework",
 			"link": "https://vuejs.org/",
 			"color": "#4FC08D",
@@ -92,7 +92,7 @@
 		},
 		{
 			"title": "Nuxt",
-			"subtitle": "A meta-framework for universal VueJS applications",
+			"subtitle": "A meta-framework for universal Vue applications",
 			"link": "https://nuxtjs.org",
 			"color": "#00C58E",
 			"light": true,
@@ -100,7 +100,7 @@
 		},
 		{
 			"title": "Vuetify",
-			"subtitle": "A Material Design component framework for VueJS",
+			"subtitle": "A Material Design component framework for Vue",
 			"link": "https://vuetifyjs.com/",
 			"color": "#1867C0",
 			"dark": true,

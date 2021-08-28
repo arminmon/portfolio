@@ -19,7 +19,7 @@
 		{
 			"title": "Achievements",
 			"items": [
-				"Developed and designed a web application on top of NuxtJS (as static generator for VueJS) and VuetifyJS (Material Design UI components for VueJS).",
+				"Developed and designed a web application on top of Nuxt (as static generator for Vue) and Vuetify (Material Design UI components for Vue).",
 				"Maintained a fully-customisable theming system to comply with the university's branding.",
 				"Created an automated flow for the deployment of the website by integrating the dedicated GitHub repository with Travis CI for hosting via GitHub Pages platform (JAMStack)."
 			]

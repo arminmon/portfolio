@@ -36,15 +36,15 @@ import { BuildingBlock } from '~/types/models'
 export default class AppFooter extends Vue {
 	blocks: BuildingBlock[] = [
 		{
-			title: 'NuxtJS',
+			title: 'Nuxt',
 			icon: '$icon.nuxt_js',
 		},
 		{
-			title: 'VueJS',
+			title: 'Vue',
 			icon: '$icon.vue_js',
 		},
 		{
-			title: 'VuetifyJS',
+			title: 'Vuetify',
 			icon: '$icon.vuetify',
 		},
 		{
