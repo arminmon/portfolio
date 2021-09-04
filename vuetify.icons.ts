@@ -48,7 +48,6 @@ import HTML5 from 'simple-icons/icons/html5'
 import JAMStack from 'simple-icons/icons/jamstack'
 import Jasmine from 'simple-icons/icons/jasmine'
 import JavaScript from 'simple-icons/icons/javascript'
-import JetBrains from 'simple-icons/icons/jetbrains'
 import Jira from 'simple-icons/icons/jira'
 import JWT from 'simple-icons/icons/jsonwebtokens'
 import Linkedin from 'simple-icons/icons/linkedin'
@@ -141,7 +140,6 @@ const simpleIcons: IconValues = {
 	jamstack: JAMStack.path,
 	jasmine: Jasmine.path,
 	javascript: JavaScript.path,
-	jetbrains: JetBrains.path,
 	jira: Jira.path,
 	jwt: JWT.path,
 	linkedin: Linkedin.path,

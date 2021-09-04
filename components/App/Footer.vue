@@ -68,10 +68,6 @@ export default class AppFooter extends Vue {
 			icon: '$icon.noun_project',
 		},
 		{
-			title: 'JetBrains Mono Font',
-			icon: '$icon.jetbrains',
-		},
-		{
 			title: 'GitHub Actions',
 			icon: '$icon.github_actions',
 		},
