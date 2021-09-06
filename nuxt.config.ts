@@ -102,7 +102,9 @@ const configs: NuxtConfig = {
 		optionsPath: './vuetify.options.ts',
 	},
 
-	build: {},
+	build: {
+		extractCSS: true,
+	},
 
 	telemetry: false,
 }
