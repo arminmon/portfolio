@@ -36,6 +36,7 @@ const configs: NuxtConfig = {
 		'@nuxtjs/eslint-module',
 		'@nuxtjs/stylelint-module',
 		'@nuxtjs/vuetify',
+		'nuxt-compress',
 	],
 
 	modules: ['@nuxt/content', 'nuxt-i18n'],
