@@ -3,6 +3,7 @@
 		<v-container>
 			<v-toolbar flat color="transparent">
 				<v-toolbar-title
+					role="heading"
 					:class="[
 						'text-subtitle-1',
 						'text-md-h6',

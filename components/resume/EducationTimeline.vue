@@ -13,6 +13,7 @@
 					<v-timeline-item hide-dot>
 						<v-toolbar dense flat color="transparent">
 							<v-toolbar-title
+								role="heading"
 								:class="[
 									'text-subtitle-1',
 									'text-md-h6',

@@ -1,7 +1,16 @@
 <template>
 	<v-container>
 		<v-toolbar flat color="transparent">
-			<v-toolbar-title class="primary--text text-wrap">
+			<v-toolbar-title
+				role="heading"
+				:class="[
+					'text-subtitle-1',
+					'text-md-h6',
+					'text-uppercase',
+					'text-wrap',
+					'primary--text',
+				]"
+			>
 				{{ $t('Soft Skills') }}
 			</v-toolbar-title>
 		</v-toolbar>
