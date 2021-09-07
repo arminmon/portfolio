@@ -14,20 +14,37 @@
 				{{ $t('Soft Skills') }}
 			</v-toolbar-title>
 		</v-toolbar>
-		<v-row>
-			<v-col cols="12">
-				<v-expansion-panels hover>
-					<v-expansion-panel v-for="skill in items" :key="skill.slug">
-						<v-expansion-panel-header class="primary--text text--darken-2">
+		<client-only>
+			<v-row v-masonry>
+				<v-col
+					v-for="skill in items"
+					:key="skill.slug"
+					v-masonry-tile
+					cols="12"
+					sm="6"
+					md="4"
+					lg="3"
+					xl="2"
+				>
+					<v-card elevation="8">
+						<v-card-title
+							:class="[
+								'text-subtitle-2',
+								'text-md-subtitle-1',
+								'text-wrap',
+								'primary--text',
+								'text--darken-2',
+							]"
+						>
 							{{ $t(skill.title) }}
-						</v-expansion-panel-header>
-						<v-expansion-panel-content>
+						</v-card-title>
+						<v-card-text>
 							<nuxt-content :document="skill" />
-						</v-expansion-panel-content>
-					</v-expansion-panel>
-				</v-expansion-panels>
-			</v-col>
-		</v-row>
+						</v-card-text>
+					</v-card>
+				</v-col>
+			</v-row>
+		</client-only>
 	</v-container>
 </template>
 
