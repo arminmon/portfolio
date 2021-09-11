@@ -12,17 +12,18 @@
 				<template #header="{ items }">
 					<v-timeline-item hide-dot>
 						<v-toolbar dense flat color="transparent">
-							<v-toolbar-title
-								role="heading"
-								:class="[
-									'text-subtitle-1',
-									'text-md-h6',
-									'text-uppercase',
-									'text-wrap',
-									'primary--text',
-								]"
-							>
-								{{ $t('Employment History') }}
+							<v-toolbar-title>
+								<h2
+									:class="[
+										'text-subtitle-1',
+										'text-md-h6',
+										'text-uppercase',
+										'text-wrap',
+										'primary--text',
+									]"
+								>
+									{{ $t('Employment History') }}
+								</h2>
 							</v-toolbar-title>
 							<v-spacer />
 							<v-btn-toggle
