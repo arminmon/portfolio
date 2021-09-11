@@ -22,7 +22,9 @@
 				:dense="$vuetify.breakpoint.smAndDown"
 			>
 				<v-col cols="12" class="pb-0">
-					<v-subheader>{{ $t(skillset.title) }}</v-subheader>
+					<v-subheader>
+						<h3 class="text-subtitle-2">{{ $t(skillset.title) }}</h3>
+					</v-subheader>
 				</v-col>
 				<v-col
 					v-for="item in skillset.items"

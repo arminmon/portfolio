@@ -28,16 +28,18 @@
 					xl="2"
 				>
 					<v-card elevation="8">
-						<v-card-title
-							:class="[
-								'text-subtitle-2',
-								'text-md-subtitle-1',
-								'text-wrap',
-								'primary--text',
-								'text--darken-2',
-							]"
-						>
-							{{ $t(skill.title) }}
+						<v-card-title>
+							<h3
+								:class="[
+									'text-subtitle-2',
+									'text-md-subtitle-1',
+									'text-wrap',
+									'primary--text',
+									'text--darken-2',
+								]"
+							>
+								{{ $t(skill.title) }}
+							</h3>
 						</v-card-title>
 						<v-card-text>
 							<nuxt-content :document="skill" />
