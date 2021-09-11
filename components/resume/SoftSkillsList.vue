@@ -57,7 +57,19 @@ import type { SoftSkill } from '~/types/models'
 
 @Component
 export default class ResumeSoftSkillsList extends Vue {
+	$redrawVueMasonry: any
+
 	@Prop({ required: true })
 	items!: SoftSkill[]
+
+	renderMasonry() {
+		if (typeof this.$redrawVueMasonry === 'function') {
+			this.$redrawVueMasonry()
+		}
+	}
+
+	mounted() {
+		this.renderMasonry()
+	}
 }
 </script>
