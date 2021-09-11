@@ -8,7 +8,8 @@
 			"link": "https://www.figma.com/",
 			"color": "#F24E1E",
 			"light": true,
-			"icon": "$icon.figma"
+			"icon": "$icon.figma",
+			"is_preferred": true
 		},
 		{
 			"title": "Affinity Designer",
@@ -16,7 +17,8 @@
 			"link": "https://affinity.serif.com/en-gb/designer/",
 			"color": "#1B72BE",
 			"dark": true,
-			"icon": "$icon.affinity_designer"
+			"icon": "$icon.affinity_designer",
+			"is_preferred": true
 		},
 		{
 			"title": "Affinity Photo",
@@ -32,7 +34,8 @@
 			"link": "https://www.w3.org/Graphics/SVG/",
 			"color": "#FFB13B",
 			"light": true,
-			"icon": "$icon.svg"
+			"icon": "$icon.svg",
+			"is_preferred": true
 		},
 		{
 			"title": "Google Material Design",
@@ -40,7 +43,8 @@
 			"link": "https://material.io/design",
 			"color": "#757575",
 			"dark": true,
-			"icon": "$icon.material_design"
+			"icon": "$icon.material_design",
+			"is_preferred": true
 		}
 	]
 }

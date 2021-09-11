@@ -32,7 +32,8 @@
 			"link": "https://sass-lang.com/",
 			"color": "#CC6699",
 			"light": true,
-			"icon": "$icon.sass"
+			"icon": "$icon.sass",
+			"is_preferred": true
 		},
 		{
 			"title": "PostCSS",
@@ -64,7 +65,8 @@
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"light": true,
-			"icon": "$icon.node_js"
+			"icon": "$icon.node_js",
+			"is_preferred": true
 		},
 		{
 			"title": "TypeScript",
@@ -72,7 +74,8 @@
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
-			"icon": "$icon.typescript"
+			"icon": "$icon.typescript",
+			"is_preferred": true
 		},
 		{
 			"title": "Axios",
@@ -96,7 +99,8 @@
 			"link": "https://nuxtjs.org",
 			"color": "#00C58E",
 			"light": true,
-			"icon": "$icon.nuxt_js"
+			"icon": "$icon.nuxt_js",
+			"is_preferred": true
 		},
 		{
 			"title": "Vuetify",
@@ -104,7 +108,8 @@
 			"link": "https://vuetifyjs.com/",
 			"color": "#1867C0",
 			"dark": true,
-			"icon": "$icon.vuetify"
+			"icon": "$icon.vuetify",
+			"is_preferred": true
 		},
 		{
 			"title": "React",
@@ -152,7 +157,8 @@
 			"link": "https://bulma.io/",
 			"color": "#00D1B2",
 			"light": true,
-			"icon": "$icon.bulma"
+			"icon": "$icon.bulma",
+			"is_preferred": true
 		},
 		{
 			"title": "Bootstrap",
@@ -168,7 +174,8 @@
 			"link": "https://www.a11yproject.com/",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.human"
+			"icon": "$icon.human",
+			"is_preferred": true
 		}
 	]
 }

@@ -3,12 +3,13 @@
 	"title": "Development Tools",
 	"items": [
 		{
-			"title": "CLI (Terminal ❤️)",
+			"title": "CLI (Terminal)",
 			"subtitle": "Command-Line Interface",
 			"link": "https://www.linuxjournal.com/content/linux-command-line-interface-introduction-guide",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.console"
+			"icon": "$icon.console",
+			"is_preferred": true
 		},
 		{
 			"title": "Git",
@@ -16,7 +17,8 @@
 			"link": "https://git-scm.com/",
 			"color": "#F05032",
 			"light": true,
-			"icon": "$icon.git"
+			"icon": "$icon.git",
+			"is_preferred": true
 		},
 		{
 			"title": "GitHub",
@@ -24,7 +26,8 @@
 			"link": "https://github.com/",
 			"color": "#181717",
 			"dark": true,
-			"icon": "$icon.github"
+			"icon": "$icon.github",
+			"is_preferred": true
 		},
 		{
 			"title": "VSCode",
@@ -32,7 +35,8 @@
 			"link": "https://code.visualstudio.com/",
 			"color": "#007ACC",
 			"dark": true,
-			"icon": "$icon.vscode"
+			"icon": "$icon.vscode",
+			"is_preferred": true
 		},
 		{
 			"title": "ESlint",
@@ -40,7 +44,8 @@
 			"link": "http://eslint.org",
 			"color": "#4B32C3",
 			"dark": true,
-			"icon": "$icon.eslint"
+			"icon": "$icon.eslint",
+			"is_preferred": true
 		},
 		{
 			"title": "Prettier",
@@ -48,7 +53,8 @@
 			"link": "https://prettier.io/",
 			"color": "#F7B93E",
 			"light": true,
-			"icon": "$icon.prettier"
+			"icon": "$icon.prettier",
+			"is_preferred": true
 		},
 		{
 			"title": "Stylelint",
@@ -56,7 +62,8 @@
 			"link": "https://stylelint.io/",
 			"color": "#263238",
 			"dark": true,
-			"icon": "$icon.stylelint"
+			"icon": "$icon.stylelint",
+			"is_preferred": true
 		},
 		{
 			"title": "CodeKit",
@@ -71,7 +78,8 @@
 			"link": "https://daringfireball.net/projects/markdown/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.markdown"
+			"icon": "$icon.markdown",
+			"is_preferred": true
 		}
 	]
 }

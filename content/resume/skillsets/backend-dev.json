@@ -8,7 +8,8 @@
 			"link": "https://restfulapi.net/",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.api"
+			"icon": "$icon.api",
+			"is_preferred": true
 		},
 		{
 			"title": "JWT",
@@ -16,7 +17,8 @@
 			"link": "https://jwt.io/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.jwt"
+			"icon": "$icon.jwt",
+			"is_preferred": true
 		},
 		{
 			"title": "NodeJS",
@@ -32,7 +34,8 @@
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
 			"dark": true,
-			"icon": "$icon.typescript"
+			"icon": "$icon.typescript",
+			"is_preferred": true
 		},
 		{
 			"title": "Adonis",
@@ -40,7 +43,8 @@
 			"link": "https://adonisjs.com/",
 			"color": "#5A45FF",
 			"dark": true,
-			"icon": "$icon.adonis_js"
+			"icon": "$icon.adonis_js",
+			"is_preferred": true
 		},
 		{
 			"title": "Express",
@@ -80,7 +84,8 @@
 			"link": "https://www.datanamic.com/support/lt-dez005-introduction-db-modeling.html",
 			"color": "#EEE",
 			"light": true,
-			"icon": "$icon.database"
+			"icon": "$icon.database",
+			"is_preferred": true
 		},
 		{
 			"title": "PostgreSQL",
@@ -88,7 +93,8 @@
 			"link": "https://www.postgresql.org/",
 			"color": "#4169E1",
 			"dark": true,
-			"icon": "$icon.postgresql"
+			"icon": "$icon.postgresql",
+			"is_preferred": true
 		},
 		{
 			"title": "MySQL",
@@ -104,7 +110,8 @@
 			"link": "https://knexjs.org/",
 			"color": "#E16426",
 			"light": true,
-			"icon": "$icon.knex_js"
+			"icon": "$icon.knex_js",
+			"is_preferred": true
 		},
 		{
 			"title": "Amazon S3",

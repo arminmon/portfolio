@@ -8,7 +8,8 @@
 			"link": "https://www.apple.com/macos",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.apple_macos"
+			"icon": "$icon.apple_macos",
+			"is_preferred": true
 		},
 		{
 			"title": "iOS",

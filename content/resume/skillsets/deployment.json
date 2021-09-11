@@ -8,7 +8,8 @@
 			"link": "http://heroku.com",
 			"color": "#430098",
 			"dark": true,
-			"icon": "$icon.heroku"
+			"icon": "$icon.heroku",
+			"is_preferred": true
 		},
 		{
 			"title": "AWS",
@@ -24,7 +25,8 @@
 			"link": "https://jamstack.org/",
 			"color": "#F0047F",
 			"light": true,
-			"icon": "$icon.jamstack"
+			"icon": "$icon.jamstack",
+			"is_preferred": true
 		},
 		{
 			"title": "Surge",
@@ -32,7 +34,8 @@
 			"link": "https://surge.sh/",
 			"color": "#5CC18D",
 			"light": true,
-			"icon": "$icon.surge"
+			"icon": "$icon.surge",
+			"is_preferred": true
 		},
 		{
 			"title": "Netlify",
