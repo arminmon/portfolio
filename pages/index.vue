@@ -100,9 +100,24 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
 import type { Context } from '@nuxt/types'
+import type {
+	SocialLink,
+	Employment,
+	Education,
+	Membership,
+	Skillset,
+	SoftSkill,
+} from '~/types/models'
 
 @Component
 export default class PageIndex extends Vue {
+	socials!: SocialLink[]
+	employments!: Employment[]
+	educations!: Education[]
+	memberships!: Membership[]
+	skillsets!: Skillset[]
+	softSkills!: SoftSkill[]
+
 	async asyncData({ $content, error }: Context) {
 		try {
 			const socials = await $content('socials').fetch()
