@@ -15,8 +15,9 @@
 			"@/*": ["./*"]
 		},
 		"types": [
-			"node",
+			"@types/node",
 			"@nuxt/types",
+			"nuxt-property-decorator",
 			"@nuxt/content",
 			"@nuxtjs/vuetify",
 			"nuxt-i18n",
@@ -25,7 +26,9 @@
 			"chroma-js"
 		],
 		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true
+		"emitDecoratorMetadata": true,
+		"importHelpers": true
 	},
-	"exclude": ["node_modules"]
+	"include": ["**/*"],
+	"exclude": ["node_modules", ".nuxt", "dist"]
 }
