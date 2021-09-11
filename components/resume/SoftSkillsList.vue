@@ -27,7 +27,7 @@
 					lg="3"
 					xl="2"
 				>
-					<v-card elevation="8">
+					<v-card flat outlined>
 						<v-card-title>
 							<h3
 								:class="[
