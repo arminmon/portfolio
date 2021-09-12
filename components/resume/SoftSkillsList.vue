@@ -69,7 +69,9 @@ export default class ResumeSoftSkillsList extends Vue {
 	}
 
 	mounted() {
-		this.renderMasonry()
+		setTimeout(() => {
+			this.renderMasonry()
+		})
 	}
 }
 </script>
