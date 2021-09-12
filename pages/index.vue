@@ -69,27 +69,37 @@
 				</v-col>
 				<v-col cols="12">
 					<v-card id="employment_history" tag="section" elevation="16">
-						<resume-employment-timeline :items="employments" />
+						<v-lazy :options="{ threshold: 0.1 }">
+							<resume-employment-timeline :items="employments" />
+						</v-lazy>
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="education_history" tag="section" elevation="16">
-						<resume-education-timeline :items="educations" />
+						<v-lazy :options="{ threshold: 0.1 }">
+							<resume-education-timeline :items="educations" />
+						</v-lazy>
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="membership_history" tag="section" elevation="16">
-						<resume-membership-timeline :items="memberships" />
+						<v-lazy :options="{ threshold: 0.1 }">
+							<resume-membership-timeline :items="memberships" />
+						</v-lazy>
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="technical_skillsets" tag="section" elevation="16">
-						<resume-skillsets-grid :items="skillsets" />
+						<v-lazy :options="{ threshold: 0.1 }">
+							<resume-skillsets-grid :items="skillsets" />
+						</v-lazy>
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="soft_skills" tag="section" elevation="16">
-						<resume-soft-skills-list :items="softSkills" />
+						<v-lazy :options="{ threshold: 0.1 }">
+							<resume-soft-skills-list :items="softSkills" />
+						</v-lazy>
 					</v-card>
 				</v-col>
 			</v-row>
