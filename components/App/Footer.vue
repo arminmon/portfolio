@@ -76,7 +76,7 @@ export default class AppFooter extends Vue {
 			icon: '$icon.github',
 		},
 		{
-			title: 'Theine',
+			title: 'Some theine',
 			icon: '$icon.tea',
 		},
 	]
