@@ -139,7 +139,7 @@ export default class PageIndex extends Vue {
 				skillsets,
 				softSkills,
 			}
-		} catch (err) {
+		} catch (err: any) {
 			error(err)
 		}
 	}
