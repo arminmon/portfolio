@@ -85,6 +85,7 @@ import adonisJS from '~/assets/icons/adonisJS'
 import axios from '~/assets/icons/axios'
 import crayon from '~/assets/icons/crayon'
 import knexJS from '~/assets/icons/knexJS'
+import sourcetree from '~/assets/icons/sourcetree'
 import surge from '~/assets/icons/surge'
 
 declare interface IconValues {
@@ -191,6 +192,7 @@ const values: IconValues = {
 	axios,
 	crayon,
 	knex_js: knexJS,
+	sourcetree,
 	surge,
 }
 

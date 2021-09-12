@@ -21,6 +21,15 @@
 			"is_preferred": true
 		},
 		{
+			"title": "Sourcetree",
+			"subtitle": "A GUI that offers a visual representation of git repositories",
+			"link": "https://www.sourcetreeapp.com/",
+			"color": "#0052CC",
+			"dark": true,
+			"icon": "$icon.sourcetree",
+			"is_preferred": true
+		},
+		{
 			"title": "GitHub",
 			"subtitle": "Hosting for software development and version control using Git",
 			"link": "https://github.com/",
