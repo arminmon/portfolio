@@ -1,6 +1,6 @@
 <template>
 	<v-sheet class="pb-12">
-		<v-container :style="{ maxWidth: '1000px' }">
+		<v-container :style="{ maxWidth: '960px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
 					<v-card
