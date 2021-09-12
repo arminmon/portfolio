@@ -30,13 +30,14 @@
 					<v-card flat outlined>
 						<v-card-title>
 							<h3
-								:class="[
-									'text-subtitle-2',
-									'text-md-subtitle-1',
-									'text-wrap',
-									'primary--text',
-									'text--darken-2',
-								]"
+								:class="{
+									'text-subtitle-2': true,
+									'text-md-subtitle-1': true,
+									'text-wrap': true,
+									'primary--text': true,
+									'text--darken-2': !$vuetify.theme.dark,
+									'text--lighten-2': $vuetify.theme.dark,
+								}"
 							>
 								{{ $t(skill.title) }}
 							</h3>

@@ -16,7 +16,7 @@ const options = ({ app }: Context): VuetifyOptions => ({
 		dark: false,
 		options: { customProperties: true },
 		themes: {
-			light: {
+			dark: {
 				primary: colors.indigo.lighten1,
 				secondary: colors.deepOrange.lighten3,
 				info: colors.lightBlue.accent2,
@@ -24,7 +24,7 @@ const options = ({ app }: Context): VuetifyOptions => ({
 				error: colors.deepOrange.accent4,
 				success: colors.green.accent2,
 			},
-			dark: {
+			light: {
 				primary: colors.indigo.darken1,
 				secondary: colors.deepOrange.darken1,
 				info: colors.lightBlue.accent2,

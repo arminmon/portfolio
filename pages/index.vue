@@ -1,5 +1,5 @@
 <template>
-	<v-sheet class="pb-12">
+	<v-sheet color="transparent" class="pb-12">
 		<v-container :style="{ maxWidth: '960px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
@@ -47,7 +47,7 @@
 									:color="link.color"
 									dark
 									large
-									outlined
+									:outlined="!$vuetify.theme.dark"
 									:href="link.href"
 									target="_blank"
 									rel="noopener noreferrer"

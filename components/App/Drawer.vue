@@ -8,15 +8,25 @@
 		width="320"
 		color="primary"
 		dark
-		overlay-color="white"
-		overlay-opacity="0.75"
+		overlay-color="primary"
+		overlay-opacity="0.5"
 		class="ma-6 rounded"
 		:style="{
 			top: $vuetify.breakpoint.mobile ? 'unset' : '0',
 			bottom: $vuetify.breakpoint.mobile ? '0' : 'unset',
 		}"
 	>
-		<v-toolbar flat dense color="transparent">
+		<v-toolbar flat dense color="transparent" class="px-2">
+			<v-tooltip right>
+				<template #activator="{ on, attrs }">
+					<v-btn v-bind="attrs" small icon v-on="on" @click="toggleDarkMode">
+						<v-icon small>
+							{{ isDark ? '$icon.lightbulb_on' : '$icon.lightbulb_off' }}
+						</v-icon>
+					</v-btn>
+				</template>
+				<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
+			</v-tooltip>
 			<v-spacer />
 			<v-tooltip right>
 				<template #activator="{ on, attrs }">
@@ -53,6 +63,7 @@ import type { NavLink } from '~/types/elements'
 export default class AppDrawer extends Vue {
 	drawer: boolean = false
 	closeBtn: boolean = false
+	isDark: boolean = false
 	navLinks: NavLink[] = [
 		{
 			title: 'Employment History',
@@ -89,9 +100,19 @@ export default class AppDrawer extends Vue {
 		if (!value) this.drawerClosed()
 	}
 
+	@Watch('isDark', { immediate: true })
+	onIsDarkToggled(value: boolean) {
+		this.$vuetify.theme.dark = value
+	}
+
 	@On('open-drawer')
 	openDrawer(): void {
 		this.drawer = true
+	}
+
+	toggleDarkMode(): void {
+		this.isDark = !this.isDark
+		this.closeDrawer()
 	}
 
 	closeDrawer(): void {
