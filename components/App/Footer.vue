@@ -1,7 +1,7 @@
 <template>
 	<v-footer app absolute>
 		<v-container class="pt-12 pb-16 pb-sm-12">
-			<v-row dense justify="center">
+			<v-row :aria-label="buildingBlocksDescription" dense justify="center">
 				<v-col cols="auto">
 					<span class="text-caption" :style="{ opacity: 0.5 }">this</span>
 				</v-col>
@@ -80,5 +80,17 @@ export default class AppFooter extends Vue {
 			icon: '$icon.tea',
 		},
 	]
+
+	get buildingBlocksDescription(): string {
+		const listFormat = new (Intl as any).ListFormat('en', {
+			style: 'long',
+			type: 'conjunction',
+		})
+		const blocksList = listFormat.format(
+			this.blocks.map((block) => block.title)
+		)
+
+		return `This website was built using ${blocksList}`
+	}
 }
 </script>
