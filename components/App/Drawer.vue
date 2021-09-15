@@ -95,12 +95,12 @@ export default class AppDrawer extends Vue {
 	@Emit()
 	drawerClosed(): void {}
 
-	@Watch('drawer', { immediate: true })
+	@Watch('drawer')
 	onDrawerToggled(value: boolean) {
 		if (!value) this.drawerClosed()
 	}
 
-	@Watch('isDark', { immediate: true })
+	@Watch('isDark')
 	onIsDarkToggled(value: boolean) {
 		this.$vuetify.theme.dark = value
 	}
