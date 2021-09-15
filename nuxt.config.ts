@@ -24,7 +24,11 @@ const configs: NuxtConfig = {
 
 	css: ['@fontsource/recursive', '~/assets/styles/app'],
 
-	plugins: ['~/plugins/i18n', '~/plugins/chroma', '~/plugins/vue-masonry'],
+	plugins: [
+		'~/plugins/i18n',
+		'~/plugins/chroma',
+		'~/plugins/vue-masonry.client',
+	],
 
 	components: true,
 
