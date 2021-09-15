@@ -1,8 +1,8 @@
 import { NuxtConfig } from '@nuxt/types'
 
 const configs: NuxtConfig = {
-	target: 'static',
-	ssr: false,
+	target: 'server',
+	ssr: true,
 
 	head: {
 		titleTemplate: 'ARMIN MONIRZADEH | %s',
