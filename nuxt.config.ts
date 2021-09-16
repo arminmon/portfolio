@@ -1,7 +1,7 @@
 import { NuxtConfig } from '@nuxt/types'
 
 const configs: NuxtConfig = {
-	target: 'server',
+	target: 'static',
 	ssr: true,
 
 	head: {
