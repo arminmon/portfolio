@@ -40,32 +40,7 @@
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-row justify="center" :dense="$vuetify.breakpoint.smAndDown">
-						<v-col v-for="link in socials" :key="link.slug" cols="auto">
-							<v-hover #default="{ hover }">
-								<v-chip
-									:color="link.color"
-									dark
-									large
-									:outlined="!$vuetify.theme.dark"
-									:href="link.href"
-									target="_blank"
-									rel="noopener noreferrer"
-									:class="{
-										'px-6': true,
-										'transition-swing': true,
-										'elevation-8': hover,
-										'elevation-4': !hover,
-									}"
-								>
-									<v-icon :size="$vuetify.breakpoint.smAndDown ? 18 : 24" left>
-										{{ link.icon }}
-									</v-icon>
-									<span>{{ link.title }}</span>
-								</v-chip>
-							</v-hover>
-						</v-col>
-					</v-row>
+					<resume-social-links :items="socialLinks" />
 				</v-col>
 				<v-col cols="12">
 					<v-card id="employment_history" tag="section" elevation="16">
@@ -121,7 +96,7 @@ import type {
 
 @Component
 export default class PageIndex extends Vue {
-	socials!: SocialLink[]
+	socialLinks!: SocialLink[]
 	employments!: Employment[]
 	educations!: Education[]
 	memberships!: Membership[]
@@ -130,7 +105,7 @@ export default class PageIndex extends Vue {
 
 	async asyncData({ $content, error }: Context) {
 		try {
-			const socials = await $content('socials').fetch()
+			const socialLinks = await $content('socials').fetch()
 			const employments = await $content('resume', 'employments').fetch()
 			const educations = await $content('resume', 'educations').fetch()
 			const memberships = await $content('resume', 'memberships').fetch()
@@ -142,7 +117,7 @@ export default class PageIndex extends Vue {
 				.fetch()
 
 			return {
-				socials,
+				socialLinks,
 				employments,
 				educations,
 				memberships,
