@@ -62,7 +62,6 @@ import NextJS from 'simple-icons/icons/nextdotjs'
 import Netlify from 'simple-icons/icons/netlify'
 import NodeJS from 'simple-icons/icons/nodedotjs'
 import NounProject from 'simple-icons/icons/nounproject'
-import NuxtJS from 'simple-icons/icons/nuxtdotjs'
 import PostCss from 'simple-icons/icons/postcss'
 import PostgreSQL from 'simple-icons/icons/postgresql'
 import Prettier from 'simple-icons/icons/prettier'
@@ -88,6 +87,7 @@ import adonisJS from '~/assets/icons/adonisJS'
 import axios from '~/assets/icons/axios'
 import crayon from '~/assets/icons/crayon'
 import knexJS from '~/assets/icons/knexJS'
+import nuxt from '~/assets/icons/nuxt'
 import sourcetree from '~/assets/icons/sourcetree'
 import surge from '~/assets/icons/surge'
 
@@ -159,7 +159,6 @@ const simpleIcons: IconValues = {
 	next_js: NextJS.path,
 	node_js: NodeJS.path,
 	noun_project: NounProject.path,
-	nuxt_js: NuxtJS.path,
 	postcss: PostCss.path,
 	postgresql: PostgreSQL.path,
 	prettier: Prettier.path,
@@ -198,6 +197,7 @@ const values: IconValues = {
 	axios,
 	crayon,
 	knex_js: knexJS,
+	nuxt,
 	sourcetree,
 	surge,
 }

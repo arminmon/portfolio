@@ -97,9 +97,9 @@
 			"title": "Nuxt",
 			"subtitle": "A meta-framework for universal Vue applications",
 			"link": "https://nuxtjs.org",
-			"color": "#00C58E",
+			"color": "#00DC82",
 			"light": true,
-			"icon": "$icon.nuxt_js",
+			"icon": "$icon.nuxt",
 			"is_preferred": true
 		},
 		{
