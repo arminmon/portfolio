@@ -37,7 +37,7 @@ export default class AppFooter extends Vue {
 	blocks: BuildingBlock[] = [
 		{
 			title: 'Nuxt',
-			icon: '$icon.nuxt_js',
+			icon: '$icon.nuxt',
 		},
 		{
 			title: 'Vue',
