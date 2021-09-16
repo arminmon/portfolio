@@ -17,7 +17,7 @@
 		}"
 	>
 		<v-toolbar flat dense color="transparent" class="px-2">
-			<v-tooltip right>
+			<v-tooltip v-model="darkModeBtnTooltip" right>
 				<template #activator="{ on, attrs }">
 					<v-btn v-bind="attrs" small icon v-on="on" @click="toggleDarkMode">
 						<v-icon small>
@@ -28,7 +28,7 @@
 				<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
 			</v-tooltip>
 			<v-spacer />
-			<v-tooltip right>
+			<v-tooltip v-model="closeBtnTooltip" right>
 				<template #activator="{ on, attrs }">
 					<v-btn v-bind="attrs" small plain icon v-on="on" @click="closeDrawer">
 						<v-icon small>$icon.close</v-icon>
@@ -62,7 +62,8 @@ import type { NavLink } from '~/types/elements'
 @Component
 export default class AppDrawer extends Vue {
 	drawer: boolean = false
-	closeBtn: boolean = false
+	closeBtnTooltip: boolean = false
+	darkModeBtnTooltip: boolean = false
 	isDark: boolean = false
 	navLinks: NavLink[] = [
 		{
@@ -117,6 +118,8 @@ export default class AppDrawer extends Vue {
 
 	closeDrawer(): void {
 		this.drawer = false
+		this.closeBtnTooltip = false
+		this.darkModeBtnTooltip = false
 	}
 }
 </script>
