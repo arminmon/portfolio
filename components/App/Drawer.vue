@@ -14,6 +14,7 @@
 		:style="{
 			top: $vuetify.breakpoint.mobile ? 'unset' : '0',
 			bottom: $vuetify.breakpoint.mobile ? '0' : 'unset',
+			transform: drawer ? 'translateX(0)' : 'translateX(-125%)',
 		}"
 	>
 		<v-toolbar flat dense color="transparent" class="px-2">
