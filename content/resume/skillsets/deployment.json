@@ -20,6 +20,14 @@
 			"icon": "$icon.aws"
 		},
 		{
+			"title": "GitHub Actions",
+			"subtitle": "Automate, customise, and execute software development workflows right in repository",
+			"link": "https://github.com/features/actions",
+			"color": "#2088FF",
+			"light": true,
+			"icon": "$icon.github_actions"
+		},
+		{
 			"title": "JAMStack",
 			"subtitle": "JavaScript, APIs, and Markup",
 			"link": "https://jamstack.org/",
