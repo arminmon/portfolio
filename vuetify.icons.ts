@@ -78,6 +78,7 @@ import Twitter from 'simple-icons/icons/twitter'
 import TypeScript from 'simple-icons/icons/typescript'
 import Ubuntu from 'simple-icons/icons/ubuntu'
 import UIKit from 'simple-icons/icons/uikit'
+import Vercel from 'simple-icons/icons/vercel'
 import VSCode from 'simple-icons/icons/visualstudiocode'
 import VueJS from 'simple-icons/icons/vuedotjs'
 import Vuetify from 'simple-icons/icons/vuetify'
@@ -174,6 +175,7 @@ const simpleIcons: IconValues = {
 	typescript: TypeScript.path,
 	ubuntu: Ubuntu.path,
 	uikit: UIKit.path,
+	vercel: Vercel.path,
 	vscode: VSCode.path,
 	vue_js: VueJS.path,
 	vuetify: Vuetify.path,

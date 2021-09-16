@@ -68,12 +68,8 @@ export default class AppFooter extends Vue {
 			icon: '$icon.noun_project',
 		},
 		{
-			title: 'GitHub Actions',
-			icon: '$icon.github_actions',
-		},
-		{
-			title: 'GitHub Pages',
-			icon: '$icon.github',
+			title: 'Vercel',
+			icon: '$icon.vercel',
 		},
 		{
 			title: 'Some theine',
