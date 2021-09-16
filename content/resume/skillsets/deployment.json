@@ -28,6 +28,14 @@
 			"icon": "$icon.github_actions"
 		},
 		{
+			"title": "Vercel",
+			"subtitle": "A platform for static sites and frontend frameworks, built to integrate with your headless content, commerce, or database",
+			"link": "https://vercel.com/",
+			"color": "#000000",
+			"dark": true,
+			"icon": "$icon.vercel"
+		},
+		{
 			"title": "JAMStack",
 			"subtitle": "JavaScript, APIs, and Markup",
 			"link": "https://jamstack.org/",
