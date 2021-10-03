@@ -22,7 +22,7 @@ const options = ({ app }: Context): VuetifyOptions => ({
 				info: colors.lightBlue.accent2,
 				warning: colors.amber.accent2,
 				error: colors.deepOrange.accent4,
-				success: colors.green.accent2,
+				success: colors.green.accent4,
 			},
 			light: {
 				primary: colors.indigo.darken1,
@@ -30,7 +30,7 @@ const options = ({ app }: Context): VuetifyOptions => ({
 				info: colors.lightBlue.accent2,
 				warning: colors.amber.accent2,
 				error: colors.deepOrange.accent4,
-				success: colors.green.accent2,
+				success: colors.green.accent4,
 			},
 		},
 	},
