@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Nuxt",
+		"icon": "$icon.nuxt"
+	},
+	{
+		"title": "Vue",
+		"icon": "$icon.vue_js"
+	},
+	{
+		"title": "Vuetify",
+		"icon": "$icon.vuetify"
+	},
+	{
+		"title": "TypeScript",
+		"icon": "$icon.typescript"
+	},
+	{
+		"title": "Google Material Design",
+		"icon": "$icon.material_design"
+	},
+	{
+		"title": "Material Design Icons",
+		"icon": "$icon.material_design_icons"
+	},
+	{
+		"title": "Simple Icons",
+		"icon": "$icon.simple_icons"
+	},
+	{
+		"title": "Noun Project",
+		"icon": "$icon.noun_project"
+	},
+	{
+		"title": "Vercel",
+		"icon": "$icon.vercel"
+	},
+	{
+		"title": "Some theine",
+		"icon": "$icon.tea"
+	}
+]

@@ -6,7 +6,7 @@ declare interface BuildingBlock {
 	icon: IconName
 }
 
-declare interface SocialLink extends IContentDocument {
+declare interface SocialLink {
 	title: string
 	slug: string
 	icon: string
