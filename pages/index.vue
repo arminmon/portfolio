@@ -5,7 +5,7 @@
 				<v-col cols="12" class="pt-0">
 					<v-card
 						elevation="16"
-						class="rounded-t-0"
+						class="transition-swing rounded-t-0"
 						:style="{ overflow: 'hidden' }"
 					>
 						<v-img
@@ -43,38 +43,68 @@
 					<resume-social-links :items="socialLinks" />
 				</v-col>
 				<v-col cols="12">
-					<v-card id="employment_history" tag="section" elevation="16">
-						<v-lazy :options="{ threshold: 0.1 }">
-							<resume-employment-timeline :items="employments" />
-						</v-lazy>
+					<v-card
+						id="employment_history"
+						v-intersect="{
+							handler: onCardIntersect,
+							options: cardIntersectOptions,
+						}"
+						tag="section"
+						class="transition-swing"
+					>
+						<resume-employment-timeline :items="employments" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="education_history" tag="section" elevation="16">
-						<v-lazy :options="{ threshold: 0.1 }">
-							<resume-education-timeline :items="educations" />
-						</v-lazy>
+					<v-card
+						id="education_history"
+						v-intersect="{
+							handler: onCardIntersect,
+							options: cardIntersectOptions,
+						}"
+						tag="section"
+						class="transition-swing"
+					>
+						<resume-education-timeline :items="educations" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="membership_history" tag="section" elevation="16">
-						<v-lazy :options="{ threshold: 0.1 }">
-							<resume-membership-timeline :items="memberships" />
-						</v-lazy>
+					<v-card
+						id="membership_history"
+						v-intersect="{
+							handler: onCardIntersect,
+							options: cardIntersectOptions,
+						}"
+						tag="section"
+						class="transition-swing"
+					>
+						<resume-membership-timeline :items="memberships" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="technical_skillsets" tag="section" elevation="16">
-						<v-lazy :options="{ threshold: 0.1 }">
-							<resume-skillsets-grid :items="skillsets" />
-						</v-lazy>
+					<v-card
+						id="technical_skillsets"
+						v-intersect="{
+							handler: onCardIntersect,
+							options: cardIntersectOptions,
+						}"
+						tag="section"
+						class="transition-swing"
+					>
+						<resume-skillsets-grid :items="skillsets" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card id="soft_skills" tag="section" elevation="16">
-						<v-lazy :options="{ threshold: 0.1 }">
-							<resume-soft-skills-list :items="softSkills" />
-						</v-lazy>
+					<v-card
+						id="soft_skills"
+						v-intersect="{
+							handler: onCardIntersect,
+							options: cardIntersectOptions,
+						}"
+						tag="section"
+						class="transition-swing"
+					>
+						<resume-soft-skills-list :items="softSkills" />
 					</v-card>
 				</v-col>
 			</v-row>
@@ -102,6 +132,7 @@ export default class PageIndex extends Vue {
 	memberships!: Membership[]
 	skillsets!: Skillset[]
 	softSkills!: SoftSkill[]
+	cardIntersectOptions = { rootMargin: '-256px' }
 
 	async asyncData({ $content, error }: Context) {
 		try {
@@ -132,6 +163,21 @@ export default class PageIndex extends Vue {
 	head() {
 		return {
 			title: 'RÉSUMÉ',
+		}
+	}
+
+	onCardIntersect(
+		entries: IntersectionObserverEntry[],
+		_observer: IntersectionObserver,
+		isIntersecting: boolean
+	) {
+		const el = entries[0].target
+		if (isIntersecting) {
+			el.classList.add('elevation-16')
+			el.classList.remove('elevation-4')
+		} else {
+			el.classList.add('elevation-4')
+			el.classList.remove('elevation-16')
 		}
 	}
 }
