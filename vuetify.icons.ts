@@ -75,6 +75,7 @@ import Sharp from 'simple-icons/icons/sharp'
 import SimpleIcons from 'simple-icons/icons/simpleicons'
 import Stylelint from 'simple-icons/icons/stylelint'
 import SVG from 'simple-icons/icons/svg'
+import TailwindCSS from 'simple-icons/icons/tailwindcss'
 import Trello from 'simple-icons/icons/trello'
 import Twitter from 'simple-icons/icons/twitter'
 import TypeScript from 'simple-icons/icons/typescript'
@@ -174,6 +175,7 @@ const simpleIcons: IconValues = {
 	simple_icons: SimpleIcons.path,
 	stylelint: Stylelint.path,
 	svg: SVG.path,
+	tailwind_css: TailwindCSS.path,
 	trello: Trello.path,
 	twitter: Twitter.path,
 	typescript: TypeScript.path,
