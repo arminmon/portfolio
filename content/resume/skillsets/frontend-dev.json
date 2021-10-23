@@ -144,6 +144,14 @@
 			"icon": "$icon.jasmine"
 		},
 		{
+			"title": "Tailwind CSS",
+			"subtitle": "A utility-first CSS framework packed with classes",
+			"link": "https://tailwindcss.com/",
+			"color": "#06B6D4",
+			"light": true,
+			"icon": "$icon.tailwind_css"
+		},
+		{
 			"title": "UIKit",
 			"subtitle": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
 			"link": "https://getuikit.com/",
