@@ -61,6 +61,7 @@
 				v-if="skill"
 				v-model="dialog"
 				max-width="320px"
+				width="300px"
 				:overlay-color="
 					skill.light
 						? $chroma(skill.color).brighten(3).hex()
