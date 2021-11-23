@@ -191,8 +191,8 @@ const simpleIcons: IconValues = {
 // Transform Simple Icons to align with MDI principles
 Object.keys(simpleIcons).forEach((key) => {
 	simpleIcons[key] = SvgPath(simpleIcons[key])
-		.scale(20 / 24)
-		.translate(2, 2)
+		.scale(18 / 24)
+		.translate(3, 3)
 		.rel()
 		.round(1)
 		.toString()
