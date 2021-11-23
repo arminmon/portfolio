@@ -80,9 +80,10 @@
 						size="200"
 						:style="{
 							position: 'absolute',
-							left: !$vuetify.rtl ? 'unset' : '-15%',
-							right: $vuetify.rtl ? 'unset' : '-15%',
-							opacity: '.1',
+							left: !$vuetify.rtl ? 'unset' : '-8px',
+							right: $vuetify.rtl ? 'unset' : '-8px',
+							top: '-8px',
+							opacity: '.075',
 						}"
 					>
 						{{ skill.icon }}
