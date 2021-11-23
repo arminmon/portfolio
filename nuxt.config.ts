@@ -38,9 +38,7 @@ const configs: NuxtConfig = {
 	buildModules: [
 		'@nuxt/typescript-build',
 		'@nuxtjs/eslint-module',
-		'@nuxtjs/stylelint-module',
 		'@nuxtjs/vuetify',
-		'nuxt-compress',
 	],
 
 	modules: ['@nuxt/content', 'nuxt-i18n'],
