@@ -188,6 +188,14 @@ const simpleIcons: IconValues = {
 	vuetify: Vuetify.path,
 }
 
+const customIcons: IconValues = {
+	adonis_js: adonisJS,
+	axios,
+	crayon,
+	knex_js: knexJS,
+	surge,
+}
+
 // Transform Simple Icons to align with MDI principles
 Object.keys(simpleIcons).forEach((key) => {
 	simpleIcons[key] = SvgPath(simpleIcons[key])
@@ -198,14 +206,20 @@ Object.keys(simpleIcons).forEach((key) => {
 		.toString()
 })
 
+// Transform custom Icons to align with MDI principles
+Object.keys(customIcons).forEach((key) => {
+	customIcons[key] = SvgPath(customIcons[key])
+		.scale(18 / 24)
+		.translate(3, 3)
+		.rel()
+		.round(1)
+		.toString()
+})
+
 const values: IconValues = {
 	...materialDesignIcons,
 	...simpleIcons,
-	adonis_js: adonisJS,
-	axios,
-	crayon,
-	knex_js: knexJS,
-	surge,
+	...customIcons,
 }
 
 export default values
