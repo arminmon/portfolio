@@ -1,6 +1,6 @@
 import goTo from 'vuetify/lib/services/goto'
 
-export default (to, from, savedPosition) => {
+export default (to, _from, _savedPosition) => {
 	const target = to.hash || 0
 	const offset = target === 0 ? 0 : 24
 
