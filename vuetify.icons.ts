@@ -73,6 +73,7 @@ import React from 'simple-icons/icons/react'
 import Sass from 'simple-icons/icons/sass'
 import Sharp from 'simple-icons/icons/sharp'
 import SimpleIcons from 'simple-icons/icons/simpleicons'
+import SourcetreeIcon from 'simple-icons/icons/sourcetree'
 import Stylelint from 'simple-icons/icons/stylelint'
 import SVG from 'simple-icons/icons/svg'
 import TailwindCSS from 'simple-icons/icons/tailwindcss'
@@ -91,7 +92,6 @@ import adonisJS from '~/assets/icons/adonisJS'
 import axios from '~/assets/icons/axios'
 import crayon from '~/assets/icons/crayon'
 import knexJS from '~/assets/icons/knexJS'
-import sourcetree from '~/assets/icons/sourcetree'
 import surge from '~/assets/icons/surge'
 
 declare interface IconValues {
@@ -173,6 +173,7 @@ const simpleIcons: IconValues = {
 	sass: Sass.path,
 	sharp: Sharp.path,
 	simple_icons: SimpleIcons.path,
+	sourcetree: SourcetreeIcon.path,
 	stylelint: Stylelint.path,
 	svg: SVG.path,
 	tailwind_css: TailwindCSS.path,
@@ -204,7 +205,6 @@ const values: IconValues = {
 	axios,
 	crayon,
 	knex_js: knexJS,
-	sourcetree,
 	surge,
 }
 
