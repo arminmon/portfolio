@@ -47,8 +47,8 @@ const messages = {
 		'کارشناسی مهندسی فناوری اطلاعات',
 	'Khayyam University of Mashhad': 'دانشگاه خیام مشهد',
 
-	'Backend Development': 'توسعه بک‌اند',
 	'Front-end Development': 'توسعه فرانت‌اند',
+	'Back-end Development': 'توسعه بک‌اند',
 	'Development Tools': 'ابزار توسعه',
 	'Deployment': 'به‌کاراندازی',
 	'Project Tools': 'ابزار پروژه',
