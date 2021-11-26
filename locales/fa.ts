@@ -23,7 +23,7 @@ const messages = {
 	'Associate Software Engineer': 'مهندس نرم‌افزار هم‌پیوند',
 	'Web Architect': 'معمار وِب',
 	'Web Developer': 'توسعه‌دهنده وِب',
-	'Frontend Developer': 'توسعه‌دهنده فرانت‌اند',
+	'Front-end Developer': 'توسعه‌دهنده فرانت‌اند',
 	'Software Engineer': 'مهندس نرم‌افزار',
 
 	'Internship': 'کارآموزی',
@@ -47,8 +47,8 @@ const messages = {
 		'کارشناسی مهندسی فناوری اطلاعات',
 	'Khayyam University of Mashhad': 'دانشگاه خیام مشهد',
 
-	'Frontend Development': 'توسعه فرانت‌اند',
 	'Backend Development': 'توسعه بک‌اند',
+	'Front-end Development': 'توسعه فرانت‌اند',
 	'Development Tools': 'ابزار توسعه',
 	'Deployment': 'به‌کاراندازی',
 	'Project Tools': 'ابزار پروژه',
