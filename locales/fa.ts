@@ -11,7 +11,7 @@ const messages = {
 	'Scroll Up': 'برگشت به بالا',
 
 	'Employment History': 'سوابق شغلی',
-	'Duties': 'وظایف',
+	'Responsibilities': 'مسئولیت‌ها',
 	'Achievements': 'دستاوردها',
 	'Education History': 'سوابق تحصیلی',
 	'Professional Memberships': 'عضویت‌های حرفه‌ای',
