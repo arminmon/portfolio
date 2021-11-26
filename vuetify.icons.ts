@@ -86,6 +86,7 @@ import Vercel from 'simple-icons/icons/vercel'
 import VSCode from 'simple-icons/icons/visualstudiocode'
 import VueJS from 'simple-icons/icons/vuedotjs'
 import Vuetify from 'simple-icons/icons/vuetify'
+import WindiCSS from 'simple-icons/icons/windicss'
 import Windows from 'simple-icons/icons/windows'
 
 import adonisJS from '~/assets/icons/adonisJS'
@@ -186,6 +187,7 @@ const simpleIcons: IconValues = {
 	vscode: VSCode.path,
 	vue_js: VueJS.path,
 	vuetify: Vuetify.path,
+	windi_css: WindiCSS.path,
 }
 
 const customIcons: IconValues = {

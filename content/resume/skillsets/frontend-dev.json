@@ -149,7 +149,17 @@
 			"link": "https://tailwindcss.com/",
 			"color": "#06B6D4",
 			"light": true,
-			"icon": "$icon.tailwind_css"
+			"icon": "$icon.tailwind_css",
+			"is_preferred": true
+		},
+		{
+			"title": "Windi CSS",
+			"subtitle": "Next generation utility-first CSS framework",
+			"link": "https://windicss.org/",
+			"color": "#48B0F1",
+			"light": true,
+			"icon": "$icon.windi_css",
+			"is_preferred": true
 		},
 		{
 			"title": "UIKit",
