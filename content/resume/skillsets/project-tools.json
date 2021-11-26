@@ -33,6 +33,14 @@
 			"color": "#172B4D",
 			"dark": true,
 			"icon": "$icon.confluence"
+		},
+		{
+			"title": "Slack",
+			"subtitle": "A proprietary business communication platform offering many IRC-style features",
+			"link": "https://slack.com/",
+			"color": "#4A154B",
+			"dark": true,
+			"icon": "$icon.slack"
 		}
 	]
 }

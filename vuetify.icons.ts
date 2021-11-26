@@ -73,6 +73,7 @@ import React from 'simple-icons/icons/react'
 import Sass from 'simple-icons/icons/sass'
 import Sharp from 'simple-icons/icons/sharp'
 import SimpleIcons from 'simple-icons/icons/simpleicons'
+import Slack from 'simple-icons/icons/slack'
 import SourcetreeIcon from 'simple-icons/icons/sourcetree'
 import Stylelint from 'simple-icons/icons/stylelint'
 import SVG from 'simple-icons/icons/svg'
@@ -174,6 +175,7 @@ const simpleIcons: IconValues = {
 	sass: Sass.path,
 	sharp: Sharp.path,
 	simple_icons: SimpleIcons.path,
+	slack: Slack.path,
 	sourcetree: SourcetreeIcon.path,
 	stylelint: Stylelint.path,
 	svg: SVG.path,
