@@ -43,7 +43,8 @@ const messages = {
 		'کارشناسی ارشد فناوری اطلاعات و ارتباطات',
 	'Mobile and Web Computing Specialisation': 'گرایش پردازش موبایل و وِب',
 	'Western Sydney University, City Campus': 'دانشگاه سیدنی غربی، دانشکده شهر',
-	'Bachelor of Science, Information Technology': 'کارشناسی فناوری اطلاعات',
+	'Bachelor of Science, Information Technology Engineering':
+		'کارشناسی مهندسی فناوری اطلاعات',
 	'Khayyam University of Mashhad': 'دانشگاه خیام مشهد',
 
 	'Frontend Development': 'توسعه فرانت‌اند',
