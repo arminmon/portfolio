@@ -28,7 +28,7 @@ const messages = {
 
 	'Internship': 'کارآموزی',
 	'Project': 'پروژه',
-	'Project (Remote)': 'پروژه (راه دور)',
+	'Project (Remote)': 'پروژه (دورکاری)',
 	'Part-time': 'پاره‌وقت',
 	'Full-time': 'تمام‌وقت',
 
