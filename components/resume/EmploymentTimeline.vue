@@ -68,7 +68,12 @@
 									{{ $d(new Date(item.start_date), 'long YM') }}
 								</span>
 								<span v-if="item.end_date">
-									— {{ $d(new Date(item.end_date), 'long YM') }}
+									—
+									{{
+										item.end_date === 'present'
+											? $t('present')
+											: $d(new Date(item.end_date), 'long YM')
+									}}
 								</span>
 							</v-card-text>
 							<v-card-title>{{ $t(item.title) }}</v-card-title>
@@ -107,7 +112,11 @@
 							<v-card color="transparent" flat>
 								<v-card-text class="text-caption">
 									<div v-if="item.end_date">
-										{{ $d(new Date(item.end_date), 'long YM') }}
+										{{
+											item.end_date === 'present'
+												? $t('present')
+												: $d(new Date(item.end_date), 'long YM')
+										}}
 									</div>
 									<div>
 										{{ $d(new Date(item.start_date), 'long YM') }}

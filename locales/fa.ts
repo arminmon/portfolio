@@ -18,6 +18,7 @@ const messages = {
 	'Technical Skillsets': '‌مهارت‌های فنی',
 
 	'Latest First': 'اخیر اول',
+	'present': 'حال',
 
 	'Associate Software Engineer': 'مهندس نرم‌افزار هم‌پیوند',
 	'Web Architect': 'معمار وِب',
