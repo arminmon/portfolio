@@ -18,6 +18,7 @@ const messages = {
 	'Technical Skillsets': '‌مهارت‌های فنی',
 
 	'Latest First': 'اخیر اول',
+	'present': 'حال',
 
 	'Associate Software Engineer': 'مهندس نرم‌افزار هم‌پیوند',
 	'Web Architect': 'معمار وِب',
@@ -27,9 +28,10 @@ const messages = {
 
 	'Internship': 'کارآموزی',
 	'Project': 'پروژه',
-	'Project (Remote)': 'پروژه (راه دور)',
+	'Project (Remote)': 'پروژه (دورکاری)',
 	'Part-time': 'پاره‌وقت',
 	'Full-time': 'تمام‌وقت',
+	'Startup': 'استارت‌آپ',
 
 	'Rayanet IT Centre': 'رایانت',
 	'PMXChange': 'پی‌ام‌ایکس‌چنج',
