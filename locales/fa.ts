@@ -31,6 +31,7 @@ const messages = {
 	'Project (Remote)': 'پروژه (دورکاری)',
 	'Part-time': 'پاره‌وقت',
 	'Full-time': 'تمام‌وقت',
+	'Startup': 'استارت‌آپ',
 
 	'Rayanet IT Centre': 'رایانت',
 	'PMXChange': 'پی‌ام‌ایکس‌چنج',
