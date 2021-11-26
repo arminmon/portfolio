@@ -149,7 +149,8 @@
 			"link": "https://tailwindcss.com/",
 			"color": "#06B6D4",
 			"light": true,
-			"icon": "$icon.tailwind_css"
+			"icon": "$icon.tailwind_css",
+			"is_preferred": true
 		},
 		{
 			"title": "UIKit",
