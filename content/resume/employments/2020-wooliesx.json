@@ -6,5 +6,14 @@
 	"color": "#0CB04B",
 	"location": "Sydney, NSW",
 	"start_date": "2021-07-12",
-	"end_date": "present"
+	"end_date": "present",
+	"details": [
+		{
+			"title": "Responsibilities",
+			"items": [
+				"Develop new features and resolve existing issues in FE space using Angular.",
+				"Develop new RESTful endpoints to be consumed by the FE project using .NET framework."
+			]
+		}
+	]
 }
