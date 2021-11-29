@@ -6,5 +6,24 @@
 	"color": "#010101",
 	"location": "Sydney, NSW",
 	"start_date": "2021-02",
-	"end_date": "2021-07"
+	"end_date": "2021-07",
+	"details": [
+		{
+			"title": "Responsibilities",
+			"items": [
+				"Design mockups aligned with the project’s branding guidelines and user flows to fulfil business requirements.",
+				"Develop the web architecture of the startup for an agile approach.",
+				"Interview prospect interns and assess their technical knowledge.",
+				"Review codes written by other interns to maintain a clean and readable codebase."
+			]
+		},
+		{
+			"title": "Achievements",
+			"items": [
+				"Developed a consistent and dynamic design system in Figma to develop initial layouts, and help other designers reuse the components for further developments.",
+				"Split the startup project into FE dev, BE dev, and cloud deployment, each developed by a different set of developers.",
+				"Supervised new interns to help them learn the stack, as well as frameworks such as Material UI and NextJS for FE dev, and AdonisJS and KnexJS for BE dev."
+			]
+		}
+	]
 }
