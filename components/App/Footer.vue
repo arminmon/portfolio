@@ -3,7 +3,22 @@
 		<v-container class="pt-12 pb-16 pb-sm-12">
 			<v-row :aria-label="buildingBlocksDescription" dense justify="center">
 				<v-col cols="auto">
-					<span class="text-caption" :style="{ opacity: 0.5 }">this</span>
+					<v-tooltip top>
+						<template #activator="{ on, attrs }">
+							<v-btn
+								v-bind="attrs"
+								x-small
+								class="text-caption text-lowercase"
+								plain
+								href="https://github.com/arminmon/portfolio"
+								target="_blank"
+								v-on="on"
+							>
+								this
+							</v-btn>
+						</template>
+						<span>GitHub Repository</span>
+					</v-tooltip>
 				</v-col>
 				<v-col cols="auto">
 					<v-icon x-small :style="{ opacity: 0.5 }">$icon.equal</v-icon>
