@@ -1,7 +1,12 @@
 <template>
 	<v-footer app absolute>
 		<v-container class="pt-12 pb-16 pb-sm-12">
-			<v-row :aria-label="buildingBlocksDescription" dense justify="center">
+			<v-row
+				:aria-label="buildingBlocksDescription"
+				dense
+				justify="center"
+				align="center"
+			>
 				<v-col cols="auto">
 					<v-tooltip top>
 						<template #activator="{ on, attrs }">
@@ -21,18 +26,31 @@
 					</v-tooltip>
 				</v-col>
 				<v-col cols="auto">
-					<v-icon x-small :style="{ opacity: 0.5 }">$icon.equal</v-icon>
+					<v-btn tag="span" icon x-small disabled>
+						<v-icon x-small>$icon.equal</v-icon>
+					</v-btn>
 				</v-col>
 				<template v-for="(block, index) in blocks">
 					<v-col v-if="index !== 0" :key="`${block.title}-plus`" cols="auto">
-						<v-icon x-small :style="{ opacity: 0.5 }">$icon.plus</v-icon>
+						<v-btn tag="span" icon x-small disabled>
+							<v-icon x-small>$icon.plus</v-icon>
+						</v-btn>
 					</v-col>
 					<v-col :key="block.title" cols="auto">
 						<v-tooltip top>
 							<template #activator="{ on, attrs }">
-								<v-icon v-bind="attrs" :style="{ opacity: 0.65 }" v-on="on">
-									{{ block.icon }}
-								</v-icon>
+								<v-btn
+									v-bind="attrs"
+									icon
+									plain
+									target="_blank"
+									:href="block.href"
+									v-on="on"
+								>
+									<v-icon>
+										{{ block.icon }}
+									</v-icon>
+								</v-btn>
 							</template>
 							<span>{{ block.title }}</span>
 						</v-tooltip>
