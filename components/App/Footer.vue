@@ -17,7 +17,7 @@
 								this
 							</v-btn>
 						</template>
-						<span>GitHub Repository</span>
+						<span>{{ $t('Source Code') }}</span>
 					</v-tooltip>
 				</v-col>
 				<v-col cols="auto">
