@@ -940,10 +940,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/recursive@^4.5.0":
+"@fontsource/ubuntu-mono@^4.5.0":
   version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/recursive/-/recursive-4.5.0.tgz#530482a4346ac41296ee91477944d57afbedc405"
-  integrity sha512-RAPkVKaTZZ4GuCUNZ2JvJ38Zea1+QQzBZKkpfdsdOtQYQqCCKOsmuRi2YLDERwGNCiIjyvM5wEvPYuaCUNJY8A==
+  resolved "https://registry.yarnpkg.com/@fontsource/ubuntu-mono/-/ubuntu-mono-4.5.0.tgz#39fe55921dcf3ea78580ff67b5015f24471a2e6b"
+  integrity sha512-Yb+/jh9MUp56hZZOVBO++3J5Jg/V8XG5aDk4ef0hGlsA2IlVsDpGNr1JHBRqAQ/rNFcJuJHGtGr2cdq+TBCX9w==
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"

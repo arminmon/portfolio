@@ -22,7 +22,7 @@
 		}
 	},
 	"dependencies": {
-		"@fontsource/recursive": "^4.5.0",
+		"@fontsource/ubuntu-mono": "^4.5.0",
 		"@nuxt/content": "^1.15.1",
 		"chroma-js": "^2.1.2",
 		"core-js": "^3.19.1",

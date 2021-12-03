@@ -22,7 +22,7 @@ const configs: NuxtConfig = {
 		],
 	},
 
-	css: ['@fontsource/recursive', '~/assets/styles/app'],
+	css: ['@fontsource/ubuntu-mono', '~/assets/styles/app'],
 
 	plugins: [
 		'~/plugins/i18n',
