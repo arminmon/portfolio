@@ -17,7 +17,8 @@
 				</v-toolbar-title>
 				<v-spacer />
 				<span aria-hidden="true" class="text-caption">
-					<v-badge inline dot bordered color="primary" /> is preferred.
+					<v-badge inline dot bordered color="primary" />
+					{{ $t('is preferred.') }}
 				</span>
 			</v-toolbar>
 			<v-row v-for="skillset in items" :key="skillset.slug">
