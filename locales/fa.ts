@@ -56,6 +56,7 @@ const messages = {
 	'Graphic Design': 'طراحی گرافیک',
 	'Operating Systems': 'سیستم عامل',
 
+	'is preferred.': 'ترجیح داده می‌شود.',
 	'Learn More': 'بیشتر بدانید',
 
 	'Soft Skills': 'مهارت‌های نرم',
