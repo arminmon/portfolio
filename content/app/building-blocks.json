@@ -1,42 +1,52 @@
 [
 	{
 		"title": "Nuxt",
-		"icon": "$icon.nuxt"
+		"icon": "$icon.nuxt",
+		"href": "https://nuxtjs.org"
 	},
 	{
 		"title": "Vue",
-		"icon": "$icon.vue_js"
+		"icon": "$icon.vue_js",
+		"href": "https://vuejs.org/"
 	},
 	{
 		"title": "Vuetify",
-		"icon": "$icon.vuetify"
+		"icon": "$icon.vuetify",
+		"href": "https://vuetifyjs.com/"
 	},
 	{
 		"title": "TypeScript",
-		"icon": "$icon.typescript"
+		"icon": "$icon.typescript",
+		"href": "https://www.typescriptlang.org/"
 	},
 	{
 		"title": "Google Material Design",
-		"icon": "$icon.material_design"
+		"icon": "$icon.material_design",
+		"href": "https://material.io/design"
 	},
 	{
 		"title": "Material Design Icons",
-		"icon": "$icon.material_design_icons"
+		"icon": "$icon.material_design_icons",
+		"href": "http://materialdesignicons.com"
 	},
 	{
 		"title": "Simple Icons",
-		"icon": "$icon.simple_icons"
+		"icon": "$icon.simple_icons",
+		"href": "https://simpleicons.org"
 	},
 	{
 		"title": "Noun Project",
-		"icon": "$icon.noun_project"
+		"icon": "$icon.noun_project",
+		"href": "https://thenounproject.com/"
 	},
 	{
 		"title": "Vercel",
-		"icon": "$icon.vercel"
+		"icon": "$icon.vercel",
+		"href": "https://vercel.com"
 	},
 	{
 		"title": "Some theine",
-		"icon": "$icon.tea"
+		"icon": "$icon.tea",
+		"href": "https://www.collinsdictionary.com/dictionary/english/theine"
 	}
 ]
