@@ -5,7 +5,7 @@
 				:items="items"
 				item-key="slug"
 				sort-by="start_date"
-				:sort-desc="options.includes('sortDesc')"
+				:sort-desc="sortDesc"
 				disable-pagination
 				hide-default-footer
 			>
@@ -101,7 +101,14 @@
 						</v-card>
 						<template #opposite>
 							<v-card flat>
-								<v-card-text class="text-caption">
+								<v-card-text
+									:class="{
+										'd-flex': true,
+										'flex-column-reverse': !sortDesc,
+										'flex-column': sortDesc,
+										'text-caption': true,
+									}"
+								>
 									<div class="font-weight-black">
 										{{ $d(new Date(item.graduation_date), 'long YM') }}
 									</div>
@@ -139,5 +146,9 @@ export default class ResumeEducationTimeline extends Vue {
 
 	@Prop({ required: true })
 	items!: Education[]
+
+	get sortDesc(): boolean {
+		return this.options.includes('sortDesc')
+	}
 }
 </script>

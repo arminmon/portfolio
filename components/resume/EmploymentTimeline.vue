@@ -5,7 +5,7 @@
 				:items="items"
 				item-key="slug"
 				sort-by="start_date"
-				:sort-desc="options.includes('sortDesc')"
+				:sort-desc="sortDesc"
 				disable-pagination
 				hide-default-footer
 			>
@@ -67,7 +67,7 @@
 								<span>
 									{{ $d(new Date(item.start_date), 'long YM') }}
 								</span>
-								<span v-if="item.end_date">
+								<span v-if="item.end_date" class="font-weight-black">
 									—
 									{{
 										item.end_date === 'present'
@@ -110,8 +110,15 @@
 						</v-card>
 						<template #opposite>
 							<v-card color="transparent" flat>
-								<v-card-text class="text-caption">
-									<div v-if="item.end_date">
+								<v-card-text
+									:class="{
+										'd-flex': true,
+										'flex-column-reverse': !sortDesc,
+										'flex-column': sortDesc,
+										'text-caption': true,
+									}"
+								>
+									<div v-if="item.end_date" class="font-weight-black">
 										{{
 											item.end_date === 'present'
 												? $t('present')
@@ -152,5 +159,9 @@ export default class ResumeEmploymentTimeline extends Vue {
 
 	@Prop({ required: true })
 	items!: Employment[]
+
+	get sortDesc(): boolean {
+		return this.options.includes('sortDesc')
+	}
 }
 </script>
