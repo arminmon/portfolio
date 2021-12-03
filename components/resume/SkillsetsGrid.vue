@@ -95,11 +95,11 @@
 						<v-badge
 							v-if="skill.is_preferred"
 							aria-hidden="true"
-							inline
 							dot
 							bordered
 							color="primary"
-							class="mt-n2"
+							class="ma-4"
+							:style="{ position: 'absolute', top: 0, right: 0 }"
 						/>
 					</v-card-title>
 					<v-card-subtitle v-if="skill.subtitle">
