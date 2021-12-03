@@ -16,6 +16,7 @@ const messages = {
 	'Education History': 'سوابق تحصیلی',
 	'Professional Memberships': 'عضویت‌های حرفه‌ای',
 	'Technical Skillsets': '‌مهارت‌های فنی',
+	'Soft Skills': 'مهارت‌های نرم',
 
 	'Latest First': 'اخیر اول',
 	'present': 'حال',
@@ -58,8 +59,6 @@ const messages = {
 
 	'is preferred.': 'ترجیح داده می‌شود.',
 	'Learn More': 'بیشتر بدانید',
-
-	'Soft Skills': 'مهارت‌های نرم',
 
 	'Active Learner': 'فراگیر فعال',
 	'Problem Solver': 'حل‌کننده مشکلات',
