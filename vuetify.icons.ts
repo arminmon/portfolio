@@ -38,6 +38,7 @@ import Bulma from 'simple-icons/icons/bulma'
 import CoffeeScript from 'simple-icons/icons/coffeescript'
 import Confluence from 'simple-icons/icons/confluence'
 import CSS3 from 'simple-icons/icons/css3'
+import Cypress from 'simple-icons/icons/cypress'
 import Dribbble from 'simple-icons/icons/dribbble'
 import ElementaryOS from 'simple-icons/icons/elementary'
 import Eslint from 'simple-icons/icons/eslint'
@@ -139,6 +140,7 @@ const simpleIcons: IconValues = {
 	coffeescript: CoffeeScript.path,
 	confluence: Confluence.path,
 	css3: CSS3.path,
+	cypress: Cypress.path,
 	dribbble: Dribbble.path,
 	elementary_os: ElementaryOS.path,
 	eslint: Eslint.path,
