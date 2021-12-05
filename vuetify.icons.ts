@@ -61,8 +61,8 @@ import MaterialDesign from 'simple-icons/icons/materialdesign'
 import MaterialDesignIcons from 'simple-icons/icons/materialdesignicons'
 import Miro from 'simple-icons/icons/miro'
 import MySQL from 'simple-icons/icons/mysql'
-import NextJS from 'simple-icons/icons/nextdotjs'
 import Netlify from 'simple-icons/icons/netlify'
+import NextJS from 'simple-icons/icons/nextdotjs'
 import NodeJS from 'simple-icons/icons/nodedotjs'
 import NounProject from 'simple-icons/icons/nounproject'
 import NuxtJS from 'simple-icons/icons/nuxtdotjs'
@@ -114,8 +114,8 @@ const materialDesignIcons: IconValues = {
 	external_link: mdiOpenInNew,
 	handshake: mdiHandshake,
 	home: mdiHomeAssistant,
-	human: mdiHuman,
 	human_greeting: mdiHumanGreeting,
+	human: mdiHuman,
 	lightbulb_off: mdiLightbulbOutline,
 	lightbulb_on: mdiLightbulb,
 	link: mdiLinkVariant,
@@ -133,8 +133,8 @@ const simpleIcons: IconValues = {
 	angular: Angular.path,
 	apple_ios: AppleIos.path,
 	apple_macos: AppleMacos.path,
-	aws: AWS.path,
 	aws_s3: AWSS3.path,
+	aws: AWS.path,
 	bootstrap: Bootstrap.path,
 	bulma: Bulma.path,
 	coffeescript: CoffeeScript.path,
