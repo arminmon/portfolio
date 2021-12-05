@@ -144,6 +144,14 @@
 			"icon": "$icon.jasmine"
 		},
 		{
+			"title": "Cypress",
+			"subtitle": "JavaScript End to End Testing Framework",
+			"link": "https://cypress.io",
+			"color": "#17202C",
+			"dark": true,
+			"icon": "$icon.cypress"
+		},
+		{
 			"title": "Tailwind CSS",
 			"subtitle": "A utility-first CSS framework packed with classes",
 			"link": "https://tailwindcss.com/",

@@ -38,6 +38,7 @@ import Bulma from 'simple-icons/icons/bulma'
 import CoffeeScript from 'simple-icons/icons/coffeescript'
 import Confluence from 'simple-icons/icons/confluence'
 import CSS3 from 'simple-icons/icons/css3'
+import Cypress from 'simple-icons/icons/cypress'
 import Dribbble from 'simple-icons/icons/dribbble'
 import ElementaryOS from 'simple-icons/icons/elementary'
 import Eslint from 'simple-icons/icons/eslint'
@@ -60,8 +61,8 @@ import MaterialDesign from 'simple-icons/icons/materialdesign'
 import MaterialDesignIcons from 'simple-icons/icons/materialdesignicons'
 import Miro from 'simple-icons/icons/miro'
 import MySQL from 'simple-icons/icons/mysql'
-import NextJS from 'simple-icons/icons/nextdotjs'
 import Netlify from 'simple-icons/icons/netlify'
+import NextJS from 'simple-icons/icons/nextdotjs'
 import NodeJS from 'simple-icons/icons/nodedotjs'
 import NounProject from 'simple-icons/icons/nounproject'
 import NuxtJS from 'simple-icons/icons/nuxtdotjs'
@@ -113,8 +114,8 @@ const materialDesignIcons: IconValues = {
 	external_link: mdiOpenInNew,
 	handshake: mdiHandshake,
 	home: mdiHomeAssistant,
-	human: mdiHuman,
 	human_greeting: mdiHumanGreeting,
+	human: mdiHuman,
 	lightbulb_off: mdiLightbulbOutline,
 	lightbulb_on: mdiLightbulb,
 	link: mdiLinkVariant,
@@ -132,13 +133,14 @@ const simpleIcons: IconValues = {
 	angular: Angular.path,
 	apple_ios: AppleIos.path,
 	apple_macos: AppleMacos.path,
-	aws: AWS.path,
 	aws_s3: AWSS3.path,
+	aws: AWS.path,
 	bootstrap: Bootstrap.path,
 	bulma: Bulma.path,
 	coffeescript: CoffeeScript.path,
 	confluence: Confluence.path,
 	css3: CSS3.path,
+	cypress: Cypress.path,
 	dribbble: Dribbble.path,
 	elementary_os: ElementaryOS.path,
 	eslint: Eslint.path,
