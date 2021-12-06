@@ -105,6 +105,12 @@ const configs: NuxtConfig = {
 		optionsPath: './vuetify.options.ts',
 	},
 
+	vue: {
+		config: {
+			devtools: true,
+		},
+	},
+
 	build: {
 		extractCSS: true,
 	},
