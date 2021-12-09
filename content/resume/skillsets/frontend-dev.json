@@ -27,6 +27,21 @@
 			"icon": "$icon.css3"
 		},
 		{
+			"title": "BEM Methodology",
+			"subtitle": "Block__Element--Modifier, a methodology, that helps you to achieve reusable components and code sharing in the front-end",
+			"link": "http://getbem.com/",
+			"color": "#EEE",
+			"light": true,
+			"is_preferred": true
+		},
+		{
+			"title": "RSCSS",
+			"subtitle": "Reasonable System for CSS Stylesheet Structure",
+			"link": "https://rscss.io",
+			"color": "#EEE",
+			"light": true
+		},
+		{
 			"title": "Sass",
 			"subtitle": "Syntactically Awesome Style Sheets",
 			"link": "https://sass-lang.com/",
