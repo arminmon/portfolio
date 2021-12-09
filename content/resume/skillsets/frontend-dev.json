@@ -35,6 +35,13 @@
 			"is_preferred": true
 		},
 		{
+			"title": "RSCSS",
+			"subtitle": "Reasonable System for CSS Stylesheet Structure",
+			"link": "https://rscss.io",
+			"color": "#EEE",
+			"light": true
+		},
+		{
 			"title": "Sass",
 			"subtitle": "Syntactically Awesome Style Sheets",
 			"link": "https://sass-lang.com/",
