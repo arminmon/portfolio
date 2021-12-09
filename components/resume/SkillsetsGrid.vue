@@ -97,6 +97,8 @@
 							aria-hidden="true"
 							dot
 							bordered
+							:dark="skill.light"
+							:light="skill.dark"
 							color="primary"
 							class="ma-4"
 							:style="{ position: 'absolute', top: 0, right: 0 }"
