@@ -9,6 +9,15 @@
 			"color": "#EEE",
 			"light": true,
 			"icon": "$icon.console",
+			"is_preferred": false
+		},
+		{
+			"title": "iTerm2",
+			"subtitle": "A terminal emulator for macOS, licensed under GPL-2.0-or-later",
+			"link": "https://iterm2.com",
+			"color": "#000",
+			"dark": true,
+			"icon": "$icon.iterm2",
 			"is_preferred": true
 		},
 		{
