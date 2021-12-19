@@ -79,7 +79,9 @@
 							<v-card-text>
 								<v-expansion-panels v-if="item.details" multiple hover>
 									<v-expansion-panel
-										v-for="detail in item.details"
+										v-for="detail in item.details.filter(
+											(i) => i.items.length > 0
+										)"
 										:key="detail.title"
 									>
 										<v-expansion-panel-header>
@@ -88,7 +90,9 @@
 										<v-expansion-panel-content>
 											<ul>
 												<li
-													v-for="(detailItem, index) in detail.items"
+													v-for="(detailItem, index) in detail.items.filter(
+														(i) => i !== ''
+													)"
 													:key="`${item.slug}-${detail.title}-${index}`"
 												>
 													{{ detailItem }}
