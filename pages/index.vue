@@ -3,24 +3,7 @@
 		<v-container :style="{ maxWidth: '960px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
-					<v-card
-						elevation="16"
-						class="transition-swing rounded-t-0"
-						:style="{ overflow: 'hidden' }"
-					>
-						<v-img
-							v-show="$vuetify.breakpoint.mdAndUp"
-							:src="require('~/assets/images/opera-house.svg')"
-							aspect-ratio="2.235"
-							width="200"
-							:style="{
-								position: 'absolute',
-								bottom: '-5px',
-								left: !$vuetify.rtl ? 'unset' : '20px',
-								right: $vuetify.rtl ? 'unset' : '20px',
-								opacity: 0.05,
-							}"
-						/>
+					<v-card elevation="16" class="transition-swing rounded-t-0">
 						<v-card-title
 							class="
 								text-h4 text-center
