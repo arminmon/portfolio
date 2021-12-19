@@ -48,6 +48,15 @@
 			"is_preferred": true
 		},
 		{
+			"title": "Yarn",
+			"subtitle": "A software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager)",
+			"link": "https://yarnpkg.com",
+			"color": "#2C8EBB",
+			"light": true,
+			"icon": "$icon.yarn",
+			"is_preferred": true
+		},
+		{
 			"title": "ESlint",
 			"subtitle": "Static code analysis tool for identifying problematic patterns found in JavaScript",
 			"link": "http://eslint.org",

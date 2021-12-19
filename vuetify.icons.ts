@@ -90,6 +90,7 @@ import VueJS from 'simple-icons/icons/vuedotjs'
 import Vuetify from 'simple-icons/icons/vuetify'
 import WindiCSS from 'simple-icons/icons/windicss'
 import Windows from 'simple-icons/icons/windows'
+import Yarn from 'simple-icons/icons/yarn'
 
 import adonisJS from '~/assets/icons/adonisJS'
 import axios from '~/assets/icons/axios'
@@ -192,6 +193,7 @@ const simpleIcons: IconValues = {
 	vue_js: VueJS.path,
 	vuetify: Vuetify.path,
 	windi_css: WindiCSS.path,
+	yarn: Yarn.path,
 }
 
 const customIcons: IconValues = {
