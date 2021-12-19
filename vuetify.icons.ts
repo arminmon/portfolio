@@ -50,6 +50,7 @@ import Github from 'simple-icons/icons/github'
 import GithubActions from 'simple-icons/icons/githubactions'
 import Heroku from 'simple-icons/icons/heroku'
 import HTML5 from 'simple-icons/icons/html5'
+import iTerm2 from 'simple-icons/icons/iterm2'
 import JAMStack from 'simple-icons/icons/jamstack'
 import Jasmine from 'simple-icons/icons/jasmine'
 import JavaScript from 'simple-icons/icons/javascript'
@@ -153,6 +154,7 @@ const simpleIcons: IconValues = {
 	github: Github.path,
 	heroku: Heroku.path,
 	html5: HTML5.path,
+	iterm2: iTerm2.path,
 	jamstack: JAMStack.path,
 	jasmine: Jasmine.path,
 	javascript: JavaScript.path,
