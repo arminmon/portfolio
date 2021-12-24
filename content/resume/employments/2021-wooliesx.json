@@ -6,13 +6,21 @@
 	"color": "#0CB04B",
 	"location": "Sydney, NSW",
 	"start_date": "2021-07-12",
-	"end_date": "present",
+	"end_date": "2021-12-24",
 	"details": [
 		{
 			"title": "Responsibilities",
 			"items": [
 				"Develop new features and resolve existing issues in FE space using Angular.",
 				"Develop new RESTful endpoints to be consumed by the FE project using .NET framework."
+			]
+		},
+		{
+			"title": "Achievements",
+			"items": [
+				"Audit and fix accessibility issues.",
+				"Develop UI components based on Figma designs in Angular, while maintaining an atomic approach for reusability.",
+				"Develop new API endpoints to pass required data for new designs and user flows."
 			]
 		}
 	]
