@@ -140,7 +140,7 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import buildingBlocks from '~/content/app/building-blocks.json'
 import socialLinks from '~/content/socials.json'
 import type { NavLink } from '~/types/elements'
-import type { BuildingBlock, SocialLink } from '~/types/models'
+import type { BuildingBlock, SocialLink } from '~/types/content'
 
 @Component
 export default class AppFooter extends Vue {

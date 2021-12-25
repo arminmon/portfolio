@@ -142,7 +142,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { Skill, Skillset } from '~/types/models'
+import type { Skill, SkillsetContent } from '~/types/content'
 
 @Component
 export default class ResumeSkillsetsGrid extends Vue {
@@ -150,7 +150,7 @@ export default class ResumeSkillsetsGrid extends Vue {
 	skill: Skill | null = null
 
 	@Prop({ required: true })
-	items!: Skillset[]
+	items!: SkillsetContent[]
 
 	openDialog(skill: Skill) {
 		this.skill = skill
