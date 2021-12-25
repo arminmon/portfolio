@@ -54,14 +54,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { SoftSkill } from '~/types/models'
+import type { SoftSkillContent } from '~/types/content'
 
 @Component
 export default class ResumeSoftSkillsList extends Vue {
 	$redrawVueMasonry: any
 
 	@Prop({ required: true })
-	items!: SoftSkill[]
+	items!: SoftSkillContent[]
 
 	renderMasonry() {
 		if (typeof this.$redrawVueMasonry === 'function') {

@@ -155,14 +155,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { Employment } from '~/types/models'
+import type { EmploymentContent } from '~/types/content'
 
 @Component
 export default class ResumeEmploymentTimeline extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	items!: Employment[]
+	items!: EmploymentContent[]
 
 	get sortDesc(): boolean {
 		return this.options.includes('sortDesc')

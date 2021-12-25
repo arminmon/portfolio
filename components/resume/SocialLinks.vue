@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { SocialLink } from '~/types/models'
+import type { SocialLink } from '~/types/content'
 
 @Component
 export default class ResumeSocialLinks extends Vue {

@@ -103,13 +103,13 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { Membership } from '~/types/models'
+import type { ProfessionalMembershipContent } from '~/types/content'
 
 @Component
 export default class ResumeMembershipTimeline extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	items!: Membership[]
+	items!: ProfessionalMembershipContent[]
 }
 </script>

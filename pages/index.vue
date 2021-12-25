@@ -100,21 +100,21 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import type { Context } from '@nuxt/types'
 import type {
 	SocialLink,
-	Employment,
-	Education,
-	Membership,
-	Skillset,
-	SoftSkill,
-} from '~/types/models'
+	EmploymentContent,
+	EducationContent,
+	ProfessionalMembershipContent,
+	SkillsetContent,
+	SoftSkillContent,
+} from '~/types/content'
 
 @Component
 export default class PageIndex extends Vue {
 	socialLinks!: SocialLink[]
-	employments!: Employment[]
-	educations!: Education[]
-	memberships!: Membership[]
-	skillsets!: Skillset[]
-	softSkills!: SoftSkill[]
+	employments!: EmploymentContent[]
+	educations!: EducationContent[]
+	memberships!: ProfessionalMembershipContent[]
+	skillsets!: SkillsetContent[]
+	softSkills!: SoftSkillContent[]
 	cardIntersectOptions = { rootMargin: '-256px' }
 
 	async asyncData({ $content, error }: Context) {
