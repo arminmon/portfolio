@@ -61,7 +61,7 @@
 						tag="section"
 						class="transition-swing"
 					>
-						<resume-membership-timeline :items="memberships" />
+						<resume-professional-membership-timeline :items="memberships" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
@@ -87,7 +87,7 @@
 						tag="section"
 						class="transition-swing"
 					>
-						<resume-soft-skills-list :items="softSkills" />
+						<resume-soft-skills-grid :items="softSkills" />
 					</v-card>
 				</v-col>
 			</v-row>

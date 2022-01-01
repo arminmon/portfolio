@@ -74,7 +74,7 @@ export default class AppDrawer extends Vue {
 		{
 			title: 'Professional Memberships',
 			icon: '$icon.handshake',
-			to: '/#membership_history',
+			to: '/#professional_memberships',
 		},
 		{
 			title: 'Technical Skillsets',

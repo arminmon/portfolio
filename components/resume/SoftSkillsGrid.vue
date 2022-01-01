@@ -57,7 +57,7 @@ import { Component, Prop, Vue } from 'nuxt-property-decorator'
 import type { SoftSkillContent } from '~/types/content'
 
 @Component
-export default class ResumeSoftSkillsList extends Vue {
+export default class ResumeSoftSkillsGrid extends Vue {
 	$redrawVueMasonry: any
 
 	@Prop({ required: true })
