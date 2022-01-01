@@ -110,7 +110,7 @@
 			"dark": true,
 			"icon": "$icon.postgresql",
 			"is_preferred": true,
-			"keywords": ["db", "database"]
+			"keywords": ["db", "database", "sql", "relational"]
 		},
 		{
 			"title": "MySQL",
@@ -119,7 +119,7 @@
 			"color": "#4479A1",
 			"dark": true,
 			"icon": "$icon.mysql",
-			"keywords": ["db", "database"]
+			"keywords": ["db", "database", "sql", "relational"]
 		},
 		{
 			"title": "KnexJS",
@@ -129,7 +129,16 @@
 			"light": true,
 			"icon": "$icon.knex_js",
 			"is_preferred": true,
-			"keywords": ["db", "database driver", "nodejs"]
+			"keywords": ["db", "database driver", "sql", "nodejs"]
+		},
+		{
+			"title": "BookshelfJS",
+			"subtitle": "a JavaScript ORM for Node.js, built on the Knex SQL query builder.",
+			"link": "https://bookshelfjs.org/",
+			"color": "#E56515",
+			"light": true,
+			"is_preferred": true,
+			"keywords": ["db", "nodejs", "knex", "sql"]
 		},
 		{
 			"title": "Amazon S3",
