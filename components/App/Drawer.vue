@@ -108,7 +108,6 @@ export default class AppDrawer extends Vue {
 
 	toggleDarkMode(): void {
 		this.isDark = !this.isDark
-		this.closeDrawer()
 	}
 
 	closeDrawer(): void {
