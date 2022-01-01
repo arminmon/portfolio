@@ -189,7 +189,7 @@ export default class AppFooter extends Vue {
 			this.blocks.map((block) => block.title)
 		)
 
-		return `This website was built using ${blocksList}`
+		return `This website is built with ${blocksList}`
 	}
 
 	copyEmailToClipboard() {
