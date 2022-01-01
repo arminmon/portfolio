@@ -5,11 +5,15 @@
 				<v-col cols="12" class="pt-0">
 					<v-card tag="header" elevation="18" class="rounded-t-0">
 						<v-card-title
-							class="
-								text-h4 text-center
-								justify-center
-								pa-6 pa-md-8 pa-lg-10 pa-xl-12
-							"
+							:class="[
+								'text-h4',
+								'text-center',
+								'justify-center',
+								'pa-6',
+								'pa-md-8',
+								'pa-lg-10',
+								'pa-xl-12',
+							]"
 						>
 							{{ $vuetify.breakpoint.smAndDown ? $t('Hi') : $t('Hello') }}
 							👋,&nbsp;
