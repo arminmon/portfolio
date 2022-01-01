@@ -171,7 +171,7 @@ import type { Skill } from '~/plugins/resume/models'
 export default class ResumeGridSkillsets extends Vue {
 	dialog: boolean = false
 	skill: Skill | null = null
-	search: string = ''
+	search: string | null = null
 	groupOrders = {
 		'frontend-dev': 0,
 		'backend-dev': 1,
@@ -187,7 +187,7 @@ export default class ResumeGridSkillsets extends Vue {
 	items!: Skill[]
 
 	searchItems(items: any[], search: string) {
-		return search === ''
+		return search === '' || search === null
 			? items
 			: items.filter((i: Skill) => {
 					if (i.title.toLowerCase().includes(search.toLowerCase())) return true
