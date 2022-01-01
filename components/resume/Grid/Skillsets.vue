@@ -80,6 +80,14 @@
 						</v-col>
 					</v-row>
 				</template>
+				<template #no-results>
+					<v-row justify="center" class="mt-1">
+						<v-col cols="auto" class="text-center">
+							<div class="text-caption">Nothing was found.</div>
+							<v-btn plain text @click="clearSearch">Clear Search</v-btn>
+						</v-col>
+					</v-row>
+				</template>
 			</v-data-iterator>
 			<v-dialog
 				v-if="skill"
@@ -198,6 +206,10 @@ export default class ResumeGridSkillsets extends Vue {
 						)
 					else return false
 			  })
+	}
+
+	clearSearch() {
+		this.search = null
 	}
 
 	openDialog(skill: Skill) {
