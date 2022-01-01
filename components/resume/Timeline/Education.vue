@@ -145,7 +145,7 @@ import { Component, Prop, Vue } from 'nuxt-property-decorator'
 import type { EducationContent } from '~/types/content'
 
 @Component
-export default class ResumeEducationTimeline extends Vue {
+export default class ResumeTimelineEducation extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })

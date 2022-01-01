@@ -31,27 +31,27 @@
 				</v-col>
 				<v-col cols="12">
 					<v-card id="employment_history" tag="section" elevation="18">
-						<resume-employment-timeline :items="employments" />
+						<resume-timeline-employment :items="employments" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="education_history" tag="section" elevation="18">
-						<resume-education-timeline :items="educations" />
+						<resume-timeline-education :items="educations" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="professional_memberships" tag="section" elevation="18">
-						<resume-professional-membership-timeline :items="memberships" />
+						<resume-timeline-professional-membership :items="memberships" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="technical_skillsets" tag="section" elevation="18">
-						<resume-skillsets-grid :items="skillsets" />
+						<resume-grid-skillsets :items="skillsets" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
 					<v-card id="soft_skills" tag="section" elevation="18">
-						<resume-soft-skills-grid :items="softSkills" />
+						<resume-grid-soft-skills :items="softSkills" />
 					</v-card>
 				</v-col>
 			</v-row>

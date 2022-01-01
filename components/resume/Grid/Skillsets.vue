@@ -145,7 +145,7 @@ import { Component, Prop, Vue } from 'nuxt-property-decorator'
 import type { Skill, SkillsetContent } from '~/types/content'
 
 @Component
-export default class ResumeSkillsetsGrid extends Vue {
+export default class ResumeGridSkillsets extends Vue {
 	dialog: boolean = false
 	skill: Skill | null = null
 
