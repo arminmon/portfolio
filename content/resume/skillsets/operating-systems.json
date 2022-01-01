@@ -1,6 +1,5 @@
 {
 	"order": 7,
-	"title": "Operating Systems",
 	"items": [
 		{
 			"title": "macOS (Primary)",
@@ -9,7 +8,8 @@
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.apple_macos",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["apple", "os"]
 		},
 		{
 			"title": "iOS",
@@ -17,7 +17,8 @@
 			"link": "https://www.apple.com/ios",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.apple_ios"
+			"icon": "$icon.apple_ios",
+			"keywords": ["apple", "os"]
 		},
 		{
 			"title": "Microsoft Windows",
@@ -25,7 +26,8 @@
 			"link": "http://windows.microsoft.com/",
 			"color": "#0078D6",
 			"dark": true,
-			"icon": "$icon.ms_windows"
+			"icon": "$icon.ms_windows",
+			"keywords": ["os"]
 		},
 		{
 			"title": "Ubuntu",
@@ -33,7 +35,8 @@
 			"link": "https://ubuntu.com/",
 			"color": "#E95420",
 			"light": true,
-			"icon": "$icon.ubuntu"
+			"icon": "$icon.ubuntu",
+			"keywords": ["linux", "os"]
 		},
 		{
 			"title": "ElementaryOS",
@@ -41,7 +44,8 @@
 			"link": "https://elementary.io/",
 			"color": "#64BAFF",
 			"light": true,
-			"icon": "$icon.elementary_os"
+			"icon": "$icon.elementary_os",
+			"keywords": ["linux", "os"]
 		}
 	]
 }

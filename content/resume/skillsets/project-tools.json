@@ -1,6 +1,5 @@
 {
 	"order": 4,
-	"title": "Project Tools",
 	"items": [
 		{
 			"title": "Miro",
@@ -8,7 +7,8 @@
 			"link": "https://miro.com/app/dashboard/",
 			"color": "#050038",
 			"dark": true,
-			"icon": "$icon.miro"
+			"icon": "$icon.miro",
+			"keywords": ["collaboration"]
 		},
 		{
 			"title": "Trello",
@@ -16,7 +16,8 @@
 			"link": "https://trello.com",
 			"color": "#0052CC",
 			"dark": true,
-			"icon": "$icon.trello"
+			"icon": "$icon.trello",
+			"keywords": ["collaboration"]
 		},
 		{
 			"title": "Jira",
@@ -32,7 +33,8 @@
 			"link": "https://www.atlassian.com/software/confluence",
 			"color": "#172B4D",
 			"dark": true,
-			"icon": "$icon.confluence"
+			"icon": "$icon.confluence",
+			"keywords": ["documentation"]
 		},
 		{
 			"title": "Slack",

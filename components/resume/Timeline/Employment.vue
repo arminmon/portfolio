@@ -4,7 +4,7 @@
 			<v-data-iterator
 				:items="items"
 				item-key="slug"
-				sort-by="start_date"
+				sort-by="startDate"
 				:sort-desc="sortDesc"
 				disable-pagination
 				hide-default-footer
@@ -22,7 +22,7 @@
 										'primary--text',
 									]"
 								>
-									{{ $t('Education History') }}
+									{{ $t('Employment History') }}
 								</h2>
 							</v-toolbar-title>
 							<v-spacer />
@@ -59,30 +59,37 @@
 				</template>
 				<template #item="{ item }">
 					<v-timeline-item :color="item.color" fill-dot right>
-						<v-card flat>
+						<v-card color="transparent" flat>
 							<v-card-text
 								v-if="$vuetify.breakpoint.smAndDown"
-								class="text-caption"
+								class="text-caption pb-0"
 							>
 								<span>
-									{{ $d(new Date(item.start_date), 'long YM') }}
+									{{ $d(item.startDate, 'long YM') }}
 								</span>
-								<span class="font-weight-black">
-									— {{ $d(new Date(item.graduation_date), 'long YM') }}
+								<span v-if="item.endDate" class="font-weight-black">
+									—
+									{{
+										item.isOngoing ? $t('present') : $d(item.endDate, 'long YM')
+									}}
 								</span>
 							</v-card-text>
 							<v-card-title>{{ $t(item.title) }}</v-card-title>
-							<v-card-subtitle v-if="item.subtitle">
-								{{ $t(item.subtitle) }}
+							<v-card-subtitle>
+								<span>
+									{{ $t(item.employer) }}
+								</span>
+								<v-chip v-if="item.type" label x-small>
+									{{ $t(item.type) }}
+								</v-chip>
 							</v-card-subtitle>
-							<v-card-text>{{ $t(item.institution) }}</v-card-text>
 							<v-card-text>
-								<v-expansion-panels v-if="item.details" multiple hover>
+								<v-expansion-panels v-if="item.hasDetails" multiple hover>
 									<v-expansion-panel
 										v-for="detail in item.details.filter(
 											(i) => i.items.length > 0
 										)"
-										:key="detail.title"
+										:key="`${item.slug}-${detail.title}`"
 									>
 										<v-expansion-panel-header>
 											{{ $t(detail.title) }}
@@ -104,7 +111,7 @@
 							</v-card-text>
 						</v-card>
 						<template #opposite>
-							<v-card flat>
+							<v-card color="transparent" flat>
 								<v-card-text
 									:class="{
 										'd-flex': true,
@@ -113,21 +120,22 @@
 										'text-caption': true,
 									}"
 								>
-									<div class="font-weight-black">
-										{{ $d(new Date(item.graduation_date), 'long YM') }}
+									<div v-if="item.endDate" class="font-weight-black">
+										{{
+											item.isOngoing
+												? $t('present')
+												: $d(item.endDate, 'long YM')
+										}}
 									</div>
 									<div>
-										{{ $d(new Date(item.start_date), 'long YM') }}
+										{{ $d(item.startDate, 'long YM') }}
 									</div>
 								</v-card-text>
 							</v-card>
 						</template>
 						<template #icon>
 							<v-avatar size="38">
-								<v-img
-									v-if="item.avatar"
-									:src="require(`~/assets/images/avatars/${item.avatar}`)"
-								/>
+								<v-img v-if="item.hasAvatar" :src="item.avatarUrl" />
 								<span v-else class="white--text text-h6 text-center">
 									{{ item.initials }}
 								</span>
@@ -142,14 +150,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { EducationContent } from '~/types/content'
+import type { Employment } from '~/plugins/resume/models'
 
 @Component
-export default class ResumeEducationTimeline extends Vue {
+export default class ResumeTimelineEmployment extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	items!: EducationContent[]
+	items!: Employment[]
 
 	get sortDesc(): boolean {
 		return this.options.includes('sortDesc')

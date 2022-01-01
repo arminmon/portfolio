@@ -1,6 +1,5 @@
 {
 	"order": 3,
-	"title": "Development Tools",
 	"items": [
 		{
 			"title": "CLI (Terminal)",
@@ -18,7 +17,8 @@
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.iterm2",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["cli", "terminal"]
 		},
 		{
 			"title": "Git",
@@ -27,7 +27,8 @@
 			"color": "#F05032",
 			"light": true,
 			"icon": "$icon.git",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["source control"]
 		},
 		{
 			"title": "Sourcetree",
@@ -36,7 +37,8 @@
 			"color": "#0052CC",
 			"dark": true,
 			"icon": "$icon.sourcetree",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["git", "source control"]
 		},
 		{
 			"title": "GitHub",
@@ -45,7 +47,8 @@
 			"color": "#181717",
 			"dark": true,
 			"icon": "$icon.github",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["git", "source control"]
 		},
 		{
 			"title": "VSCode",
@@ -54,7 +57,8 @@
 			"color": "#007ACC",
 			"dark": true,
 			"icon": "$icon.vscode",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["visual studio code", "code editor", "microsoft", "ms"]
 		},
 		{
 			"title": "Yarn",
@@ -63,7 +67,8 @@
 			"color": "#2C8EBB",
 			"light": true,
 			"icon": "$icon.yarn",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["node package manager", "npm", "nodejs"]
 		},
 		{
 			"title": "ESlint",
@@ -72,7 +77,8 @@
 			"color": "#4B32C3",
 			"dark": true,
 			"icon": "$icon.eslint",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["nodejs", "formatting"]
 		},
 		{
 			"title": "Prettier",
@@ -90,7 +96,8 @@
 			"color": "#263238",
 			"dark": true,
 			"icon": "$icon.stylelint",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["nodejs", "formatting"]
 		},
 		{
 			"title": "CodeKit",
@@ -106,7 +113,8 @@
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.markdown",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": [".md"]
 		}
 	]
 }

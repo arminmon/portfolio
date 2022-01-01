@@ -1,6 +1,5 @@
 {
 	"order": 1,
-	"title": "Back-end Development",
 	"items": [
 		{
 			"title": "REST API",
@@ -18,7 +17,8 @@
 			"color": "#000",
 			"dark": true,
 			"icon": "$icon.jwt",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["json web tokens", "security", "api"]
 		},
 		{
 			"title": "NodeJS",
@@ -26,7 +26,8 @@
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
 			"light": true,
-			"icon": "$icon.node_js"
+			"icon": "$icon.node_js",
+			"keywords": ["javascript", ".js"]
 		},
 		{
 			"title": "TypeScript",
@@ -35,7 +36,8 @@
 			"color": "#3178C6",
 			"dark": true,
 			"icon": "$icon.typescript",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": [".ts", "microsoft", "ms"]
 		},
 		{
 			"title": "Adonis",
@@ -44,7 +46,8 @@
 			"color": "#5A45FF",
 			"dark": true,
 			"icon": "$icon.adonis_js",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["typescript", ".ts", "nodejs", ".js", "web server", "api"]
 		},
 		{
 			"title": "Express",
@@ -52,7 +55,8 @@
 			"link": "https://expressjs.com/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.express_js"
+			"icon": "$icon.express_js",
+			"keywords": ["typescript", ".ts", "nodejs", ".js", "web server", "api"]
 		},
 		{
 			"title": "Fastify",
@@ -60,7 +64,15 @@
 			"link": "https://fastify.io/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.fastify"
+			"icon": "$icon.fastify",
+			"keywords": [
+				"typescript",
+				".ts",
+				"javascript",
+				".js",
+				"web server",
+				"api"
+			]
 		},
 		{
 			"title": "Sharp",
@@ -68,7 +80,8 @@
 			"link": "https://sharp.pixelplumbing.com/",
 			"color": "#99CC00",
 			"light": true,
-			"icon": "$icon.sharp"
+			"icon": "$icon.sharp",
+			"keywords": ["image processing", "nodejs"]
 		},
 		{
 			"title": "Jimp",
@@ -76,7 +89,8 @@
 			"link": "https://github.com/oliver-moran/jimp",
 			"color": "#D2242D",
 			"dark": true,
-			"icon": "$icon.crayon"
+			"icon": "$icon.crayon",
+			"keywords": ["image processing", "nodejs"]
 		},
 		{
 			"title": "Database Design",
@@ -85,7 +99,8 @@
 			"color": "#EEE",
 			"light": true,
 			"icon": "$icon.database",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["db", "schema design", "tables"]
 		},
 		{
 			"title": "PostgreSQL",
@@ -94,7 +109,8 @@
 			"color": "#4169E1",
 			"dark": true,
 			"icon": "$icon.postgresql",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["db", "database"]
 		},
 		{
 			"title": "MySQL",
@@ -102,7 +118,8 @@
 			"link": "https://www.mysql.com/",
 			"color": "#4479A1",
 			"dark": true,
-			"icon": "$icon.mysql"
+			"icon": "$icon.mysql",
+			"keywords": ["db", "database"]
 		},
 		{
 			"title": "KnexJS",
@@ -111,7 +128,8 @@
 			"color": "#E16426",
 			"light": true,
 			"icon": "$icon.knex_js",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["db", "database driver", "nodejs"]
 		},
 		{
 			"title": "Amazon S3",
@@ -119,7 +137,8 @@
 			"link": "http://aws.amazon.com/s3/",
 			"color": "#569A31",
 			"light": true,
-			"icon": "$icon.aws_s3"
+			"icon": "$icon.aws_s3",
+			"keywords": ["aws", "cloud storage"]
 		}
 	]
 }

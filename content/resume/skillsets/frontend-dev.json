@@ -1,6 +1,5 @@
 {
 	"order": 0,
-	"title": "Front-end Development",
 	"items": [
 		{
 			"title": "HTML 5",
@@ -8,7 +7,8 @@
 			"link": "https://html.spec.whatwg.org/",
 			"color": "#E34F26",
 			"light": true,
-			"icon": "$icon.html5"
+			"icon": "$icon.html5",
+			"keywords": ["template", "hypertext markup language"]
 		},
 		{
 			"title": "Pug",
@@ -16,7 +16,8 @@
 			"link": "https://pugjs.org/",
 			"color": "#A86454",
 			"dark": true,
-			"icon": "$icon.pug"
+			"icon": "$icon.pug",
+			"keywords": ["template", "html", "nodejs"]
 		},
 		{
 			"title": "CSS 3",
@@ -24,7 +25,8 @@
 			"link": "https://www.w3.org/Style/CSS/Overview.en.html",
 			"color": "#1572B6",
 			"dark": true,
-			"icon": "$icon.css3"
+			"icon": "$icon.css3",
+			"keywords": ["cascading style sheets", "styles", "styling"]
 		},
 		{
 			"title": "BEM Methodology",
@@ -32,7 +34,8 @@
 			"link": "http://getbem.com/",
 			"color": "#EEE",
 			"light": true,
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["css", "naming convention"]
 		},
 		{
 			"title": "RSCSS",
@@ -48,7 +51,8 @@
 			"color": "#CC6699",
 			"light": true,
 			"icon": "$icon.sass",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["styles", "css", "preprocessing"]
 		},
 		{
 			"title": "PostCSS",
@@ -56,7 +60,8 @@
 			"link": "https://postcss.org/",
 			"color": "#DD3A0A",
 			"dark": true,
-			"icon": "$icon.postcss"
+			"icon": "$icon.postcss",
+			"keywords": ["postprocessing"]
 		},
 		{
 			"title": "JavaScript",
@@ -64,7 +69,8 @@
 			"link": "https://www.javascript.com/",
 			"color": "#F7DF1E",
 			"light": true,
-			"icon": "$icon.javascript"
+			"icon": "$icon.javascript",
+			"keywords": [".js"]
 		},
 		{
 			"title": "CoffeeScript",
@@ -72,7 +78,8 @@
 			"link": "https://coffeescript.org/",
 			"color": "#2F2625",
 			"dark": true,
-			"icon": "$icon.coffeescript"
+			"icon": "$icon.coffeescript",
+			"keywords": ["javascript", ".js"]
 		},
 		{
 			"title": "NodeJS",
@@ -81,7 +88,8 @@
 			"color": "#339933",
 			"light": true,
 			"icon": "$icon.node_js",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["javascript", ".js"]
 		},
 		{
 			"title": "TypeScript",
@@ -90,7 +98,8 @@
 			"color": "#3178C6",
 			"dark": true,
 			"icon": "$icon.typescript",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": [".ts", "microsoft", "ms"]
 		},
 		{
 			"title": "Axios",
@@ -98,7 +107,8 @@
 			"link": "https://axios-http.com/",
 			"color": "#5A29E4",
 			"dark": true,
-			"icon": "$icon.axios"
+			"icon": "$icon.axios",
+			"keywords": ["nodejs", "http client", "api"]
 		},
 		{
 			"title": "Vue",
@@ -106,7 +116,8 @@
 			"link": "https://vuejs.org/",
 			"color": "#4FC08D",
 			"light": true,
-			"icon": "$icon.vue_js"
+			"icon": "$icon.vue_js",
+			"keywords": ["nodejs", ".js", "typescript", ".ts"]
 		},
 		{
 			"title": "Nuxt",
@@ -115,7 +126,8 @@
 			"color": "#00DC82",
 			"light": true,
 			"icon": "$icon.nuxt",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["vue", "nodejs", ".js", "typescript", ".ts", "ssg", "ssr"]
 		},
 		{
 			"title": "Vuetify",
@@ -124,7 +136,15 @@
 			"color": "#1867C0",
 			"dark": true,
 			"icon": "$icon.vuetify",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": [
+				"vue",
+				"nodejs",
+				".js",
+				"typescript",
+				".ts",
+				"google material design"
+			]
 		},
 		{
 			"title": "React",
@@ -132,7 +152,8 @@
 			"link": "https://reactjs.org/",
 			"color": "#61DAFB",
 			"light": true,
-			"icon": "$icon.react"
+			"icon": "$icon.react",
+			"keywords": ["nodejs", ".js", "typescript", ".ts", "facebook", "fb"]
 		},
 		{
 			"title": "Next",
@@ -140,7 +161,17 @@
 			"link": "https://nextjs.org/",
 			"color": "#000",
 			"dark": true,
-			"icon": "$icon.next_js"
+			"icon": "$icon.next_js",
+			"keywords": [
+				"react",
+				"nodejs",
+				".js",
+				"typescript",
+				".ts",
+				"ssg",
+				"ssr",
+				"vercel"
+			]
 		},
 		{
 			"title": "Angular",
@@ -148,7 +179,8 @@
 			"link": "https://angular.io/",
 			"color": "#DD0031",
 			"dark": true,
-			"icon": "$icon.angular"
+			"icon": "$icon.angular",
+			"keywords": ["nodejs", ".js", "typescript", ".ts", "google"]
 		},
 		{
 			"title": "Jasmine",
@@ -156,7 +188,8 @@
 			"link": "https://jasmine.github.io/",
 			"color": "#8A4182",
 			"dark": true,
-			"icon": "$icon.jasmine"
+			"icon": "$icon.jasmine",
+			"keywords": ["nodejs", ".js", "typescript", ".ts", "testing"]
 		},
 		{
 			"title": "Cypress",
@@ -164,7 +197,8 @@
 			"link": "https://cypress.io",
 			"color": "#17202C",
 			"dark": true,
-			"icon": "$icon.cypress"
+			"icon": "$icon.cypress",
+			"keywords": ["nodejs", ".js", "typescript", ".ts", "testing"]
 		},
 		{
 			"title": "Tailwind CSS",
@@ -190,7 +224,8 @@
 			"link": "https://getuikit.com/",
 			"color": "#2396F3",
 			"light": true,
-			"icon": "$icon.uikit"
+			"icon": "$icon.uikit",
+			"keywords": ["css"]
 		},
 		{
 			"title": "Bulma",
@@ -199,7 +234,8 @@
 			"color": "#00D1B2",
 			"light": true,
 			"icon": "$icon.bulma",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["css"]
 		},
 		{
 			"title": "Bootstrap",
@@ -207,7 +243,8 @@
 			"link": "https://getbootstrap.com/",
 			"color": "#7952B3",
 			"dark": true,
-			"icon": "$icon.bootstrap"
+			"icon": "$icon.bootstrap",
+			"keywords": ["css"]
 		},
 		{
 			"title": "The A11y Project",
@@ -216,7 +253,8 @@
 			"color": "#EEE",
 			"light": true,
 			"icon": "$icon.human",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["accessibility"]
 		}
 	]
 }
