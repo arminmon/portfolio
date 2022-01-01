@@ -16,7 +16,8 @@
 			"link": "http://aws.amazon.com",
 			"color": "#232F3E",
 			"dark": true,
-			"icon": "$icon.aws"
+			"icon": "$icon.aws",
+			"keywords": ["amazon"]
 		},
 		{
 			"title": "GitHub Actions",
@@ -32,7 +33,8 @@
 			"link": "https://vercel.com/",
 			"color": "#000000",
 			"dark": true,
-			"icon": "$icon.vercel"
+			"icon": "$icon.vercel",
+			"keywords": ["jamstack", "ssg"]
 		},
 		{
 			"title": "JAMStack",
@@ -50,7 +52,8 @@
 			"color": "#5CC18D",
 			"light": true,
 			"icon": "$icon.surge",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["jamstack", "ssg"]
 		},
 		{
 			"title": "Netlify",
@@ -58,7 +61,8 @@
 			"link": "https://www.netlify.com/",
 			"color": "#00C7B7",
 			"light": true,
-			"icon": "$icon.netlify"
+			"icon": "$icon.netlify",
+			"keywords": ["jamstack", "ssg"]
 		}
 	]
 }

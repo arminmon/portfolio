@@ -8,7 +8,8 @@
 			"color": "#F24E1E",
 			"light": true,
 			"icon": "$icon.figma",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["ui", "ux", "vector", "svg"]
 		},
 		{
 			"title": "Affinity Designer",
@@ -17,7 +18,8 @@
 			"color": "#1B72BE",
 			"dark": true,
 			"icon": "$icon.affinity_designer",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["vector", "svg", "illustrator"]
 		},
 		{
 			"title": "Affinity Photo",
@@ -25,7 +27,8 @@
 			"link": "https://affinity.serif.com/en-gb/photo/",
 			"color": "#7E4DD2",
 			"dark": true,
-			"icon": "$icon.affinity_photo"
+			"icon": "$icon.affinity_photo",
+			"keywords": ["photoshop"]
 		},
 		{
 			"title": "Scalable Vector Graphics",
@@ -34,7 +37,8 @@
 			"color": "#FFB13B",
 			"light": true,
 			"icon": "$icon.svg",
-			"is_preferred": true
+			"is_preferred": true,
+			"keywords": ["svg"]
 		},
 		{
 			"title": "Google Material Design",

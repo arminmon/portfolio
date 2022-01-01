@@ -6,7 +6,8 @@
 			"subtitle": "Object-Oriented Programming",
 			"link": "https://www.educative.io/blog/object-oriented-programming",
 			"color": "#EEE",
-			"light": true
+			"light": true,
+			"keywords": ["Object-Oriented Programming"]
 		},
 		{
 			"title": "SOLID",
@@ -20,21 +21,30 @@
 				"Dependency Inversion Principle"
 			],
 			"color": "#EEE",
-			"light": true
+			"light": true,
+			"keywords": [
+				"Single Responsibility Principle",
+				"Open/Closed Principle",
+				"Liskov Substitution Principle",
+				"Interface Segregation Principle",
+				"Dependency Inversion Principle"
+			]
 		},
 		{
 			"title": "KISS",
 			"subtitle": "Keep It Simple, Stupid",
 			"link": "https://www.interaction-design.org/literature/article/kiss-keep-it-simple-stupid-a-design-principle",
 			"color": "#EEE",
-			"light": true
+			"light": true,
+			"keywords": ["Keep It Simple, Stupid"]
 		},
 		{
 			"title": "DRY",
 			"subtitle": "Don't Repeat Yourself",
 			"link": "https://thevaluable.dev/dry-principle-cost-benefit-example/",
 			"color": "#EEE",
-			"light": true
+			"light": true,
+			"keywords": ["Don't Repeat Yourself"]
 		},
 		{
 			"title": "Naming Conventions",
