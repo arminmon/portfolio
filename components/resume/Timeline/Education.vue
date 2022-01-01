@@ -4,7 +4,7 @@
 			<v-data-iterator
 				:items="items"
 				item-key="slug"
-				sort-by="start_date"
+				sort-by="startDate"
 				:sort-desc="sortDesc"
 				disable-pagination
 				hide-default-footer
@@ -65,10 +65,10 @@
 								class="text-caption"
 							>
 								<span>
-									{{ $d(new Date(item.start_date), 'long YM') }}
+									{{ $d(item.startDate, 'long YM') }}
 								</span>
 								<span class="font-weight-black">
-									— {{ $d(new Date(item.graduation_date), 'long YM') }}
+									— {{ $d(item.graduationDate, 'long YM') }}
 								</span>
 							</v-card-text>
 							<v-card-title>{{ $t(item.title) }}</v-card-title>
@@ -77,11 +77,9 @@
 							</v-card-subtitle>
 							<v-card-text>{{ $t(item.institution) }}</v-card-text>
 							<v-card-text>
-								<v-expansion-panels v-if="item.details" multiple hover>
+								<v-expansion-panels v-if="item.hasDetails" multiple hover>
 									<v-expansion-panel
-										v-for="detail in item.details.filter(
-											(i) => i.items.length > 0
-										)"
+										v-for="detail in item.details"
 										:key="detail.title"
 									>
 										<v-expansion-panel-header>
@@ -114,20 +112,17 @@
 									}"
 								>
 									<div class="font-weight-black">
-										{{ $d(new Date(item.graduation_date), 'long YM') }}
+										{{ $d(item.graduationDate, 'long YM') }}
 									</div>
 									<div>
-										{{ $d(new Date(item.start_date), 'long YM') }}
+										{{ $d(item.startDate, 'long YM') }}
 									</div>
 								</v-card-text>
 							</v-card>
 						</template>
 						<template #icon>
 							<v-avatar size="38">
-								<v-img
-									v-if="item.avatar"
-									:src="require(`~/assets/images/avatars/${item.avatar}`)"
-								/>
+								<v-img v-if="item.hasAvatar" :src="item.avatarUrl" />
 								<span v-else class="white--text text-h6 text-center">
 									{{ item.initials }}
 								</span>
@@ -142,14 +137,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { EducationContent } from '~/types/content'
+import type { Education } from '~/plugins/resume/models'
 
 @Component
 export default class ResumeTimelineEducation extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	items!: EducationContent[]
+	items!: Education[]
 
 	get sortDesc(): boolean {
 		return this.options.includes('sortDesc')

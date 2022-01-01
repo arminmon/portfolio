@@ -4,7 +4,7 @@
 			<v-data-iterator
 				:items="items"
 				item-key="slug"
-				sort-by="start_date"
+				sort-by="startDate"
 				:sort-desc="sortDesc"
 				disable-pagination
 				hide-default-footer
@@ -65,14 +65,12 @@
 								class="text-caption pb-0"
 							>
 								<span>
-									{{ $d(new Date(item.start_date), 'long YM') }}
+									{{ $d(item.startDate, 'long YM') }}
 								</span>
-								<span v-if="item.end_date" class="font-weight-black">
+								<span v-if="item.endDate" class="font-weight-black">
 									—
 									{{
-										item.end_date === 'present'
-											? $t('present')
-											: $d(new Date(item.end_date), 'long YM')
+										item.isOngoing ? $t('present') : $d(item.endDate, 'long YM')
 									}}
 								</span>
 							</v-card-text>
@@ -86,7 +84,7 @@
 								</v-chip>
 							</v-card-subtitle>
 							<v-card-text>
-								<v-expansion-panels v-if="item.details" multiple hover>
+								<v-expansion-panels v-if="item.hasDetails" multiple hover>
 									<v-expansion-panel
 										v-for="detail in item.details.filter(
 											(i) => i.items.length > 0
@@ -122,25 +120,22 @@
 										'text-caption': true,
 									}"
 								>
-									<div v-if="item.end_date" class="font-weight-black">
+									<div v-if="item.endDate" class="font-weight-black">
 										{{
-											item.end_date === 'present'
+											item.isOngoing
 												? $t('present')
-												: $d(new Date(item.end_date), 'long YM')
+												: $d(item.endDate, 'long YM')
 										}}
 									</div>
 									<div>
-										{{ $d(new Date(item.start_date), 'long YM') }}
+										{{ $d(item.startDate, 'long YM') }}
 									</div>
 								</v-card-text>
 							</v-card>
 						</template>
 						<template #icon>
 							<v-avatar size="38">
-								<v-img
-									v-if="item.avatar"
-									:src="require(`~/assets/images/avatars/${item.avatar}`)"
-								/>
+								<v-img v-if="item.hasAvatar" :src="item.avatarUrl" />
 								<span v-else class="white--text text-h6 text-center">
 									{{ item.initials }}
 								</span>
@@ -155,14 +150,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { EmploymentContent } from '~/types/content'
+import type { Employment } from '~/plugins/resume/models'
 
 @Component
 export default class ResumeTimelineEmployment extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	items!: EmploymentContent[]
+	items!: Employment[]
 
 	get sortDesc(): boolean {
 		return this.options.includes('sortDesc')

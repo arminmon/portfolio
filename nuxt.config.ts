@@ -25,6 +25,7 @@ const configs: NuxtConfig = {
 	css: ['@fontsource/ubuntu-mono', '~/assets/styles/app'],
 
 	plugins: [
+		'~/plugins/resume',
 		'~/plugins/i18n',
 		'~/plugins/chroma',
 		'~/plugins/vue-masonry.client',

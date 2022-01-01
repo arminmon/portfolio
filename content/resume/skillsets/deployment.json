@@ -1,6 +1,5 @@
 {
 	"order": 2,
-	"title": "Deployment",
 	"items": [
 		{
 			"title": "Heroku",

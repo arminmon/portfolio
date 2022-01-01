@@ -4,7 +4,7 @@
 			<v-data-iterator
 				:items="items"
 				item-key="slug"
-				sort-by="join_date"
+				sort-by="joinDate"
 				:sort-desc="options.includes('sortDesc')"
 				disable-pagination
 				hide-default-footer
@@ -62,11 +62,9 @@
 						<v-card color="transparent" flat>
 							<v-card-text
 								v-if="$vuetify.breakpoint.smAndDown"
-								class="text-caption"
+								class="text-caption font-weight-black"
 							>
-								<span>
-									Since {{ $d(new Date(item.join_date), 'long YMD') }}
-								</span>
+								<span>Since {{ $d(item.joinDate, 'long YMD') }}</span>
 							</v-card-text>
 							<v-card-title>{{ item.title }}</v-card-title>
 							<v-card-subtitle v-if="item.subtitle">
@@ -76,19 +74,14 @@
 						</v-card>
 						<template #opposite>
 							<v-card flat>
-								<v-card-text class="text-caption">
-									<div>
-										Since {{ $d(new Date(item.join_date), 'long YMD') }}
-									</div>
+								<v-card-text class="text-caption font-weight-black">
+									<div>Since {{ $d(item.joinDate, 'long YMD') }}</div>
 								</v-card-text>
 							</v-card>
 						</template>
 						<template #icon>
 							<v-avatar size="38">
-								<v-img
-									v-if="item.avatar"
-									:src="require(`~/assets/images/avatars/${item.avatar}`)"
-								/>
+								<v-img v-if="item.hasAvatar" :src="item.avatarUrl" />
 								<span v-else class="white--text text-h6 text-center">
 									{{ item.initials }}
 								</span>
@@ -103,13 +96,13 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { ProfessionalMembershipContent } from '~/types/content'
+import type { ProfessionalMembership } from '~/plugins/resume/models'
 
 @Component
 export default class ResumeTimelineProfessionalMembership extends Vue {
 	options: string[] = ['sortDesc']
 
 	@Prop({ required: true })
-	items!: ProfessionalMembershipContent[]
+	items!: ProfessionalMembership[]
 }
 </script>

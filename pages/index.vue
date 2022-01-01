@@ -46,7 +46,7 @@
 				</v-col>
 				<v-col cols="12">
 					<v-card id="technical_skillsets" tag="section" elevation="18">
-						<resume-grid-skillsets :items="skillsets" />
+						<resume-grid-skillsets :items="skills" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
@@ -62,43 +62,39 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
 import type { Context } from '@nuxt/types'
+import type { SocialLink } from '~/types/content'
 import type {
-	SocialLink,
-	EmploymentContent,
-	EducationContent,
-	ProfessionalMembershipContent,
-	SkillsetContent,
-	SoftSkillContent,
-} from '~/types/content'
+	Education,
+	Employment,
+	ProfessionalMembership,
+	Skill,
+	SoftSkill,
+} from '~/plugins/resume/models'
 
 @Component
 export default class PageIndex extends Vue {
 	socialLinks!: SocialLink[]
-	employments!: EmploymentContent[]
-	educations!: EducationContent[]
-	memberships!: ProfessionalMembershipContent[]
-	skillsets!: SkillsetContent[]
-	softSkills!: SoftSkillContent[]
+	employments!: Employment[]
+	educations!: Education[]
+	memberships!: ProfessionalMembership[]
+	skills!: Skill[]
+	softSkills!: SoftSkill[]
 
-	async asyncData({ $content, error }: Context) {
+	async asyncData({ $content, $resume, error }: Context) {
 		try {
 			const socialLinks = await $content('socials').fetch()
-			const employments = await $content('resume', 'employments').fetch()
-			const educations = await $content('resume', 'educations').fetch()
-			const memberships = await $content('resume', 'memberships').fetch()
-			const skillsets = await $content('resume', 'skillsets')
-				.sortBy('order', 'asc')
-				.fetch()
-			const softSkills = await $content('resume', 'soft-skills')
-				.sortBy('order', 'asc')
-				.fetch()
+			const employments = await $resume.employments
+			const educations = await $resume.educations
+			const memberships = await $resume.professionalMemberships
+			const skills = await $resume.skills
+			const softSkills = await $resume.softSkills
 
 			return {
 				socialLinks,
 				employments,
 				educations,
 				memberships,
-				skillsets,
+				skills,
 				softSkills,
 			}
 		} catch (err: any) {

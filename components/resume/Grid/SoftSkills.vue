@@ -43,7 +43,7 @@
 							</h3>
 						</v-card-title>
 						<v-card-text>
-							<nuxt-content :document="skill" />
+							<nuxt-content :document="skill.model" />
 						</v-card-text>
 					</v-card>
 				</v-col>
@@ -54,14 +54,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
-import type { SoftSkillContent } from '~/types/content'
+import { SoftSkill } from '~/plugins/resume/models'
 
 @Component
 export default class ResumeGridSoftSkills extends Vue {
 	$redrawVueMasonry: any
 
 	@Prop({ required: true })
-	items!: SoftSkillContent[]
+	items!: SoftSkill[]
 
 	renderMasonry() {
 		if (typeof this.$redrawVueMasonry === 'function') {
