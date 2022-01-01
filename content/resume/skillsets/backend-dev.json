@@ -132,6 +132,15 @@
 			"keywords": ["db", "database driver", "sql", "nodejs"]
 		},
 		{
+			"title": "BookshelfJS",
+			"subtitle": "a JavaScript ORM for Node.js, built on the Knex SQL query builder.",
+			"link": "https://bookshelfjs.org/",
+			"color": "#E56515",
+			"light": true,
+			"is_preferred": true,
+			"keywords": ["db", "nodejs", "knex", "sql"]
+		},
+		{
 			"title": "Amazon S3",
 			"subtitle": "Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface.",
 			"link": "http://aws.amazon.com/s3/",
