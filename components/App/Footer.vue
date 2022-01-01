@@ -166,7 +166,7 @@ export default class AppFooter extends Vue {
 		{
 			title: 'Professional Memberships',
 			icon: '$icon.handshake',
-			to: '/#membership_history',
+			to: '/#professional_memberships',
 		},
 		{
 			title: 'Technical Skillsets',
@@ -189,7 +189,7 @@ export default class AppFooter extends Vue {
 			this.blocks.map((block) => block.title)
 		)
 
-		return `This website was built using ${blocksList}`
+		return `This website is built with ${blocksList}`
 	}
 
 	copyEmailToClipboard() {

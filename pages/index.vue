@@ -3,13 +3,17 @@
 		<v-container :style="{ maxWidth: '960px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
-					<v-card elevation="16" class="transition-swing rounded-t-0">
+					<v-card tag="header" elevation="18" class="rounded-t-0">
 						<v-card-title
-							class="
-								text-h4 text-center
-								justify-center
-								pa-6 pa-md-8 pa-lg-10 pa-xl-12
-							"
+							:class="[
+								'text-h4',
+								'text-center',
+								'justify-center',
+								'pa-6',
+								'pa-md-8',
+								'pa-lg-10',
+								'pa-xl-12',
+							]"
 						>
 							{{ $vuetify.breakpoint.smAndDown ? $t('Hi') : $t('Hello') }}
 							👋,&nbsp;
@@ -26,68 +30,28 @@
 					<resume-social-links :items="socialLinks" />
 				</v-col>
 				<v-col cols="12">
-					<v-card
-						id="employment_history"
-						v-intersect="{
-							handler: onCardIntersect,
-							options: cardIntersectOptions,
-						}"
-						tag="section"
-						class="transition-swing"
-					>
+					<v-card id="employment_history" tag="section" elevation="18">
 						<resume-employment-timeline :items="employments" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card
-						id="education_history"
-						v-intersect="{
-							handler: onCardIntersect,
-							options: cardIntersectOptions,
-						}"
-						tag="section"
-						class="transition-swing"
-					>
+					<v-card id="education_history" tag="section" elevation="18">
 						<resume-education-timeline :items="educations" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card
-						id="membership_history"
-						v-intersect="{
-							handler: onCardIntersect,
-							options: cardIntersectOptions,
-						}"
-						tag="section"
-						class="transition-swing"
-					>
-						<resume-membership-timeline :items="memberships" />
+					<v-card id="professional_memberships" tag="section" elevation="18">
+						<resume-professional-membership-timeline :items="memberships" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card
-						id="technical_skillsets"
-						v-intersect="{
-							handler: onCardIntersect,
-							options: cardIntersectOptions,
-						}"
-						tag="section"
-						class="transition-swing"
-					>
+					<v-card id="technical_skillsets" tag="section" elevation="18">
 						<resume-skillsets-grid :items="skillsets" />
 					</v-card>
 				</v-col>
 				<v-col cols="12">
-					<v-card
-						id="soft_skills"
-						v-intersect="{
-							handler: onCardIntersect,
-							options: cardIntersectOptions,
-						}"
-						tag="section"
-						class="transition-swing"
-					>
-						<resume-soft-skills-list :items="softSkills" />
+					<v-card id="soft_skills" tag="section" elevation="18">
+						<resume-soft-skills-grid :items="softSkills" />
 					</v-card>
 				</v-col>
 			</v-row>
@@ -115,7 +79,6 @@ export default class PageIndex extends Vue {
 	memberships!: ProfessionalMembershipContent[]
 	skillsets!: SkillsetContent[]
 	softSkills!: SoftSkillContent[]
-	cardIntersectOptions = { rootMargin: '-256px' }
 
 	async asyncData({ $content, error }: Context) {
 		try {
@@ -146,21 +109,6 @@ export default class PageIndex extends Vue {
 	head() {
 		return {
 			title: 'RÉSUMÉ',
-		}
-	}
-
-	onCardIntersect(
-		entries: IntersectionObserverEntry[],
-		_observer: IntersectionObserver,
-		isIntersecting: boolean
-	) {
-		const el = entries[0].target
-		if (isIntersecting) {
-			el.classList.add('elevation-16')
-			el.classList.remove('elevation-4')
-		} else {
-			el.classList.add('elevation-4')
-			el.classList.remove('elevation-16')
 		}
 	}
 }

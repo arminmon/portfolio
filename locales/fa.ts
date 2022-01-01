@@ -9,6 +9,8 @@ const messages = {
 
 	'Navigation Menu': 'منوی ناوبری',
 	'Scroll Up': 'برگشت به بالا',
+	'Switch lights on': 'چراغ روشن',
+	'Switch lights off': 'چراغ خاموش',
 
 	'Employment History': 'سوابق شغلی',
 	'Responsibilities': 'مسئولیت‌ها',
@@ -65,5 +67,9 @@ const messages = {
 	'Team Player': 'بازیکن تیم',
 	'Leadership': 'راهبر',
 	'Socially Active': 'اجتماعی',
+
+	'on this page': 'در این صفحه',
+	'externals': 'لینک‌های بیرونی',
+	'get in touch': 'ارتباط',
 }
 export default { ...messages, $vuetify: fa }
