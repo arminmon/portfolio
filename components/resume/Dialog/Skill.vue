@@ -9,7 +9,7 @@
 				? $chroma(skill.color).brighten(3).hex()
 				: $chroma(skill.color).darken(3).hex()
 		"
-		overlay-opacity=".3"
+		overlay-opacity=".5"
 	>
 		<v-card
 			:color="skill.color"
