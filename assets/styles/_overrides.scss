@@ -1,7 +1,7 @@
 .v-application {
 	.v-overlay {
 		&--active, &__scrim{
-			backdrop-filter: blur(5px);
+			backdrop-filter: blur(12px);
 		}
 	}
 }
