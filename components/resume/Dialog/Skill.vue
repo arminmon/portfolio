@@ -4,10 +4,12 @@
 		v-model="dialog"
 		max-width="320px"
 		width="300px"
+		:dark="skill.dark"
+		:light="skill.light"
 		:overlay-color="
 			skill.light
-				? $chroma(skill.color).brighten(3).hex()
-				: $chroma(skill.color).darken(3).hex()
+				? $chroma(skill.color).set('hsl.l', 0.75).hex()
+				: $chroma(skill.color).set('hsl.l', 0.25).hex()
 		"
 		overlay-opacity=".5"
 	>
