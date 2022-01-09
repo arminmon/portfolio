@@ -17,6 +17,7 @@
 								plain
 								href="https://github.com/arminmon/portfolio"
 								target="_blank"
+								aria-label="Git repository of this website"
 								v-on="on"
 							>
 								this
@@ -45,6 +46,7 @@
 									plain
 									target="_blank"
 									:href="block.href"
+									:aria-label="block.title"
 									v-on="on"
 								>
 									<v-icon>
