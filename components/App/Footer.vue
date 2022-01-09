@@ -26,13 +26,13 @@
 					</v-tooltip>
 				</v-col>
 				<v-col cols="auto">
-					<v-btn tag="span" icon x-small disabled>
+					<v-btn tag="span" icon x-small disabled aria-hidden="true">
 						<v-icon x-small>$icon.equal</v-icon>
 					</v-btn>
 				</v-col>
 				<template v-for="(block, index) in blocks">
 					<v-col v-if="index !== 0" :key="`${block.title}-plus`" cols="auto">
-						<v-btn tag="span" icon x-small disabled>
+						<v-btn tag="span" icon x-small disabled aria-hidden="true">
 							<v-icon x-small>$icon.plus</v-icon>
 						</v-btn>
 					</v-col>
