@@ -17,37 +17,48 @@
 			transform: drawer ? 'translateX(0)' : 'translateX(-125%)',
 		}"
 	>
-		<v-toolbar flat dense color="transparent" class="px-2">
-			<v-tooltip v-model="darkModeBtnTooltip" right>
-				<template #activator="{ on, attrs }">
-					<v-btn v-bind="attrs" small icon v-on="on" @click="toggleDarkMode">
-						<v-icon small>
-							{{ isDark ? '$icon.lightbulb_on' : '$icon.lightbulb_off' }}
-						</v-icon>
-					</v-btn>
-				</template>
-				<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
-			</v-tooltip>
-			<v-spacer />
-			<v-btn small plain icon @click="closeDrawer">
-				<v-icon small>$icon.close</v-icon>
-			</v-btn>
-		</v-toolbar>
-		<v-list nav>
-			<v-list-item
-				v-for="navLink in navLinks"
-				:key="navLink.title"
-				:to="navLink.to"
-			>
-				<v-list-item-icon>
-					<v-icon>{{ navLink.icon }}</v-icon>
-				</v-list-item-icon>
-				<v-list-item-content>
-					<v-list-item-title>{{ navLink.title }}</v-list-item-title>
-				</v-list-item-content>
-			</v-list-item>
-		</v-list>
-		<v-toolbar flat dense color="transparent"></v-toolbar>
+		<div class="d-flex flex-column-reverse">
+			<v-toolbar flat dense color="transparent"></v-toolbar>
+
+			<v-list nav>
+				<v-list-item
+					v-for="navLink in navLinks"
+					:key="navLink.title"
+					:to="navLink.to"
+				>
+					<v-list-item-icon>
+						<v-icon>{{ navLink.icon }}</v-icon>
+					</v-list-item-icon>
+					<v-list-item-content>
+						<v-list-item-title>{{ navLink.title }}</v-list-item-title>
+					</v-list-item-content>
+				</v-list-item>
+			</v-list>
+
+			<v-toolbar flat dense color="transparent" class="px-2">
+				<v-tooltip v-model="darkModeBtnTooltip" right>
+					<template #activator="{ on, attrs }">
+						<v-btn
+							v-bind="attrs"
+							small
+							icon
+							aria-label="Toggle colour scheme"
+							v-on="on"
+							@click="toggleDarkMode"
+						>
+							<v-icon small>
+								{{ isDark ? '$icon.lightbulb_on' : '$icon.lightbulb_off' }}
+							</v-icon>
+						</v-btn>
+					</template>
+					<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
+				</v-tooltip>
+				<v-spacer />
+				<v-btn small plain icon aria-label="Close drawer" @click="closeDrawer">
+					<v-icon small>$icon.close</v-icon>
+				</v-btn>
+			</v-toolbar>
+		</div>
 	</v-navigation-drawer>
 </template>
 
