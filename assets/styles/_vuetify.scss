@@ -13,12 +13,14 @@ $spacer: 4px;
 // Material
 $material-dark: (
 	'background': #181818,
+	'app-bar': #181818,
 	'toggle-buttons': (
 		'color': currentColor
 	)
 );
 $material-light: (
 	'background': #f7f7f7,
+	'app-bar': #f7f7f7,
 	'toggle-buttons': (
 		'color': currentColor
 	)
