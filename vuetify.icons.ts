@@ -54,6 +54,7 @@ import iTerm2 from 'simple-icons/icons/iterm2'
 import JAMStack from 'simple-icons/icons/jamstack'
 import Jasmine from 'simple-icons/icons/jasmine'
 import JavaScript from 'simple-icons/icons/javascript'
+import Jest from 'simple-icons/icons/jest'
 import Jira from 'simple-icons/icons/jira'
 import JWT from 'simple-icons/icons/jsonwebtokens'
 import Linkedin from 'simple-icons/icons/linkedin'
@@ -158,6 +159,7 @@ const simpleIcons: IconValues = {
 	jamstack: JAMStack.path,
 	jasmine: Jasmine.path,
 	javascript: JavaScript.path,
+	jest: Jest.path,
 	jira: Jira.path,
 	jwt: JWT.path,
 	linkedin: Linkedin.path,

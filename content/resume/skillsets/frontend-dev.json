@@ -201,6 +201,15 @@
 			"keywords": ["nodejs", ".js", "typescript", ".ts", "testing"]
 		},
 		{
+			"title": "Jest",
+			"subtitle": "A delightful JavaScript Testing Framework with a focus on simplicity",
+			"link": "https://jestjs.io",
+			"color": "#C21325",
+			"dark": true,
+			"icon": "$icon.jest",
+			"keywords": ["nodejs", ".js", "typescript", ".ts", "testing", "react"]
+		},
+		{
 			"title": "Tailwind CSS",
 			"subtitle": "A utility-first CSS framework packed with classes",
 			"link": "https://tailwindcss.com/",
