@@ -7,9 +7,7 @@
 		:dark="skill.dark"
 		:light="skill.light"
 		:overlay-color="
-			skill.light
-				? $chroma(skill.color).set('hsl.l', 0.75).hex()
-				: $chroma(skill.color).set('hsl.l', 0.25).hex()
+			$colour.setLightness(skill.color, skill.light ? 0.15 : 0.85)
 		"
 		overlay-opacity=".5"
 	>

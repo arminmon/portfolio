@@ -61,15 +61,7 @@
 									:light="item.light"
 									@click="openInDialog(item)"
 								>
-									<v-avatar
-										v-if="item.icon"
-										left
-										:color="
-											item.light
-												? $chroma(item.color).brighten(0.15).hex()
-												: $chroma(item.color).darken(0.15).hex()
-										"
-									>
+									<v-avatar v-if="item.icon" left>
 										<v-icon class="rounded-0">
 											{{ item.icon }}
 										</v-icon>
