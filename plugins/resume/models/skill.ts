@@ -3,11 +3,9 @@ import type { IconName } from '~/vuetify.icons'
 
 export interface SkillsetContentItem {
 	color: string
-	dark?: boolean
 	icon?: IconName
 	is_preferred?: boolean
 	keywords: string[]
-	light?: boolean
 	link?: string
 	notes?: string[]
 	subtitle?: string
@@ -70,14 +68,6 @@ export class Skill {
 
 	get color(): string {
 		return this.model.color
-	}
-
-	get dark(): boolean {
-		return this.model.dark || false
-	}
-
-	get light(): boolean {
-		return this.model.light || false
 	}
 
 	get keywords(): string[] | null {

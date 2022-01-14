@@ -6,7 +6,6 @@
 			"subtitle": "A collaborative online whiteboard",
 			"link": "https://miro.com/app/dashboard/",
 			"color": "#050038",
-			"dark": true,
 			"icon": "$icon.miro",
 			"keywords": ["collaboration"]
 		},
@@ -15,7 +14,6 @@
 			"subtitle": "A web-based, Kanban-style, list-making application and is a subsidiary of Atlassian.",
 			"link": "https://trello.com",
 			"color": "#0052CC",
-			"dark": true,
 			"icon": "$icon.trello",
 			"keywords": ["collaboration"]
 		},
@@ -24,7 +22,6 @@
 			"subtitle": "A proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.",
 			"link": "https://www.atlassian.com/software/jira",
 			"color": "#0052CC",
-			"dark": true,
 			"icon": "$icon.jira"
 		},
 		{
@@ -32,7 +29,6 @@
 			"subtitle": "A web-based corporate wiki developed by Atlassian",
 			"link": "https://www.atlassian.com/software/confluence",
 			"color": "#172B4D",
-			"dark": true,
 			"icon": "$icon.confluence",
 			"keywords": ["documentation"]
 		},
@@ -41,7 +37,6 @@
 			"subtitle": "A proprietary business communication platform offering many IRC-style features",
 			"link": "https://slack.com/",
 			"color": "#4A154B",
-			"dark": true,
 			"icon": "$icon.slack"
 		}
 	]

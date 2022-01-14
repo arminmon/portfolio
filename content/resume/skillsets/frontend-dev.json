@@ -6,7 +6,6 @@
 			"subtitle": "Hypertext Markup Language",
 			"link": "https://html.spec.whatwg.org/",
 			"color": "#E34F26",
-			"light": true,
 			"icon": "$icon.html5",
 			"keywords": ["template", "hypertext markup language"]
 		},
@@ -15,7 +14,6 @@
 			"subtitle": "A high-performance template engine heavily influenced by Haml",
 			"link": "https://pugjs.org/",
 			"color": "#A86454",
-			"dark": true,
 			"icon": "$icon.pug",
 			"keywords": ["template", "html", "nodejs"]
 		},
@@ -24,7 +22,6 @@
 			"subtitle": "Cascading Style Sheets",
 			"link": "https://www.w3.org/Style/CSS/Overview.en.html",
 			"color": "#1572B6",
-			"dark": true,
 			"icon": "$icon.css3",
 			"keywords": ["cascading style sheets", "styles", "styling"]
 		},
@@ -33,7 +30,6 @@
 			"subtitle": "Block__Element--Modifier, a methodology, that helps you to achieve reusable components and code sharing in the front-end",
 			"link": "http://getbem.com/",
 			"color": "#EEE",
-			"light": true,
 			"is_preferred": true,
 			"keywords": ["css", "naming convention"]
 		},
@@ -49,7 +45,6 @@
 			"subtitle": "Syntactically Awesome Style Sheets",
 			"link": "https://sass-lang.com/",
 			"color": "#CC6699",
-			"light": true,
 			"icon": "$icon.sass",
 			"is_preferred": true,
 			"keywords": ["styles", "css", "preprocessing"]
@@ -59,7 +54,6 @@
 			"subtitle": "A tool that uses JavaScript-based plugins to automate routine CSS operations",
 			"link": "https://postcss.org/",
 			"color": "#DD3A0A",
-			"dark": true,
 			"icon": "$icon.postcss",
 			"keywords": ["postprocessing"]
 		},
@@ -68,7 +62,6 @@
 			"subtitle": "A lightweight, interpreted, or just-in-time compiled programming language with first-class functions",
 			"link": "https://www.javascript.com/",
 			"color": "#F7DF1E",
-			"light": true,
 			"icon": "$icon.javascript",
 			"keywords": [".js"]
 		},
@@ -77,7 +70,6 @@
 			"subtitle": "Syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability",
 			"link": "https://coffeescript.org/",
 			"color": "#2F2625",
-			"dark": true,
 			"icon": "$icon.coffeescript",
 			"keywords": ["javascript", ".js"]
 		},
@@ -86,7 +78,6 @@
 			"subtitle": "Asynchronous Event-driven JavaScript Runtime",
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
-			"light": true,
 			"icon": "$icon.node_js",
 			"is_preferred": true,
 			"keywords": ["javascript", ".js"]
@@ -96,7 +87,6 @@
 			"subtitle": "A language for application-scale JavaScript",
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
-			"dark": true,
 			"icon": "$icon.typescript",
 			"is_preferred": true,
 			"keywords": [".ts", "microsoft", "ms"]
@@ -106,7 +96,6 @@
 			"subtitle": "A Promise-based HTTP client for the browser and NodeJS",
 			"link": "https://axios-http.com/",
 			"color": "#5A29E4",
-			"dark": true,
 			"icon": "$icon.axios",
 			"keywords": ["nodejs", "http client", "api"]
 		},
@@ -115,7 +104,6 @@
 			"subtitle": "An open-source model–view–viewmodel front end JavaScript framework",
 			"link": "https://vuejs.org/",
 			"color": "#4FC08D",
-			"light": true,
 			"icon": "$icon.vue_js",
 			"keywords": ["nodejs", ".js", "typescript", ".ts"]
 		},
@@ -124,7 +112,6 @@
 			"subtitle": "A meta-framework for universal Vue applications",
 			"link": "https://nuxtjs.org",
 			"color": "#00DC82",
-			"light": true,
 			"icon": "$icon.nuxt",
 			"is_preferred": true,
 			"keywords": ["vue", "nodejs", ".js", "typescript", ".ts", "ssg", "ssr"]
@@ -134,7 +121,6 @@
 			"subtitle": "A Material Design component framework for Vue",
 			"link": "https://vuetifyjs.com/",
 			"color": "#1867C0",
-			"dark": true,
 			"icon": "$icon.vuetify",
 			"is_preferred": true,
 			"keywords": [
@@ -151,7 +137,6 @@
 			"subtitle": "A front-end JavaScript library for building UI components",
 			"link": "https://reactjs.org/",
 			"color": "#61DAFB",
-			"light": true,
 			"icon": "$icon.react",
 			"keywords": ["nodejs", ".js", "typescript", ".ts", "facebook", "fb"]
 		},
@@ -160,7 +145,6 @@
 			"subtitle": "A framework to enable server-side rendering and generating static websites for React applications",
 			"link": "https://nextjs.org/",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.next_js",
 			"keywords": [
 				"react",
@@ -178,7 +162,6 @@
 			"subtitle": "A platform and framework for building single-page client applications using HTML and TypeScript",
 			"link": "https://angular.io/",
 			"color": "#DD0031",
-			"dark": true,
 			"icon": "$icon.angular",
 			"keywords": ["nodejs", ".js", "typescript", ".ts", "google"]
 		},
@@ -187,7 +170,6 @@
 			"subtitle": "A behavior-driven development framework for testing JavaScript code that plays very well with Karma",
 			"link": "https://jasmine.github.io/",
 			"color": "#8A4182",
-			"dark": true,
 			"icon": "$icon.jasmine",
 			"keywords": ["nodejs", ".js", "typescript", ".ts", "testing"]
 		},
@@ -196,7 +178,6 @@
 			"subtitle": "JavaScript End to End Testing Framework",
 			"link": "https://cypress.io",
 			"color": "#17202C",
-			"dark": true,
 			"icon": "$icon.cypress",
 			"keywords": ["nodejs", ".js", "typescript", ".ts", "testing"]
 		},
@@ -214,7 +195,6 @@
 			"subtitle": "A utility-first CSS framework packed with classes",
 			"link": "https://tailwindcss.com/",
 			"color": "#06B6D4",
-			"light": true,
 			"icon": "$icon.tailwind_css",
 			"is_preferred": true
 		},
@@ -223,7 +203,6 @@
 			"subtitle": "Next generation utility-first CSS framework",
 			"link": "https://windicss.org/",
 			"color": "#48B0F1",
-			"light": true,
 			"icon": "$icon.windi_css",
 			"is_preferred": true
 		},
@@ -232,7 +211,6 @@
 			"subtitle": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
 			"link": "https://getuikit.com/",
 			"color": "#2396F3",
-			"light": true,
 			"icon": "$icon.uikit",
 			"keywords": ["css"]
 		},
@@ -241,7 +219,6 @@
 			"subtitle": "A free, open source CSS framework based on Flexbox and built with Sass",
 			"link": "https://bulma.io/",
 			"color": "#00D1B2",
-			"light": true,
 			"icon": "$icon.bulma",
 			"is_preferred": true,
 			"keywords": ["css"]
@@ -251,7 +228,6 @@
 			"subtitle": "A free and open-source CSS framework directed at responsive, mobile-first front-end web development",
 			"link": "https://getbootstrap.com/",
 			"color": "#7952B3",
-			"dark": true,
 			"icon": "$icon.bootstrap",
 			"keywords": ["css"]
 		},
@@ -260,7 +236,6 @@
 			"subtitle": "The A11y Project is a community-driven effort to make digital accessibility easier",
 			"link": "https://www.a11yproject.com/",
 			"color": "#EEE",
-			"light": true,
 			"icon": "$icon.human",
 			"is_preferred": true,
 			"keywords": ["accessibility"]

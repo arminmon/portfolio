@@ -6,7 +6,6 @@
 			"subtitle": "A vector graphics editor and prototyping tool which is primarily web-based",
 			"link": "https://www.figma.com/",
 			"color": "#F24E1E",
-			"light": true,
 			"icon": "$icon.figma",
 			"is_preferred": true,
 			"keywords": ["ui", "ux", "vector", "svg"]
@@ -16,7 +15,6 @@
 			"subtitle": "Vector graphics tool designed to help graphic designers, web designers, game developers, and professional illustrators create UI/UX designs, typography, icons, and concept art",
 			"link": "https://affinity.serif.com/en-gb/designer/",
 			"color": "#1B72BE",
-			"dark": true,
 			"icon": "$icon.affinity_designer",
 			"is_preferred": true,
 			"keywords": ["vector", "svg", "illustrator"]
@@ -26,7 +24,6 @@
 			"subtitle": "Image editing tool that provides features including panorama stitching, HDR merge, focus stacking, PSD editing and more",
 			"link": "https://affinity.serif.com/en-gb/photo/",
 			"color": "#7E4DD2",
-			"dark": true,
 			"icon": "$icon.affinity_photo",
 			"keywords": ["photoshop"]
 		},
@@ -35,7 +32,6 @@
 			"subtitle": "An XML based markup that can contain two-dimensional vectors",
 			"link": "https://www.w3.org/Graphics/SVG/",
 			"color": "#FFB13B",
-			"light": true,
 			"icon": "$icon.svg",
 			"is_preferred": true,
 			"keywords": ["svg"]
@@ -45,7 +41,6 @@
 			"subtitle": "A design language developed by Google in 2014",
 			"link": "https://material.io/design",
 			"color": "#757575",
-			"dark": true,
 			"icon": "$icon.material_design",
 			"is_preferred": true
 		}

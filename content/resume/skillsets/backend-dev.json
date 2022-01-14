@@ -6,7 +6,6 @@
 			"subtitle": "Representational State Transfer Application Programming Interface",
 			"link": "https://restfulapi.net/",
 			"color": "#EEE",
-			"light": true,
 			"icon": "$icon.api",
 			"is_preferred": true
 		},
@@ -15,7 +14,6 @@
 			"subtitle": "JSON Web Tokens, a compact and self-contained way for securely transmitting information between parties as a JSON object",
 			"link": "https://jwt.io/",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.jwt",
 			"is_preferred": true,
 			"keywords": ["json web tokens", "security", "api"]
@@ -25,7 +23,6 @@
 			"subtitle": "Asynchronous Event-driven JavaScript Runtime",
 			"link": "https://nodejs.org/en/about/",
 			"color": "#339933",
-			"light": true,
 			"icon": "$icon.node_js",
 			"keywords": ["javascript", ".js"]
 		},
@@ -34,7 +31,6 @@
 			"subtitle": "A language for application-scale JavaScript",
 			"link": "https://www.typescriptlang.org/",
 			"color": "#3178C6",
-			"dark": true,
 			"icon": "$icon.typescript",
 			"is_preferred": true,
 			"keywords": [".ts", "microsoft", "ms"]
@@ -44,7 +40,6 @@
 			"subtitle": "A fully featured web framework for NodeJS",
 			"link": "https://adonisjs.com/",
 			"color": "#5A45FF",
-			"dark": true,
 			"icon": "$icon.adonis_js",
 			"is_preferred": true,
 			"keywords": ["typescript", ".ts", "nodejs", ".js", "web server", "api"]
@@ -54,7 +49,6 @@
 			"subtitle": "A minimal and flexible NodeJS web application framework",
 			"link": "https://expressjs.com/",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.express_js",
 			"keywords": ["typescript", ".ts", "nodejs", ".js", "web server", "api"]
 		},
@@ -63,7 +57,6 @@
 			"subtitle": "A fast and minimal NodeJS web application framework",
 			"link": "https://fastify.io/",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.fastify",
 			"keywords": [
 				"typescript",
@@ -79,7 +72,6 @@
 			"subtitle": "High performance NodeJS image processing",
 			"link": "https://sharp.pixelplumbing.com/",
 			"color": "#99CC00",
-			"light": true,
 			"icon": "$icon.sharp",
 			"keywords": ["image processing", "nodejs"]
 		},
@@ -88,7 +80,6 @@
 			"subtitle": "An image processing library for NodeJS written entirely in JavaScript, with zero native dependencies",
 			"link": "https://github.com/oliver-moran/jimp",
 			"color": "#D2242D",
-			"dark": true,
 			"icon": "$icon.crayon",
 			"keywords": ["image processing", "nodejs"]
 		},
@@ -97,7 +88,6 @@
 			"subtitle": "Relational database design and maintenance",
 			"link": "https://www.datanamic.com/support/lt-dez005-introduction-db-modeling.html",
 			"color": "#EEE",
-			"light": true,
 			"icon": "$icon.database",
 			"is_preferred": true,
 			"keywords": ["db", "schema design", "tables"]
@@ -107,7 +97,6 @@
 			"subtitle": "An open source object-relational database system",
 			"link": "https://www.postgresql.org/",
 			"color": "#4169E1",
-			"dark": true,
 			"icon": "$icon.postgresql",
 			"is_preferred": true,
 			"keywords": ["db", "database", "sql", "relational"]
@@ -117,7 +106,6 @@
 			"subtitle": "A relational database management system",
 			"link": "https://www.mysql.com/",
 			"color": "#4479A1",
-			"dark": true,
 			"icon": "$icon.mysql",
 			"keywords": ["db", "database", "sql", "relational"]
 		},
@@ -126,7 +114,6 @@
 			"subtitle": "A \"batteries included\" SQL query builder",
 			"link": "https://knexjs.org/",
 			"color": "#E16426",
-			"light": true,
 			"icon": "$icon.knex_js",
 			"is_preferred": true,
 			"keywords": ["db", "database driver", "sql", "nodejs"]
@@ -136,7 +123,6 @@
 			"subtitle": "a JavaScript ORM for Node.js, built on the Knex SQL query builder.",
 			"link": "https://bookshelfjs.org/",
 			"color": "#E56515",
-			"light": true,
 			"is_preferred": true,
 			"keywords": ["db", "nodejs", "knex", "sql"]
 		},
@@ -145,7 +131,6 @@
 			"subtitle": "Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface.",
 			"link": "http://aws.amazon.com/s3/",
 			"color": "#569A31",
-			"light": true,
 			"icon": "$icon.aws_s3",
 			"keywords": ["aws", "cloud storage"]
 		}

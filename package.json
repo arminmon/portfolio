@@ -24,7 +24,7 @@
 	"dependencies": {
 		"@fontsource/ubuntu-mono": "^4.5.0",
 		"@nuxt/content": "^1.15.1",
-		"chroma-js": "^2.1.2",
+		"color2k": "^1.2.5",
 		"core-js": "^3.19.1",
 		"nuxt": "^2.15.8",
 		"nuxt-i18n": "^6.28.1",

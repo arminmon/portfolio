@@ -4,19 +4,17 @@
 		v-model="dialog"
 		max-width="320px"
 		width="300px"
-		:dark="skill.dark"
-		:light="skill.light"
+		:dark="!$colour.isReadableInBlack(skill.color)"
+		:light="$colour.isReadableInBlack(skill.color)"
 		:overlay-color="
-			skill.light
-				? $chroma(skill.color).set('hsl.l', 0.75).hex()
-				: $chroma(skill.color).set('hsl.l', 0.25).hex()
+			$colour.setLightness(skill.color, skill.light ? 0.15 : 0.85)
 		"
 		overlay-opacity=".5"
 	>
 		<v-card
 			:color="skill.color"
-			:dark="skill.dark"
-			:light="skill.light"
+			:dark="!$colour.isReadableInBlack(skill.color)"
+			:light="$colour.isReadableInBlack(skill.color)"
 			:style="{ position: 'relative', overflow: 'hidden' }"
 		>
 			<v-icon
@@ -40,8 +38,8 @@
 					aria-hidden="true"
 					dot
 					bordered
-					:dark="skill.light"
-					:light="skill.dark"
+					:dark="$colour.isReadableInBlack(skill.color)"
+					:light="!$colour.isReadableInBlack(skill.color)"
 					color="primary"
 					class="ma-4"
 					:style="{ position: 'absolute', top: 0, right: 0 }"

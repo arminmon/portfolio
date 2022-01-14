@@ -27,7 +27,7 @@ const configs: NuxtConfig = {
 	plugins: [
 		'~/plugins/resume',
 		'~/plugins/i18n',
-		'~/plugins/chroma',
+		'~/plugins/colour',
 		'~/plugins/vue-masonry.client',
 	],
 
