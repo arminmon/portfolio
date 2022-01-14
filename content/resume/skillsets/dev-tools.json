@@ -6,7 +6,6 @@
 			"subtitle": "Command-Line Interface",
 			"link": "https://www.linuxjournal.com/content/linux-command-line-interface-introduction-guide",
 			"color": "#EEE",
-			"light": true,
 			"icon": "$icon.console",
 			"is_preferred": false
 		},
@@ -15,7 +14,6 @@
 			"subtitle": "A terminal emulator for macOS, licensed under GPL-2.0-or-later",
 			"link": "https://iterm2.com",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.iterm2",
 			"is_preferred": true,
 			"keywords": ["cli", "terminal"]
@@ -25,7 +23,6 @@
 			"subtitle": "Distributed version control system",
 			"link": "https://git-scm.com/",
 			"color": "#F05032",
-			"light": true,
 			"icon": "$icon.git",
 			"is_preferred": true,
 			"keywords": ["source control"]
@@ -35,7 +32,6 @@
 			"subtitle": "A GUI that offers a visual representation of git repositories",
 			"link": "https://www.sourcetreeapp.com/",
 			"color": "#0052CC",
-			"dark": true,
 			"icon": "$icon.sourcetree",
 			"is_preferred": true,
 			"keywords": ["git", "source control"]
@@ -45,7 +41,6 @@
 			"subtitle": "Hosting for software development and version control using Git",
 			"link": "https://github.com/",
 			"color": "#181717",
-			"dark": true,
 			"icon": "$icon.github",
 			"is_preferred": true,
 			"keywords": ["git", "source control"]
@@ -55,7 +50,6 @@
 			"subtitle": "Visual Studio Code editor",
 			"link": "https://code.visualstudio.com/",
 			"color": "#007ACC",
-			"dark": true,
 			"icon": "$icon.vscode",
 			"is_preferred": true,
 			"keywords": ["visual studio code", "code editor", "microsoft", "ms"]
@@ -65,7 +59,6 @@
 			"subtitle": "A software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager)",
 			"link": "https://yarnpkg.com",
 			"color": "#2C8EBB",
-			"light": true,
 			"icon": "$icon.yarn",
 			"is_preferred": true,
 			"keywords": ["node package manager", "npm", "nodejs"]
@@ -75,7 +68,6 @@
 			"subtitle": "Static code analysis tool for identifying problematic patterns found in JavaScript",
 			"link": "http://eslint.org",
 			"color": "#4B32C3",
-			"dark": true,
 			"icon": "$icon.eslint",
 			"is_preferred": true,
 			"keywords": ["nodejs", "formatting"]
@@ -85,7 +77,6 @@
 			"subtitle": "An opinionated code formatter",
 			"link": "https://prettier.io/",
 			"color": "#F7B93E",
-			"light": true,
 			"icon": "$icon.prettier",
 			"is_preferred": true
 		},
@@ -94,7 +85,6 @@
 			"subtitle": "A mighty, modern linter for styles",
 			"link": "https://stylelint.io/",
 			"color": "#263238",
-			"dark": true,
 			"icon": "$icon.stylelint",
 			"is_preferred": true,
 			"keywords": ["nodejs", "formatting"]
@@ -111,7 +101,6 @@
 			"subtitle": "A lightweight markup language for creating formatted text",
 			"link": "https://daringfireball.net/projects/markdown/",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.markdown",
 			"is_preferred": true,
 			"keywords": [".md"]
@@ -121,7 +110,6 @@
 			"subtitle": "A Javascript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically",
 			"link": "https://mermaid-js.github.io/mermaid/",
 			"color": "#3DAC7A",
-			"dark": true,
 			"keywords": ["markdown", "diagrams"]
 		}
 	]

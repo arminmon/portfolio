@@ -6,7 +6,6 @@
 			"subtitle": "A proprietary graphical operating system developed and marketed by Apple Inc, since 2001",
 			"link": "https://www.apple.com/macos",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.apple_macos",
 			"is_preferred": true,
 			"keywords": ["apple", "os"]
@@ -16,7 +15,6 @@
 			"subtitle": "A mobile operating system created and developed by Apple Inc",
 			"link": "https://www.apple.com/ios",
 			"color": "#000",
-			"dark": true,
 			"icon": "$icon.apple_ios",
 			"keywords": ["apple", "os"]
 		},
@@ -25,7 +23,6 @@
 			"subtitle": "A group of several proprietary graphical operating system families, all of which developed and marketed by Microsoft",
 			"link": "http://windows.microsoft.com/",
 			"color": "#0078D6",
-			"dark": true,
 			"icon": "$icon.ms_windows",
 			"keywords": ["os"]
 		},
@@ -34,7 +31,6 @@
 			"subtitle": "A Linux distribution based on Debian and composed mostly of free and open-source software",
 			"link": "https://ubuntu.com/",
 			"color": "#E95420",
-			"light": true,
 			"icon": "$icon.ubuntu",
 			"keywords": ["linux", "os"]
 		},
@@ -43,7 +39,6 @@
 			"subtitle": "A Linux distribution based on Ubuntu LTS",
 			"link": "https://elementary.io/",
 			"color": "#64BAFF",
-			"light": true,
 			"icon": "$icon.elementary_os",
 			"keywords": ["linux", "os"]
 		}

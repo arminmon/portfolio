@@ -57,8 +57,8 @@
 								<v-chip
 									pill
 									:color="item.color"
-									:dark="item.dark"
-									:light="item.light"
+									:dark="!$colour.isReadableInBlack(item.color)"
+									:light="$colour.isReadableInBlack(item.color)"
 									@click="openInDialog(item)"
 								>
 									<v-avatar v-if="item.icon" left>

@@ -6,7 +6,6 @@
 			"subtitle": "A container-based cloud Platform as a Service",
 			"link": "http://heroku.com",
 			"color": "#430098",
-			"dark": true,
 			"icon": "$icon.heroku",
 			"is_preferred": true
 		},
@@ -15,7 +14,6 @@
 			"subtitle": "Amazon Web Services",
 			"link": "http://aws.amazon.com",
 			"color": "#232F3E",
-			"dark": true,
 			"icon": "$icon.aws",
 			"keywords": ["amazon"]
 		},
@@ -24,7 +22,6 @@
 			"subtitle": "Automate, customise, and execute software development workflows right in repository",
 			"link": "https://github.com/features/actions",
 			"color": "#2088FF",
-			"light": true,
 			"icon": "$icon.github_actions"
 		},
 		{
@@ -32,7 +29,6 @@
 			"subtitle": "A platform for static sites and front-end frameworks, built to integrate with your headless content, commerce, or database",
 			"link": "https://vercel.com/",
 			"color": "#000000",
-			"dark": true,
 			"icon": "$icon.vercel",
 			"keywords": ["jamstack", "ssg"]
 		},
@@ -41,7 +37,6 @@
 			"subtitle": "JavaScript, APIs, and Markup",
 			"link": "https://jamstack.org/",
 			"color": "#F0047F",
-			"light": true,
 			"icon": "$icon.jamstack",
 			"is_preferred": true
 		},
@@ -50,7 +45,6 @@
 			"subtitle": "Static web publishing for Front-End Developers",
 			"link": "https://surge.sh/",
 			"color": "#5CC18D",
-			"light": true,
 			"icon": "$icon.surge",
 			"is_preferred": true,
 			"keywords": ["jamstack", "ssg"]
@@ -60,7 +54,6 @@
 			"subtitle": "An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps",
 			"link": "https://www.netlify.com/",
 			"color": "#00C7B7",
-			"light": true,
 			"icon": "$icon.netlify",
 			"keywords": ["jamstack", "ssg"]
 		}

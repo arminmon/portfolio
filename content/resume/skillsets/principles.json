@@ -6,7 +6,6 @@
 			"subtitle": "Object-Oriented Programming",
 			"link": "https://www.educative.io/blog/object-oriented-programming",
 			"color": "#EEE",
-			"light": true,
 			"keywords": ["Object-Oriented Programming"]
 		},
 		{
@@ -21,7 +20,6 @@
 				"Dependency Inversion Principle"
 			],
 			"color": "#EEE",
-			"light": true,
 			"keywords": [
 				"Single Responsibility Principle",
 				"Open/Closed Principle",
@@ -35,7 +33,6 @@
 			"subtitle": "Keep It Simple, Stupid",
 			"link": "https://www.interaction-design.org/literature/article/kiss-keep-it-simple-stupid-a-design-principle",
 			"color": "#EEE",
-			"light": true,
 			"keywords": ["Keep It Simple, Stupid"]
 		},
 		{
@@ -43,7 +40,6 @@
 			"subtitle": "Don't Repeat Yourself",
 			"link": "https://thevaluable.dev/dry-principle-cost-benefit-example/",
 			"color": "#EEE",
-			"light": true,
 			"keywords": ["Don't Repeat Yourself"]
 		},
 		{
