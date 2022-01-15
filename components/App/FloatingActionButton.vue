@@ -15,7 +15,7 @@
 			}"
 			@click="openAppDrawer"
 		>
-			<v-icon :small="$vuetify.breakpoint.mobile">$icon.menu</v-icon>
+			Nav
 		</v-btn>
 	</v-slide-x-transition>
 </template>
