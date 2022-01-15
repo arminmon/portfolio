@@ -5,18 +5,18 @@
 			id="appFab"
 			:aria-label="$t('Navigation Drawer')"
 			fab
-			:small="$vuetify.breakpoint.mobile"
-			elevation="8"
+			elevation="12"
 			color="primary"
-			class="ma-6"
+			class="ma-6 font-pacifico"
 			:style="{
-				left: '0',
+				left: $vuetify.breakpoint.mobile ? 'unset' : '0',
+				right: $vuetify.breakpoint.mobile ? '0' : 'unset',
 				top: $vuetify.breakpoint.mobile ? 'unset' : '0',
 				bottom: $vuetify.breakpoint.mobile ? '0' : 'unset',
 			}"
 			@click="openAppDrawer"
 		>
-			<v-icon :small="$vuetify.breakpoint.mobile">$icon.menu</v-icon>
+			Nav
 		</v-btn>
 	</v-slide-x-transition>
 </template>

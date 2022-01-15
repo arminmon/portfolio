@@ -11,10 +11,13 @@
 		overlay-color="primary"
 		overlay-opacity="0.5"
 		class="ma-6 rounded"
+		:right="$vuetify.breakpoint.mobile"
 		:style="{
 			top: $vuetify.breakpoint.mobile ? 'unset' : '0',
 			bottom: $vuetify.breakpoint.mobile ? '0' : 'unset',
-			transform: drawer ? 'translateX(0)' : 'translateX(-125%)',
+			transform: `translateX(${
+				!drawer ? ($vuetify.breakpoint.mobile ? '125%' : '-125%') : '0'
+			})`,
 		}"
 	>
 		<div class="d-flex flex-column-reverse">
