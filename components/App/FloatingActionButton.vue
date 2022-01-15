@@ -5,7 +5,7 @@
 			id="appFab"
 			:aria-label="$t('Navigation Drawer')"
 			fab
-			elevation="8"
+			elevation="12"
 			color="primary"
 			class="ma-6"
 			:style="{
