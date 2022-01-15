@@ -5,7 +5,6 @@
 			id="appFab"
 			:aria-label="$t('Navigation Drawer')"
 			fab
-			:small="$vuetify.breakpoint.mobile"
 			elevation="8"
 			color="primary"
 			class="ma-6"
