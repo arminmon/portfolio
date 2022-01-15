@@ -9,7 +9,8 @@
 			color="primary"
 			class="ma-6 font-pacifico"
 			:style="{
-				left: '0',
+				left: $vuetify.breakpoint.mobile ? 'unset' : '0',
+				right: $vuetify.breakpoint.mobile ? '0' : 'unset',
 				top: $vuetify.breakpoint.mobile ? 'unset' : '0',
 				bottom: $vuetify.breakpoint.mobile ? '0' : 'unset',
 			}"
