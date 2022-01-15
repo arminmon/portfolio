@@ -22,6 +22,7 @@
 		}
 	},
 	"dependencies": {
+		"@fontsource/pacifico": "^4.5.0",
 		"@fontsource/ubuntu-mono": "^4.5.0",
 		"@nuxt/content": "^1.15.1",
 		"color2k": "^1.2.5",

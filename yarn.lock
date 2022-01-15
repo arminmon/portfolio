@@ -952,6 +952,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/pacifico@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/pacifico/-/pacifico-4.5.0.tgz#187c254c2f8cc8b61dda3eedd13e37c4c7155861"
+  integrity sha512-FZErklujN9z4iroaeslXux+eGQz2/2wpaJ5CHDOXmB/xAzpAVIpsXznMasWKCibgShRXEogJQPICXFfF0vArLw==
+
 "@fontsource/ubuntu-mono@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@fontsource/ubuntu-mono/-/ubuntu-mono-4.5.0.tgz#39fe55921dcf3ea78580ff67b5015f24471a2e6b"
