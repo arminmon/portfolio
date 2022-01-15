@@ -7,7 +7,7 @@
 			fab
 			elevation="12"
 			color="primary"
-			class="ma-6"
+			class="ma-6 font-pacifico"
 			:style="{
 				left: '0',
 				top: $vuetify.breakpoint.mobile ? 'unset' : '0',
