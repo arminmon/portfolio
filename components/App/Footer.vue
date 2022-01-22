@@ -121,6 +121,7 @@
 									<v-btn
 										v-bind="attrs"
 										icon
+										aria-label="copy email address to clipboard"
 										v-on="on"
 										@click="copyEmailToClipboard"
 									>

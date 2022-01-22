@@ -21,13 +21,14 @@
 		}"
 	>
 		<div class="d-flex flex-column-reverse">
-			<v-toolbar flat dense color="transparent"></v-toolbar>
+			<v-toolbar tag="div" flat dense color="transparent"></v-toolbar>
 
 			<v-list nav>
 				<v-list-item
 					v-for="navLink in navLinks"
 					:key="navLink.title"
 					:to="navLink.to"
+					:aria-label="navLink.title"
 				>
 					<v-list-item-icon>
 						<v-icon>{{ navLink.icon }}</v-icon>
@@ -38,7 +39,7 @@
 				</v-list-item>
 			</v-list>
 
-			<v-toolbar flat dense color="transparent" class="px-2">
+			<v-toolbar tag="div" flat dense color="transparent" class="px-2">
 				<v-tooltip v-model="darkModeBtnTooltip" right>
 					<template #activator="{ on, attrs }">
 						<v-btn
