@@ -28,6 +28,7 @@
 					v-for="navLink in navLinks"
 					:key="navLink.title"
 					:to="navLink.to"
+					:aria-label="navLink.title"
 				>
 					<v-list-item-icon>
 						<v-icon>{{ navLink.icon }}</v-icon>
