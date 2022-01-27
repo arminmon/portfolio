@@ -20,49 +20,81 @@
 			})`,
 		}"
 	>
-		<div class="d-flex flex-column-reverse">
-			<v-toolbar tag="div" flat dense color="transparent"></v-toolbar>
+		<v-toolbar tag="div" flat dense color="transparent" class="px-2">
+			<!-- <v-tooltip v-model="darkModeBtnTooltip" right>
+				<template #activator="{ on, attrs }">
+					<v-btn
+						v-bind="attrs"
+						small
+						icon
+						aria-label="Toggle colour scheme"
+						v-on="on"
+						@click="toggleDarkMode"
+					>
+						<v-icon small>
+							{{ isDark ? '$icon.lightbulb_on' : '$icon.lightbulb_off' }}
+						</v-icon>
+					</v-btn>
+				</template>
+				<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
+			</v-tooltip> -->
+			<v-tooltip right>
+				<template #activator="{ on, attrs }">
+					<v-btn
+						v-bind="attrs"
+						small
+						plain
+						icon
+						aria-label="go to top"
+						v-on="on"
+						@click="goTo('#headerBanner')"
+					>
+						<v-icon small>$icon.arrow_collapse_up</v-icon>
+					</v-btn>
+				</template>
+				<span>{{ $t('Go to top') }}</span>
+			</v-tooltip>
+			<v-spacer />
+			<v-btn small plain icon aria-label="Close drawer" @click="closeDrawer">
+				<v-icon small>$icon.close</v-icon>
+			</v-btn>
+		</v-toolbar>
 
-			<v-list nav>
-				<v-list-item
-					v-for="navLink in navLinks"
-					:key="navLink.title"
-					:to="navLink.to"
-					:aria-label="navLink.title"
-				>
-					<v-list-item-icon>
-						<v-icon>{{ navLink.icon }}</v-icon>
-					</v-list-item-icon>
-					<v-list-item-content>
-						<v-list-item-title>{{ navLink.title }}</v-list-item-title>
-					</v-list-item-content>
-				</v-list-item>
-			</v-list>
+		<v-list nav>
+			<v-list-item
+				v-for="navLink in navLinks"
+				:key="navLink.title"
+				:to="navLink.to"
+				:aria-label="navLink.title"
+			>
+				<v-list-item-icon>
+					<v-icon>{{ navLink.icon }}</v-icon>
+				</v-list-item-icon>
+				<v-list-item-content>
+					<v-list-item-title>{{ navLink.title }}</v-list-item-title>
+				</v-list-item-content>
+			</v-list-item>
+		</v-list>
 
-			<v-toolbar tag="div" flat dense color="transparent" class="px-2">
-				<v-tooltip v-model="darkModeBtnTooltip" right>
-					<template #activator="{ on, attrs }">
-						<v-btn
-							v-bind="attrs"
-							small
-							icon
-							aria-label="Toggle colour scheme"
-							v-on="on"
-							@click="toggleDarkMode"
-						>
-							<v-icon small>
-								{{ isDark ? '$icon.lightbulb_on' : '$icon.lightbulb_off' }}
-							</v-icon>
-						</v-btn>
-					</template>
-					<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
-				</v-tooltip>
-				<v-spacer />
-				<v-btn small plain icon aria-label="Close drawer" @click="closeDrawer">
-					<v-icon small>$icon.close</v-icon>
-				</v-btn>
-			</v-toolbar>
-		</div>
+		<v-toolbar tag="div" flat dense color="transparent" class="px-2">
+			<v-tooltip right>
+				<template #activator="{ on, attrs }">
+					<v-btn
+						v-bind="attrs"
+						small
+						plain
+						icon
+						aria-label="go to footer"
+						v-on="on"
+						@click="goTo('#appFooter')"
+					>
+						<v-icon small>$icon.arrow_collapse_down</v-icon>
+					</v-btn>
+				</template>
+				<span>{{ $t('Go to footer') }}</span>
+			</v-tooltip>
+			<v-spacer />
+		</v-toolbar>
 	</v-navigation-drawer>
 </template>
 
@@ -119,6 +151,11 @@ export default class AppDrawer extends Vue {
 	@On('open-drawer')
 	openDrawer(): void {
 		this.drawer = true
+	}
+
+	goTo(target: string) {
+		this.$vuetify.goTo(target)
+		this.closeDrawer()
 	}
 
 	toggleDarkMode(): void {
