@@ -62,7 +62,7 @@
 									@click="openInDialog(item)"
 								>
 									<v-avatar v-if="item.icon" left>
-										<v-icon class="rounded-0">
+										<v-icon class="rounded-0 pa-1">
 											{{ item.icon }}
 										</v-icon>
 									</v-avatar>
