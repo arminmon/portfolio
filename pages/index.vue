@@ -3,7 +3,13 @@
 		<v-container :style="{ maxWidth: '960px' }">
 			<v-row>
 				<v-col cols="12" class="pt-0">
-					<v-card tag="header" role="banner" elevation="18" class="rounded-t-0">
+					<v-card
+						id="headerBanner"
+						tag="header"
+						role="banner"
+						elevation="18"
+						class="rounded-t-0"
+					>
 						<v-card-title
 							:class="[
 								'text-h4',
