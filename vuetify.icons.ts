@@ -2,6 +2,8 @@ import SvgPath from 'svgpath'
 
 import {
 	mdiApi,
+	mdiArrowCollapseDown,
+	mdiArrowCollapseUp,
 	mdiChevronUp,
 	mdiConsole,
 	mdiContentCopy,
@@ -106,6 +108,8 @@ declare interface IconValues {
 
 const materialDesignIcons: IconValues = {
 	api: mdiApi,
+	arrow_collapse_down: mdiArrowCollapseDown,
+	arrow_collapse_up: mdiArrowCollapseUp,
 	chevron_up: mdiChevronUp,
 	console: mdiConsole,
 	copy: mdiContentCopy,
