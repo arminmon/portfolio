@@ -8,7 +8,8 @@ const messages = {
 	'Hi': 'درود',
 
 	'Navigation Menu': 'منوی ناوبری',
-	'Scroll Up': 'برگشت به بالا',
+	'Go to top': 'برو بالا',
+	'Go to footer': 'برو به فوتر',
 	'Switch lights on': 'چراغ روشن',
 	'Switch lights off': 'چراغ خاموش',
 
