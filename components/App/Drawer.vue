@@ -20,7 +20,7 @@
 			})`,
 		}"
 	>
-		<v-toolbar tag="div" flat dense color="transparent" class="px-2">
+		<v-toolbar tag="div" flat short color="transparent" class="px-2">
 			<!-- <v-tooltip v-model="darkModeBtnTooltip" right>
 				<template #activator="{ on, attrs }">
 					<v-btn
@@ -76,7 +76,7 @@
 			</v-list-item>
 		</v-list>
 
-		<v-toolbar tag="div" flat dense color="transparent" class="px-2">
+		<v-toolbar tag="div" flat short color="transparent" class="px-2">
 			<v-tooltip right>
 				<template #activator="{ on, attrs }">
 					<v-btn
