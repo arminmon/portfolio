@@ -12,7 +12,7 @@
 			]"
 		>
 			{{ $vuetify.breakpoint.smAndDown ? $t('Hi') : $t('Hello') }}
-			👋,&nbsp;
+			<span aria-hidden="true" class="waving-hand ms-1">👋</span>,&nbsp;
 			<span class="text-nowrap">{{ $t("I'm Armin") }}.</span>
 			<v-avatar size="64" class="ms-2 ms-md-4">
 				<v-img
@@ -29,3 +29,24 @@ import { Component, Vue } from 'nuxt-property-decorator'
 @Component
 export default class LandingHeaderBanner extends Vue {}
 </script>
+
+<style>
+@keyframes wave {
+	from {
+		transform: rotate(-5deg) scale(0.9, 0.9);
+	}
+	to {
+		transform: rotate(5deg) scale(1, 1);
+	}
+}
+.waving-hand {
+	animation-name: wave;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	transform-origin: bottom;
+}
+</style>
