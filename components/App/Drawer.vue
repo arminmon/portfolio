@@ -47,7 +47,7 @@
 						icon
 						aria-label="go to top"
 						v-on="on"
-						@click="goTo('#headerBanner')"
+						@click="goTo(0)"
 					>
 						<v-icon small>$icon.arrow_collapse_up</v-icon>
 					</v-btn>
