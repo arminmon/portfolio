@@ -80,6 +80,7 @@ import Sharp from 'simple-icons/icons/sharp'
 import SimpleIcons from 'simple-icons/icons/simpleicons'
 import Slack from 'simple-icons/icons/slack'
 import SourcetreeIcon from 'simple-icons/icons/sourcetree'
+import Storybook from 'simple-icons/icons/storybook'
 import Stylelint from 'simple-icons/icons/stylelint'
 import SVG from 'simple-icons/icons/svg'
 import TailwindCSS from 'simple-icons/icons/tailwindcss'
@@ -188,6 +189,7 @@ const simpleIcons: IconValues = {
 	simple_icons: SimpleIcons.path,
 	slack: Slack.path,
 	sourcetree: SourcetreeIcon.path,
+	storybook: Storybook.path,
 	stylelint: Stylelint.path,
 	svg: SVG.path,
 	tailwind_css: TailwindCSS.path,

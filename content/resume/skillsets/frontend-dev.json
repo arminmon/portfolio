@@ -232,6 +232,14 @@
 			"keywords": ["css"]
 		},
 		{
+			"title": "Storybook",
+			"subtitle": "An an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation",
+			"link": "https://storybook.js.org/",
+			"color": "#FF4785",
+			"icon": "$icon.storybook",
+			"keywords": ["vue", "nuxt", "react", "next", "design system"]
+		},
+		{
 			"title": "The A11y Project",
 			"subtitle": "The A11y Project is a community-driven effort to make digital accessibility easier",
 			"link": "https://www.a11yproject.com/",
