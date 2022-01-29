@@ -3,6 +3,7 @@ const { fa }: any = require('vuetify/lib/locale')
 const messages = {
 	'Armin': 'آرمین',
 	"I'm Armin": 'من آرمین هستم',
+	'A Software Engineer': 'مهندس نرم‌افزار',
 
 	'Hello': 'درود',
 	'Hi': 'درود',
