@@ -1,4 +1,5 @@
 import { NuxtConfig } from '@nuxt/types'
+import colors from 'vuetify/lib/util/colors'
 
 const configs: NuxtConfig = {
 	target: 'static',
@@ -14,6 +15,16 @@ const configs: NuxtConfig = {
 				hid: 'description',
 				name: 'description',
 				content: "Armin Monirzadeh's portfolio.",
+			},
+			{
+				name: 'theme-color',
+				content: colors.indigo.darken1,
+				media: '(prefers-color-scheme: dark)',
+			},
+			{
+				name: 'theme-color',
+				content: colors.indigo.lighten1,
+				media: '(prefers-color-scheme: light)',
 			},
 		],
 		link: [
