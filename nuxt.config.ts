@@ -1,37 +1,12 @@
 import { NuxtConfig } from '@nuxt/types'
-import colors from 'vuetify/lib/util/colors'
+import head from './head.config'
+import { BASE_URL } from './constants/site'
 
 const configs: NuxtConfig = {
 	target: 'static',
 	ssr: false,
 
-	head: {
-		titleTemplate: 'ARMIN MONIRZADEH | %s',
-		title: 'arminmon',
-		meta: [
-			{ charset: 'utf-8' },
-			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{
-				hid: 'description',
-				name: 'description',
-				content: "Armin Monirzadeh's portfolio.",
-			},
-			{
-				name: 'theme-color',
-				content: colors.indigo.darken1,
-				media: '(prefers-color-scheme: dark)',
-			},
-			{
-				name: 'theme-color',
-				content: colors.indigo.lighten1,
-				media: '(prefers-color-scheme: light)',
-			},
-		],
-		link: [
-			{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
-			{ rel: 'icon', type: 'image/png', href: '/favicon.png' },
-		],
-	},
+	head,
 
 	css: [
 		'@fontsource/ubuntu-mono',
@@ -111,7 +86,7 @@ const configs: NuxtConfig = {
 		lazy: true,
 		langDir: 'locales/',
 		vueI18nLoader: true,
-		baseUrl: 'https://arminmon.dev/',
+		baseUrl: BASE_URL,
 	},
 
 	vuetify: {
