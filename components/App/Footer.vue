@@ -104,34 +104,42 @@
 					</v-list>
 				</v-col>
 				<v-col cols="12" md="4">
-					<v-subheader class="text-caption">
-						{{ $t('get in touch') }}
-					</v-subheader>
-					<v-text-field v-model="email" :label="$t('E-mail')" readonly>
-						<template #append>
-							<v-tooltip
-								top
-								:color="
-									copyEmailToClipboardLabelText === 'Copied!'
-										? 'success'
-										: undefined
-								"
-							>
-								<template #activator="{ on, attrs }">
-									<v-btn
-										v-bind="attrs"
-										icon
-										aria-label="copy email address to clipboard"
-										v-on="on"
-										@click="copyEmailToClipboard"
+					<v-row dense>
+						<v-col cols="12">
+							<v-subheader class="text-caption">
+								{{ $t('get in touch') }}
+							</v-subheader>
+							<v-text-field v-model="email" :label="$t('E-mail')" readonly>
+								<template #append>
+									<v-tooltip
+										top
+										:color="
+											copyEmailToClipboardLabelText === 'Copied!'
+												? 'success'
+												: undefined
+										"
 									>
-										<v-icon>$icon.copy</v-icon>
-									</v-btn>
+										<template #activator="{ on, attrs }">
+											<v-btn
+												v-bind="attrs"
+												icon
+												aria-label="copy email address to clipboard"
+												v-on="on"
+												@click="copyEmailToClipboard"
+											>
+												<v-icon>$icon.copy</v-icon>
+											</v-btn>
+										</template>
+										<span>{{ $t(copyEmailToClipboardLabelText) }}</span>
+									</v-tooltip>
 								</template>
-								<span>{{ $t(copyEmailToClipboardLabelText) }}</span>
-							</v-tooltip>
-						</template>
-					</v-text-field>
+							</v-text-field>
+						</v-col>
+						<v-col cols="12">
+							<v-subheader class="text-caption">Yat</v-subheader>
+							<yat-video />
+						</v-col>
+					</v-row>
 				</v-col>
 			</v-row>
 		</v-container>
