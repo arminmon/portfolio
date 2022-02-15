@@ -1,5 +1,5 @@
 <template>
-	<v-footer id="appFooter" app absolute>
+	<v-footer id="appFooter">
 		<v-container class="pt-12 pb-16 pb-sm-12">
 			<v-row
 				:aria-label="buildingBlocksDescription"
