@@ -24,11 +24,12 @@ $material-dark-elevation-colors: (
 	'24': #555f6d
 );
 $material-dark: (
-	'background': #181818,
-	'app-bar': #181818,
+	'background': #121417,
+	'app-bar': #121417,
 	'toggle-buttons': (
 		'color': currentColor
-	)
+	),
+	'cards': map-get($material-dark-elevation-colors, '2')
 );
 $material-light: (
 	'background': #f7f7f7,
