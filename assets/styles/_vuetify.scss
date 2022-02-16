@@ -11,12 +11,25 @@ $shadow-key-ambient-opacity: rgba(0, 0, 0, 0.07) !default;
 // Spacing
 $spacer: 4px;
 // Material
+$material-dark-elevation-colors: (
+	'0': #040506,
+	'1': #0d0f11,
+	'2': #16191d,
+	'3': #1f2328,
+	'4': #282d34,
+	'6': #31373f,
+	'8': #3a414b,
+	'12': #434b56,
+	'16': #4c5562,
+	'24': #555f6d
+);
 $material-dark: (
-	'background': #181818,
-	'app-bar': #181818,
+	'background': #121417,
+	'app-bar': #121417,
 	'toggle-buttons': (
 		'color': currentColor
-	)
+	),
+	'cards': map-get($material-dark-elevation-colors, '2')
 );
 $material-light: (
 	'background': #f7f7f7,
