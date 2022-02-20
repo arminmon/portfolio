@@ -30,6 +30,7 @@ const configs: NuxtConfig = {
 		'@nuxt/typescript-build',
 		'@nuxtjs/eslint-module',
 		'@nuxtjs/vuetify',
+		'@nuxtjs/google-analytics',
 	],
 
 	modules: ['@nuxt/content', 'nuxt-i18n'],
@@ -104,6 +105,12 @@ const configs: NuxtConfig = {
 
 	build: {
 		extractCSS: true,
+	},
+
+	publicRuntimeConfig: {
+		googleAnalytics: {
+			id: process.env.GOOGLE_ANALYTICS_MEASUREMENT_ID,
+		},
 	},
 
 	telemetry: false,
