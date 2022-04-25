@@ -14,12 +14,7 @@ const configs: NuxtConfig = {
 		'~/assets/styles/app',
 	],
 
-	plugins: [
-		'~/plugins/resume',
-		'~/plugins/i18n',
-		'~/plugins/colour',
-		'~/plugins/vue-masonry.client',
-	],
+	plugins: ['~/plugins/resume', '~/plugins/i18n', '~/plugins/colour'],
 
 	components: true,
 

@@ -15,40 +15,29 @@
 				</h2>
 			</v-toolbar-title>
 		</v-toolbar>
-		<client-only>
-			<v-row v-masonry>
-				<v-col
-					v-for="skill in items"
-					:key="skill.slug"
-					v-masonry-tile
-					cols="12"
-					sm="6"
-					md="4"
-					lg="3"
-					xl="2"
-				>
-					<v-card flat outlined>
-						<v-card-title>
-							<h3
-								:class="{
-									'text-subtitle-2': true,
-									'text-md-subtitle-1': true,
-									'text-wrap': true,
-									'primary--text': true,
-									'text--darken-2': !$vuetify.theme.dark,
-									'text--lighten-2': $vuetify.theme.dark,
-								}"
-							>
-								{{ $t(skill.title) }}
-							</h3>
-						</v-card-title>
-						<v-card-text>
-							<nuxt-content :document="skill.model" />
-						</v-card-text>
-					</v-card>
-				</v-col>
-			</v-row>
-		</client-only>
+		<v-row dense>
+			<v-col v-for="skill in items" :key="skill.slug" cols="12">
+				<v-card flat outlined>
+					<v-card-title>
+						<h3
+							:class="{
+								'text-subtitle-2': true,
+								'text-md-subtitle-1': true,
+								'text-wrap': true,
+								'primary--text': true,
+								'text--darken-2': !$vuetify.theme.dark,
+								'text--lighten-2': $vuetify.theme.dark,
+							}"
+						>
+							{{ $t(skill.title) }}
+						</h3>
+					</v-card-title>
+					<v-card-text>
+						<nuxt-content :document="skill.model" />
+					</v-card-text>
+				</v-card>
+			</v-col>
+		</v-row>
 	</v-container>
 </template>
 
@@ -58,21 +47,7 @@ import { SoftSkill } from '~/plugins/resume/models'
 
 @Component
 export default class ResumeGridSoftSkills extends Vue {
-	$redrawVueMasonry: any
-
 	@Prop({ required: true })
 	items!: SoftSkill[]
-
-	renderMasonry() {
-		if (typeof this.$redrawVueMasonry === 'function') {
-			this.$redrawVueMasonry()
-		}
-	}
-
-	mounted() {
-		setTimeout(() => {
-			this.renderMasonry()
-		})
-	}
 }
 </script>
