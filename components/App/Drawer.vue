@@ -38,22 +38,17 @@
 				</template>
 				<span>{{ $t(`Switch lights ${isDark ? 'on' : 'off'}`) }}</span>
 			</v-tooltip> -->
-			<v-tooltip right>
-				<template #activator="{ on, attrs }">
-					<v-btn
-						v-bind="attrs"
-						small
-						plain
-						icon
-						aria-label="go to top"
-						v-on="on"
-						@click="goTo(0)"
-					>
-						<v-icon small>$icon.arrow_collapse_up</v-icon>
-					</v-btn>
-				</template>
-				<span>{{ $t('Go to top') }}</span>
-			</v-tooltip>
+			<v-btn
+				v-bind="attrs"
+				small
+				plain
+				icon
+				aria-label="go to top"
+				v-on="on"
+				@click="goTo(0)"
+			>
+				<v-icon small>$icon.arrow_collapse_up</v-icon>
+			</v-btn>
 			<v-spacer />
 			<v-btn small plain icon aria-label="Close drawer" @click="closeDrawer">
 				<v-icon small>$icon.close</v-icon>
@@ -77,22 +72,17 @@
 		</v-list>
 
 		<v-toolbar tag="div" flat short color="transparent" class="px-2">
-			<v-tooltip right>
-				<template #activator="{ on, attrs }">
-					<v-btn
-						v-bind="attrs"
-						small
-						plain
-						icon
-						aria-label="go to footer"
-						v-on="on"
-						@click="goTo('#appFooter')"
-					>
-						<v-icon small>$icon.arrow_collapse_down</v-icon>
-					</v-btn>
-				</template>
-				<span>{{ $t('Go to footer') }}</span>
-			</v-tooltip>
+			<v-btn
+				v-bind="attrs"
+				small
+				plain
+				icon
+				aria-label="go to footer"
+				v-on="on"
+				@click="goTo('#appFooter')"
+			>
+				<v-icon small>$icon.arrow_collapse_down</v-icon>
+			</v-btn>
 			<v-spacer />
 		</v-toolbar>
 	</v-navigation-drawer>
