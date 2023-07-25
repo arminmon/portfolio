@@ -98,7 +98,7 @@
 			"link": "https://www.postgresql.org/",
 			"color": "#4169E1",
 			"icon": "$icon.postgresql",
-			"is_preferred": true,
+			"is_preferred": false,
 			"keywords": ["db", "database", "sql", "relational"]
 		},
 		{
