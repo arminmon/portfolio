@@ -46,7 +46,7 @@
 			"link": "https://sass-lang.com/",
 			"color": "#CC6699",
 			"icon": "$icon.sass",
-			"is_preferred": true,
+			"is_preferred": false,
 			"keywords": ["styles", "css", "preprocessing"]
 		},
 		{
